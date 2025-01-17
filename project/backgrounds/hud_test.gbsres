@@ -1,0 +1,12 @@
+{
+  "_resourceType": "background",
+  "id": "9c2ca842-9aa0-4dbf-a8b1-edeb8a1b3a30",
+  "name": "HUD TEST",
+  "symbol": "bg_hud_test",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144,
+  "filename": "HUD TEST.png",
+  "tileColors": ""
+}
