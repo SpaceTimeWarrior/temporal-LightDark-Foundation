@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "3ce48f7a-9367-4bd9-9be7-c81d1ab32e66",
+  "name": "HUD TEST - Copy",
+  "symbol": "bg_hud_test_copy",
+  "width": 40,
+  "height": 36,
+  "imageWidth": 320,
+  "imageHeight": 288,
+  "filename": "HUD TEST - Copy.png",
+  "tileColors": "",
+  "autoColor": false
+}

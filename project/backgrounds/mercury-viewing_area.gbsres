@@ -1,0 +1,12 @@
+{
+  "_resourceType": "background",
+  "id": "4306443d-1e69-4d83-85b9-334c6b6a9057",
+  "name": "mercury-viewing area",
+  "symbol": "bg_mercury_viewing_area",
+  "width": 120,
+  "height": 80,
+  "imageWidth": 960,
+  "imageHeight": 640,
+  "filename": "mercury-viewing area.png",
+  "tileColors": ""
+}

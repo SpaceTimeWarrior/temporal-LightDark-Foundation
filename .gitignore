@@ -4,5 +4,7 @@ cache/
 *.bak
 *.sav
 *.icloud
-
+/build
+/tiled/tilesets/kenny modified/full image.png
 user_settings.gbsres
+/tiled/kenny art modified

@@ -1,4 +1,65 @@
 {
   "_resourceType": "variables",
-  "variables": []
+  "variables": [
+    {
+      "id": "0",
+      "name": "face status",
+      "symbol": "var_face_status"
+    },
+    {
+      "id": "1",
+      "name": "character",
+      "symbol": "var_character"
+    },
+    {
+      "id": "2",
+      "name": "HP",
+      "symbol": "var_hp"
+    },
+    {
+      "id": "3",
+      "name": "MP",
+      "symbol": "var_mp"
+    },
+    {
+      "id": "4",
+      "name": "ability",
+      "symbol": "var_ability"
+    },
+    {
+      "id": "5",
+      "name": "boss number",
+      "symbol": "var_boss_number"
+    },
+    {
+      "id": "6",
+      "name": "Boss HP",
+      "symbol": "var_boss_hp"
+    },
+    {
+      "id": "7",
+      "name": "Boss MaxHP",
+      "symbol": "var_boss_maxhp"
+    },
+    {
+      "id": "8",
+      "name": "boss percent",
+      "symbol": "var_boss_percent"
+    },
+    {
+      "id": "9",
+      "name": "UI calc variable",
+      "symbol": "var_ui_calc_variable"
+    },
+    {
+      "id": "10",
+      "name": "UI Animation Variable",
+      "symbol": "var_ui_animation_variable"
+    },
+    {
+      "id": "11",
+      "name": "IN BOSS",
+      "symbol": "var_in_boss"
+    }
+  ]
 }
