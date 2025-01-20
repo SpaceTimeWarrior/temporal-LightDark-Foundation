@@ -8,5 +8,6 @@
   "imageWidth": 960,
   "imageHeight": 640,
   "filename": "mercury-viewing area.png",
-  "tileColors": ""
+  "tileColors": "",
+  "autoColor": false
 }

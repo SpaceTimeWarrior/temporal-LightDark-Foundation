@@ -1,0 +1,12 @@
+{
+  "_resourceType": "background",
+  "id": "bb41a0f0-b174-4e1c-a18a-e5ebc495a5ba",
+  "name": "HUD",
+  "symbol": "bg_hud",
+  "width": 20,
+  "height": 20,
+  "imageWidth": 160,
+  "imageHeight": 160,
+  "filename": "HUD.png",
+  "tileColors": ""
+}

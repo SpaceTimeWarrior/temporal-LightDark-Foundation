@@ -1,0 +1,9 @@
+{
+  "_resourceType": "emote",
+  "id": "02f2572e-80de-4fe5-af9c-8d05e3a2ac3d",
+  "name": "flame",
+  "symbol": "emote_flame",
+  "width": 16,
+  "height": 16,
+  "filename": "flame.png"
+}

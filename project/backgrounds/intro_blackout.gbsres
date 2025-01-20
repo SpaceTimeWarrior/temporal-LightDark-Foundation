@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "4610cb8e-c5f3-4140-8ffe-9185aef01061",
+  "name": "intro_blackout",
+  "symbol": "bg_intro_blackout",
+  "width": 40,
+  "height": 40,
+  "imageWidth": 320,
+  "imageHeight": 320,
+  "filename": "intro_blackout.png",
+  "tileColors": "",
+  "autoColor": false
+}

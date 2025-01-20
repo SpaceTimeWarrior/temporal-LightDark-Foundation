@@ -60,6 +60,31 @@
       "id": "11",
       "name": "IN BOSS",
       "symbol": "var_in_boss"
+    },
+    {
+      "id": "12",
+      "name": "player gender",
+      "symbol": "var_player_gender"
+    },
+    {
+      "id": "13",
+      "name": "jem outfit",
+      "symbol": "var_jem_outfit"
+    },
+    {
+      "id": "14",
+      "name": "Light value",
+      "symbol": "var_light_value"
+    },
+    {
+      "id": "15",
+      "name": "player outfit",
+      "symbol": "var_player_outfit"
+    },
+    {
+      "id": "16",
+      "name": "change unlocked",
+      "symbol": "var_change_unlocked"
     }
   ]
 }

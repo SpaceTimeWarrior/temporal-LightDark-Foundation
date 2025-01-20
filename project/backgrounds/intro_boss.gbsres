@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "6c926d05-f6c6-43a7-b2fa-e70ed456c7cd",
+  "name": "intro_boss",
+  "symbol": "bg_intro_boss",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144,
+  "filename": "intro_boss.png",
+  "tileColors": "",
+  "autoColor": false
+}

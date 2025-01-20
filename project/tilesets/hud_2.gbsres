@@ -1,0 +1,11 @@
+{
+  "_resourceType": "tileset",
+  "id": "4f2734eb-ade7-49e3-b6ef-2f335b788e64",
+  "name": "HUD 2",
+  "symbol": "tileset_hud_2",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144,
+  "filename": "HUD 2.png"
+}

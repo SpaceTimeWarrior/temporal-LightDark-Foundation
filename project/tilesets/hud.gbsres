@@ -4,8 +4,8 @@
   "name": "HUD",
   "symbol": "tileset_hud",
   "width": 20,
-  "height": 18,
+  "height": 16,
   "imageWidth": 160,
-  "imageHeight": 144,
+  "imageHeight": 128,
   "filename": "HUD.png"
 }
