@@ -1,0 +1,72 @@
+{
+  "_resourceType": "scene",
+  "id": "31a2f472-022a-4667-bfbb-56099df3ad40",
+  "_index": 12,
+  "name": "Scene 13",
+  "backgroundId": "a280649d-14e6-4e59-9c7d-db5ef42a5d7d",
+  "tilesetId": "",
+  "width": 20,
+  "height": 18,
+  "type": "TOPDOWN",
+  "paletteIds": [],
+  "spritePaletteIds": [],
+  "collisions": "",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_13",
+  "x": 604.5999755859375,
+  "y": 2327.60009765625,
+  "script": [
+    {
+      "command": "EVENT_ACTOR_HIDE",
+      "args": {
+        "actorId": "$self$"
+      },
+      "id": "23b90d20-2723-4859-a02b-4e5c1c1016bb"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "jem:I swear I \nwill get back to\nyou"
+        ],
+        "__section": "text",
+        "avatarId": "9e33c0c8-20c4-4b19-8786-a520f8ff0d61",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30
+      },
+      "id": "098b38eb-2106-4ab6-8366-5244fe3475dc"
+    },
+    {
+      "command": "EVENT_SWITCH_SCENE",
+      "args": {
+        "sceneId": "cb63138e-fb48-4a2c-bdc9-e0c85537fb08",
+        "x": {
+          "type": "number",
+          "value": 6
+        },
+        "y": {
+          "type": "number",
+          "value": 9
+        },
+        "direction": "",
+        "fadeSpeed": "2"
+      },
+      "id": "4cb7af8f-7ae3-4417-a147-4455c13e91ec"
+    }
+  ],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": []
+}

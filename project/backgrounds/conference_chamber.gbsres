@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "28972a62-2db6-4dae-9d23-b91f21edd2bb",
+  "name": "conference chamber",
+  "symbol": "bg_conference_chamber",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144,
+  "filename": "conference chamber.png",
+  "tileColors": "",
+  "autoColor": false
+}

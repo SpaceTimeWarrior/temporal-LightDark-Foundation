@@ -9,14 +9,599 @@
   "height": 40,
   "type": "TOPDOWN",
   "paletteIds": [],
-  "spritePaletteIds": [],
-  "collisions": "",
+  "spritePaletteIds": [
+    "16c40f8a-2572-424e-8ddf-d736a7e430e5",
+    "9c1ca6f3-9fe1-49a6-b094-a3fec96b96d7",
+    "c1a7e80c-fa7b-45a3-8a2c-0c73dd3acb3d",
+    "default-bg-1",
+    "dmg",
+    "default-bg-4"
+  ],
+  "collisions": "0038a+0fa+001e+0f!008+0f!001e+0f!008+0f!001e+0f!008+0f!001e+0f!008+0f!001e+0f!008+0f!001e+0f!008+0f!001e+0f!008+0f!001e+0f!008+0f!001e+0f!008+0f!001e+0fa+0011c+",
   "autoFadeSpeed": 1,
   "symbol": "scene_4",
   "x": 400,
   "y": 896,
-  "script": [],
+  "script": [
+    {
+      "command": "EVENT_GROUP",
+      "args": {},
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_PREP_MENU",
+            "args": {
+              "xnoverlay": 0,
+              "ynoverlay": 16,
+              "color": "black",
+              "xoverlay": 0,
+              "yoverlay": 0,
+              "overlayw": 20,
+              "overlayh": 2,
+              "xsource": 0,
+              "ysource": 38
+            },
+            "id": "a922dada-8162-4998-b426-3443927a35d9"
+          },
+          {
+            "command": "EVENT_CALL_CUSTOM_EVENT",
+            "args": {
+              "customEventId": "a0f63380-278a-478d-b9dc-8f0e27a21a8b",
+              "$variable[V0]$": {
+                "type": "number",
+                "value": 38
+              }
+            },
+            "id": "bdeb46af-f33a-4981-963e-4586aa2fe123"
+          },
+          {
+            "command": "EVENT_SET_TIMER_SCRIPT",
+            "args": {
+              "timer": 1,
+              "duration": 0.5,
+              "frames": 30,
+              "__scriptTabs": "end"
+            },
+            "children": {
+              "script": [
+                {
+                  "command": "EVENT_SET_VALUE",
+                  "args": {
+                    "variable": "0",
+                    "value": {
+                      "type": "mod",
+                      "valueA": {
+                        "type": "add",
+                        "valueA": {
+                          "type": "variable",
+                          "value": "0"
+                        },
+                        "valueB": {
+                          "type": "number",
+                          "value": 1
+                        }
+                      },
+                      "valueB": {
+                        "type": "number",
+                        "value": 3
+                      }
+                    },
+                    "__comment": true
+                  },
+                  "id": "80bf3e4f-d587-4166-a1ad-a0aa606460fd"
+                },
+                {
+                  "command": "EVENT_CALL_CUSTOM_EVENT",
+                  "args": {
+                    "customEventId": "a0f63380-278a-478d-b9dc-8f0e27a21a8b",
+                    "$variable[V0]$": {
+                      "type": "number",
+                      "value": 38
+                    }
+                  },
+                  "id": "5d29ce35-214f-4484-9739-9eb493c8f014"
+                }
+              ]
+            },
+            "id": "2075a8c5-168c-42fa-8de4-ae777789a1d5"
+          }
+        ]
+      },
+      "id": "50a248f6-5c6f-4c1a-a06d-4f1f8b4ac093"
+    },
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "eq",
+          "valueA": {
+            "type": "variable",
+            "value": "12"
+          },
+          "valueB": {
+            "type": "number",
+            "value": 0
+          }
+        },
+        "__collapseElse": false
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_GROUP",
+            "args": {
+              "__collapse": false
+            },
+            "children": {
+              "true": [
+                {
+                  "command": "EVENT_TEXT",
+                  "args": {
+                    "text": [
+                      "chris:I see you \nare awake"
+                    ],
+                    "__section": "text",
+                    "avatarId": "d9c844d5-c065-48bc-8498-61736520a13f",
+                    "minHeight": 4,
+                    "maxHeight": 7,
+                    "textX": 1,
+                    "textY": 1,
+                    "textHeight": 5,
+                    "position": "bottom",
+                    "clearPrevious": true,
+                    "showFrame": "true",
+                    "speedIn": -1,
+                    "speedOut": -1,
+                    "closeWhen": "key",
+                    "closeButton": "a",
+                    "closeDelayTime": 0.5,
+                    "closeDelayFrames": 30
+                  },
+                  "id": "661438bd-8c70-4a7a-aee7-f68da1a615b8"
+                },
+                {
+                  "command": "EVENT_TEXT",
+                  "args": {
+                    "text": [
+                      "jem:who are you?\nI can't see you."
+                    ],
+                    "__section": "text",
+                    "avatarId": "9e33c0c8-20c4-4b19-8786-a520f8ff0d61",
+                    "minHeight": 4,
+                    "maxHeight": 7,
+                    "textX": 1,
+                    "textY": 1,
+                    "textHeight": 5,
+                    "position": "bottom",
+                    "clearPrevious": true,
+                    "showFrame": "true",
+                    "speedIn": -1,
+                    "speedOut": -1,
+                    "closeWhen": "key",
+                    "closeButton": "a",
+                    "closeDelayTime": 0.5,
+                    "closeDelayFrames": 30
+                  },
+                  "id": "dea0d4c4-d6aa-4998-9259-25ce5714e60c"
+                },
+                {
+                  "command": "EVENT_TEXT",
+                  "args": {
+                    "text": [
+                      "chris: I am \nchris spacetime \nnow who are you",
+                      "because I don't \nthink you want \nto be called a \nit"
+                    ],
+                    "__section": "text",
+                    "avatarId": "d9c844d5-c065-48bc-8498-61736520a13f",
+                    "minHeight": 4,
+                    "maxHeight": 7,
+                    "textX": 1,
+                    "textY": 1,
+                    "textHeight": 5,
+                    "position": "bottom",
+                    "clearPrevious": true,
+                    "showFrame": "true",
+                    "speedIn": -1,
+                    "speedOut": -1,
+                    "closeWhen": "key",
+                    "closeButton": "a",
+                    "closeDelayTime": 0.5,
+                    "closeDelayFrames": 30
+                  },
+                  "id": "d3b1aaf0-3a83-49f5-9f23-81d06f37844d"
+                },
+                {
+                  "command": "EVENT_TEXT",
+                  "args": {
+                    "text": [
+                      "jem: I am Jem... \nWolfsbane.",
+                      "internal thought\n: It technically\nis still true"
+                    ],
+                    "__section": "text",
+                    "avatarId": "9e33c0c8-20c4-4b19-8786-a520f8ff0d61",
+                    "minHeight": 4,
+                    "maxHeight": 7,
+                    "textX": 1,
+                    "textY": 1,
+                    "textHeight": 5,
+                    "position": "bottom",
+                    "clearPrevious": true,
+                    "showFrame": "true",
+                    "speedIn": -1,
+                    "speedOut": -1,
+                    "closeWhen": "key",
+                    "closeButton": "a",
+                    "closeDelayTime": 0.5,
+                    "closeDelayFrames": 30
+                  },
+                  "id": "b95e0b48-bcf7-4fc2-88b7-196ec475faa0"
+                },
+                {
+                  "command": "EVENT_TEXT",
+                  "args": {
+                    "text": [
+                      "jewel over \nintercom: \ninterview \n7/26/2026",
+                      "backup to fill in \nAgent Chris asked \nthe unknown female\nher name and was ",
+                      "responded with jem\nwolfsbane."
+                    ],
+                    "__section": "text",
+                    "avatarId": "",
+                    "minHeight": 4,
+                    "maxHeight": 7,
+                    "textX": 1,
+                    "textY": 1,
+                    "textHeight": 5,
+                    "position": "bottom",
+                    "clearPrevious": true,
+                    "showFrame": "true",
+                    "speedIn": -1,
+                    "speedOut": -1,
+                    "closeWhen": "key",
+                    "closeButton": "a",
+                    "closeDelayTime": 0.5,
+                    "closeDelayFrames": 30
+                  },
+                  "id": "7c55d2a3-c840-4b3c-b117-d80312e71d27"
+                },
+                {
+                  "command": "EVENT_TEXT",
+                  "args": {
+                    "text": [
+                      "jem: where am I?\nwhat happened to\nthe ring that\non my tail."
+                    ],
+                    "__section": "text",
+                    "avatarId": "9e33c0c8-20c4-4b19-8786-a520f8ff0d61",
+                    "minHeight": 4,
+                    "maxHeight": 7,
+                    "textX": 1,
+                    "textY": 1,
+                    "textHeight": 5,
+                    "position": "bottom",
+                    "clearPrevious": true,
+                    "showFrame": "true",
+                    "speedIn": -1,
+                    "speedOut": -1,
+                    "closeWhen": "key",
+                    "closeButton": "a",
+                    "closeDelayTime": 0.5,
+                    "closeDelayFrames": 30
+                  },
+                  "id": "ac084051-5362-46ed-a5c2-af44550b1cdd"
+                },
+                {
+                  "command": "EVENT_TEXT",
+                  "args": {
+                    "text": [
+                      "chris: since you\nprobably won't \nbe leaving here ",
+                      "anytime soon you\nare on Earth in \na governmental ",
+                      "facility in \nsouth Carolina."
+                    ],
+                    "__section": "text",
+                    "avatarId": "d9c844d5-c065-48bc-8498-61736520a13f",
+                    "minHeight": 4,
+                    "maxHeight": 7,
+                    "textX": 1,
+                    "textY": 1,
+                    "textHeight": 5,
+                    "position": "bottom",
+                    "clearPrevious": true,
+                    "showFrame": "true",
+                    "speedIn": -1,
+                    "speedOut": -1,
+                    "closeWhen": "key",
+                    "closeButton": "a",
+                    "closeDelayTime": 0.5,
+                    "closeDelayFrames": 30
+                  },
+                  "id": "0aa13ef5-4278-469b-a89b-09f94152dc0e"
+                },
+                {
+                  "command": "EVENT_TEXT",
+                  "args": {
+                    "text": [
+                      "jewel:I will check\nabout the ring...\nit is in locker\n0567234"
+                    ],
+                    "__section": "text",
+                    "avatarId": "",
+                    "minHeight": 4,
+                    "maxHeight": 7,
+                    "textX": 1,
+                    "textY": 1,
+                    "textHeight": 5,
+                    "position": "bottom",
+                    "clearPrevious": true,
+                    "showFrame": "true",
+                    "speedIn": -1,
+                    "speedOut": -1,
+                    "closeWhen": "key",
+                    "closeButton": "a",
+                    "closeDelayTime": 0.5,
+                    "closeDelayFrames": 30
+                  },
+                  "id": "538e0127-6b2d-4c88-ae36-15dd99d06da5"
+                }
+              ]
+            },
+            "id": "1dce3696-b4fd-4145-9fba-03ded64567aa"
+          }
+        ],
+        "false": [
+          {
+            "command": "EVENT_GROUP",
+            "args": {
+              "__collapse": false
+            },
+            "children": {
+              "true": [
+                {
+                  "command": "EVENT_TEXT",
+                  "args": {
+                    "text": [
+                      "krys:I see \nyou are awake"
+                    ],
+                    "__section": "text",
+                    "avatarId": "66cb9021-365e-46dd-8b1e-43eb6605da9f",
+                    "minHeight": 4,
+                    "maxHeight": 7,
+                    "textX": 1,
+                    "textY": 1,
+                    "textHeight": 5,
+                    "position": "bottom",
+                    "clearPrevious": true,
+                    "showFrame": "true",
+                    "speedIn": -1,
+                    "speedOut": -1,
+                    "closeWhen": "key",
+                    "closeButton": "a",
+                    "closeDelayTime": 0.5,
+                    "closeDelayFrames": 30
+                  },
+                  "id": "9fa5ef10-9b0e-48e8-a16f-31ade4f62499"
+                },
+                {
+                  "command": "EVENT_TEXT",
+                  "args": {
+                    "text": [
+                      "jem:who are you?\nI can't see you."
+                    ],
+                    "__section": "text",
+                    "avatarId": "9e33c0c8-20c4-4b19-8786-a520f8ff0d61",
+                    "minHeight": 4,
+                    "maxHeight": 7,
+                    "textX": 1,
+                    "textY": 1,
+                    "textHeight": 5,
+                    "position": "bottom",
+                    "clearPrevious": true,
+                    "showFrame": "true",
+                    "speedIn": -1,
+                    "speedOut": -1,
+                    "closeWhen": "key",
+                    "closeButton": "a",
+                    "closeDelayTime": 0.5,
+                    "closeDelayFrames": 30
+                  },
+                  "id": "bc7399fd-866f-4b30-83b8-041791976753"
+                },
+                {
+                  "command": "EVENT_TEXT",
+                  "args": {
+                    "text": [
+                      "krys: I am \nkrystal \nspacetime \nnow who are you",
+                      "because I don't \nthink you want \nto be called a \nit"
+                    ],
+                    "__section": "text",
+                    "avatarId": "66cb9021-365e-46dd-8b1e-43eb6605da9f",
+                    "minHeight": 4,
+                    "maxHeight": 7,
+                    "textX": 1,
+                    "textY": 1,
+                    "textHeight": 5,
+                    "position": "bottom",
+                    "clearPrevious": true,
+                    "showFrame": "true",
+                    "speedIn": -1,
+                    "speedOut": -1,
+                    "closeWhen": "key",
+                    "closeButton": "a",
+                    "closeDelayTime": 0.5,
+                    "closeDelayFrames": 30
+                  },
+                  "id": "bcdd76da-4940-4af0-af78-356220409200"
+                },
+                {
+                  "command": "EVENT_TEXT",
+                  "args": {
+                    "text": [
+                      "jem: I am Jem... \nWolfsbane.",
+                      "internal thought\n: It technically\nis still true"
+                    ],
+                    "__section": "text",
+                    "avatarId": "9e33c0c8-20c4-4b19-8786-a520f8ff0d61",
+                    "minHeight": 4,
+                    "maxHeight": 7,
+                    "textX": 1,
+                    "textY": 1,
+                    "textHeight": 5,
+                    "position": "bottom",
+                    "clearPrevious": true,
+                    "showFrame": "true",
+                    "speedIn": -1,
+                    "speedOut": -1,
+                    "closeWhen": "key",
+                    "closeButton": "a",
+                    "closeDelayTime": 0.5,
+                    "closeDelayFrames": 30
+                  },
+                  "id": "7dc7b236-5ca7-4033-8b69-0b54fc0cb547"
+                },
+                {
+                  "command": "EVENT_TEXT",
+                  "args": {
+                    "text": [
+                      "jewel over \nintercom: \ninterview \n7/26/2026",
+                      "backup to fill in \nAgent krys asked \nthe unknown female\nher name and was ",
+                      "responded with jem\nwolfsbane."
+                    ],
+                    "__section": "text",
+                    "avatarId": "",
+                    "minHeight": 4,
+                    "maxHeight": 7,
+                    "textX": 1,
+                    "textY": 1,
+                    "textHeight": 5,
+                    "position": "bottom",
+                    "clearPrevious": true,
+                    "showFrame": "true",
+                    "speedIn": -1,
+                    "speedOut": -1,
+                    "closeWhen": "key",
+                    "closeButton": "a",
+                    "closeDelayTime": 0.5,
+                    "closeDelayFrames": 30
+                  },
+                  "id": "4eb78cd1-49f1-4706-aa4a-9ac81ef57898"
+                },
+                {
+                  "command": "EVENT_TEXT",
+                  "args": {
+                    "text": [
+                      "jem: where am I?\nwhat happened to\nthe ring that\non my tail."
+                    ],
+                    "__section": "text",
+                    "avatarId": "9e33c0c8-20c4-4b19-8786-a520f8ff0d61",
+                    "minHeight": 4,
+                    "maxHeight": 7,
+                    "textX": 1,
+                    "textY": 1,
+                    "textHeight": 5,
+                    "position": "bottom",
+                    "clearPrevious": true,
+                    "showFrame": "true",
+                    "speedIn": -1,
+                    "speedOut": -1,
+                    "closeWhen": "key",
+                    "closeButton": "a",
+                    "closeDelayTime": 0.5,
+                    "closeDelayFrames": 30
+                  },
+                  "id": "1c8fc968-31d3-4d24-ba55-7a430ebbba0d"
+                },
+                {
+                  "command": "EVENT_TEXT",
+                  "args": {
+                    "text": [
+                      "Krys: since you\nprobably won't \nbe leaving here ",
+                      "anytime soon you\nare on Earth in \na governmental ",
+                      "facility in \nsouth Carolina."
+                    ],
+                    "__section": "text",
+                    "avatarId": "66cb9021-365e-46dd-8b1e-43eb6605da9f",
+                    "minHeight": 4,
+                    "maxHeight": 7,
+                    "textX": 1,
+                    "textY": 1,
+                    "textHeight": 5,
+                    "position": "bottom",
+                    "clearPrevious": true,
+                    "showFrame": "true",
+                    "speedIn": -1,
+                    "speedOut": -1,
+                    "closeWhen": "key",
+                    "closeButton": "a",
+                    "closeDelayTime": 0.5,
+                    "closeDelayFrames": 30
+                  },
+                  "id": "f0bd7d67-ff57-4765-90fa-f0dc8e130873"
+                },
+                {
+                  "command": "EVENT_TEXT",
+                  "args": {
+                    "text": [
+                      "jewel:I will check\nabout the ring...\nit is in locker\n0567234"
+                    ],
+                    "__section": "text",
+                    "avatarId": "",
+                    "minHeight": 4,
+                    "maxHeight": 7,
+                    "textX": 1,
+                    "textY": 1,
+                    "textHeight": 5,
+                    "position": "bottom",
+                    "clearPrevious": true,
+                    "showFrame": "true",
+                    "speedIn": -1,
+                    "speedOut": -1,
+                    "closeWhen": "key",
+                    "closeButton": "a",
+                    "closeDelayTime": 0.5,
+                    "closeDelayFrames": 30
+                  },
+                  "id": "09a0a2ee-0f52-41a8-8526-91f9c98b50da"
+                }
+              ]
+            },
+            "id": "4ebed9af-58b3-417f-b981-e5d4c55e4528"
+          }
+        ]
+      },
+      "id": "934e4e10-85e0-427a-b125-591c18b734d8"
+    },
+    {
+      "command": "EVENT_ACTOR_SHOW",
+      "args": {
+        "actorId": "47bc52ef-0f15-45f4-bdc8-b78234d0a68e"
+      },
+      "id": "6f61b066-9027-46f9-93d9-e5a374226cfc"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "rings of light are\njem's magic \nshowing weak spots"
+        ],
+        "__section": "text",
+        "avatarId": "",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30
+      },
+      "id": "0503844b-3aac-40a9-853e-84781af41e0a"
+    }
+  ],
   "playerHit1Script": [],
   "playerHit2Script": [],
-  "playerHit3Script": []
+  "playerHit3Script": [],
+  "playerSpriteSheetId": "b4c1e566-2a0e-4f19-8f71-0366c4332521"
 }

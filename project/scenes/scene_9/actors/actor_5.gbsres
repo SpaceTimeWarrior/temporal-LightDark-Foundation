@@ -1,0 +1,92 @@
+{
+  "_resourceType": "actor",
+  "id": "c63b21ad-d7c2-4c6d-b5b5-96bce5ee3801",
+  "name": "",
+  "frame": 0,
+  "animate": false,
+  "spriteSheetId": "694c559c-806b-4c27-9605-4646329a17e4",
+  "prefabId": "",
+  "direction": "down",
+  "moveSpeed": 1,
+  "animSpeed": 15,
+  "paletteId": "",
+  "isPinned": false,
+  "persistent": false,
+  "collisionGroup": "1",
+  "prefabScriptOverrides": {},
+  "symbol": "actor_25",
+  "script": [],
+  "startScript": [
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "eq",
+          "valueA": {
+            "type": "variable",
+            "value": "19"
+          },
+          "valueB": {
+            "type": "number",
+            "value": 2
+          }
+        },
+        "__collapseElse": true
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_ACTOR_DEACTIVATE",
+            "args": {
+              "actorId": "$self$"
+            },
+            "id": "44a2974a-d7e3-4eec-85fd-7113fbccf8a6"
+          }
+        ],
+        "false": []
+      },
+      "id": "9f530732-9989-4d4f-8a78-55d3023d6534"
+    }
+  ],
+  "updateScript": [],
+  "hit1Script": [
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "this weapon is\nnot very effective\nfor this wall"
+        ],
+        "__section": "text",
+        "avatarId": "",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30
+      },
+      "id": "6605576f-7656-44ec-b548-a50938f47478"
+    }
+  ],
+  "hit2Script": [
+    {
+      "command": "EVENT_ACTOR_DEACTIVATE",
+      "args": {
+        "actorId": "$self$"
+      },
+      "id": "0105d4e2-b0d4-4025-9819-5e30974b4945"
+    }
+  ],
+  "hit3Script": [],
+  "x": 36,
+  "y": 32,
+  "_index": 4
+}

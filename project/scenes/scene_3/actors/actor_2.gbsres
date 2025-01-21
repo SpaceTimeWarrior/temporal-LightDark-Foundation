@@ -1,6 +1,6 @@
 {
   "_resourceType": "actor",
-  "id": "517e30a4-e87f-4f28-a373-b9c94e0aaa68",
+  "id": "498bb79c-9542-413a-bb32-2603164b5928",
   "name": "",
   "frame": 0,
   "animate": false,
@@ -17,21 +17,55 @@
   "symbol": "actor_3",
   "script": [
     {
+      "command": "EVENT_ACTOR_EMOTE",
+      "args": {
+        "actorId": "player",
+        "emoteId": "d508e529-57eb-458b-9782-66f318243c32"
+      },
+      "id": "0cd7ba33-76c0-4e3d-8615-5c24d710c014"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "I don't see a \nexit...I don't\nwant to but I",
+          "might need to\nuse mind magic"
+        ],
+        "__section": "text",
+        "avatarId": "9e33c0c8-20c4-4b19-8786-a520f8ff0d61",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30
+      },
+      "id": "fd068b56-7af5-4e65-9640-eafcdad8f101"
+    },
+    {
       "command": "EVENT_SWITCH_SCENE",
       "args": {
         "sceneId": "6ee9ab07-175c-4b6f-9e42-65b4456f4aff",
         "x": {
           "type": "number",
-          "value": 6
+          "value": 0
         },
         "y": {
           "type": "number",
-          "value": 7
+          "value": 0
         },
         "direction": "",
         "fadeSpeed": "2"
       },
-      "id": "0cf514c3-d807-4a85-8cd9-ec4da4bdbb17"
+      "id": "17d4c582-e6ac-429c-a95d-c16113e2e445"
     }
   ],
   "startScript": [],

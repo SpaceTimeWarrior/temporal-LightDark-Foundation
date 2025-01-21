@@ -1,0 +1,12 @@
+{
+  "_resourceType": "background",
+  "id": "afa1b12e-fce5-49a3-b796-8dbd95d26048",
+  "name": "armory",
+  "symbol": "bg_armory",
+  "width": 40,
+  "height": 36,
+  "imageWidth": 320,
+  "imageHeight": 288,
+  "filename": "armory.png",
+  "tileColors": ""
+}

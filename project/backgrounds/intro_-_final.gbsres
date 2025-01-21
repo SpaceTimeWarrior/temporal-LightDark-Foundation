@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "7d2cc759-1f37-49b0-b574-99b6de9b98b2",
+  "name": "intro - final",
+  "symbol": "bg_intro_copy",
+  "width": 40,
+  "height": 40,
+  "imageWidth": 320,
+  "imageHeight": 320,
+  "filename": "intro - final.png",
+  "tileColors": "",
+  "autoColor": false
+}

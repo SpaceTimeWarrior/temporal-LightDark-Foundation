@@ -1,0 +1,44 @@
+{
+  "_resourceType": "script",
+  "id": "6837a040-e828-40ed-a543-3d6496e77e78",
+  "name": "Initialize Game Variables",
+  "description": "",
+  "variables": {},
+  "actors": {},
+  "symbol": "script_5",
+  "script": [
+    {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "2",
+        "value": {
+          "type": "number",
+          "value": 50
+        }
+      },
+      "id": "e1673681-2892-4edd-865d-e76607d9987d"
+    },
+    {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "4",
+        "value": {
+          "type": "number",
+          "value": 1
+        }
+      },
+      "id": "24249816-74b3-4145-93ad-91b1915cd7a9"
+    },
+    {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "3",
+        "value": {
+          "type": "number",
+          "value": 50
+        }
+      },
+      "id": "202e01f5-ee79-4ffb-94ec-d208f5430166"
+    }
+  ]
+}

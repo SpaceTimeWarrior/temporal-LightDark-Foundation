@@ -1,0 +1,192 @@
+{
+  "_resourceType": "actor",
+  "id": "379ec6c5-2690-41fa-8b2d-e9caa6480af1",
+  "name": "",
+  "frame": 0,
+  "animate": false,
+  "spriteSheetId": "df5819dd-63cb-4596-b887-d56af1fb1102",
+  "prefabId": "",
+  "direction": "down",
+  "moveSpeed": 1,
+  "animSpeed": 15,
+  "paletteId": "",
+  "isPinned": false,
+  "persistent": false,
+  "collisionGroup": "",
+  "prefabScriptOverrides": {},
+  "symbol": "actor_28",
+  "script": [
+    {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "19",
+        "value": {
+          "type": "number",
+          "value": 1
+        }
+      },
+      "id": "26100af6-52e2-4cca-867b-56bf37526a14"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "jem:finally got\nyou back..."
+        ],
+        "__section": "text",
+        "avatarId": "9e33c0c8-20c4-4b19-8786-a520f8ff0d61",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30
+      },
+      "id": "bfb2d665-3327-43ed-9d66-3e0f02b3023a"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "jem pulls out a \nphoto out of the\nring"
+        ],
+        "__section": "text",
+        "avatarId": "",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30
+      },
+      "id": "7db4a499-224d-4514-ad90-aa806e3021c4"
+    },
+    {
+      "command": "EVENT_SWITCH_SCENE",
+      "args": {
+        "sceneId": "31a2f472-022a-4667-bfbb-56099df3ad40",
+        "x": {
+          "type": "number",
+          "value": 0
+        },
+        "y": {
+          "type": "number",
+          "value": 0
+        },
+        "direction": "",
+        "fadeSpeed": "2"
+      },
+      "id": "46071326-2d92-4991-bb53-42196db0ff01"
+    }
+  ],
+  "startScript": [
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "eq",
+          "valueA": {
+            "type": "variable",
+            "value": "19"
+          },
+          "valueB": {
+            "type": "number",
+            "value": 1
+          }
+        },
+        "__collapseElse": true
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_REPLACE_TILE_XY",
+            "args": {
+              "x": {
+                "type": "number",
+                "value": 4
+              },
+              "y": {
+                "type": "number",
+                "value": 9
+              },
+              "tilesetId": "4f2734eb-ade7-49e3-b6ef-2f335b788e64",
+              "tileIndex": {
+                "type": "number",
+                "value": 28
+              }
+            },
+            "id": "5ab63784-002e-4dbb-b811-e9c257cd0236"
+          }
+        ],
+        "false": []
+      },
+      "id": "7ac5719f-b41e-4e78-8cac-c04c1c385850"
+    }
+  ],
+  "updateScript": [
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "eq",
+          "valueA": {
+            "type": "variable",
+            "value": "19"
+          },
+          "valueB": {
+            "type": "number",
+            "value": 1
+          }
+        },
+        "__collapseElse": true
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_REPLACE_TILE_XY",
+            "args": {
+              "x": {
+                "type": "number",
+                "value": 4
+              },
+              "y": {
+                "type": "number",
+                "value": 9
+              },
+              "tilesetId": "4f2734eb-ade7-49e3-b6ef-2f335b788e64",
+              "tileIndex": {
+                "type": "number",
+                "value": 28
+              }
+            },
+            "id": "85e9c100-b3ad-488d-9c23-bc145db6f307"
+          }
+        ],
+        "false": []
+      },
+      "id": "bfba7d05-d2af-44ee-a13d-44974ef057eb"
+    }
+  ],
+  "hit1Script": [],
+  "hit2Script": [],
+  "hit3Script": [],
+  "x": 4,
+  "y": 9,
+  "_index": 0
+}

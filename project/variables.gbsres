@@ -85,6 +85,63 @@
       "id": "16",
       "name": "change unlocked",
       "symbol": "var_change_unlocked"
+    },
+    {
+      "id": "17",
+      "name": "ability unlocks",
+      "symbol": "var_ability_unlocks",
+      "flags": {
+        "flag1": "gun",
+        "flag2": "earth magic",
+        "flag3": "sword",
+        "flag4": "2nd fist",
+        "flag6": "2nd gun"
+      }
+    },
+    {
+      "id": "18",
+      "name": "ability cooldown",
+      "symbol": "var_ability_cooldown"
+    },
+    {
+      "id": "19",
+      "name": "got ring",
+      "symbol": "var_got_ring"
+    },
+    {
+      "id": "20",
+      "name": "chris run away",
+      "symbol": "var_chris_run_away"
+    },
+    {
+      "id": "21",
+      "name": "boss ticker",
+      "symbol": "var_boss_ticker"
+    },
+    {
+      "id": "22",
+      "name": "counter",
+      "symbol": "var_counter"
+    },
+    {
+      "id": "164a583e-2486-45e0-988d-61bcc90cd82c__L0",
+      "name": "Local 0",
+      "symbol": "var_local_0"
+    },
+    {
+      "id": "23",
+      "name": "bullet type",
+      "symbol": "var_bullet_type"
+    },
+    {
+      "id": "31",
+      "name": "run toggle trigger",
+      "symbol": "var_run_toggle_trigger"
+    },
+    {
+      "id": "24",
+      "name": "run state",
+      "symbol": "var_run_state"
     }
   ]
 }

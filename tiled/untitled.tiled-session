@@ -3,10 +3,34 @@
         "height": 4300,
         "width": 2
     },
-    "activeFile": "intro_blackout.tmx",
+    "activeFile": "B32 stairs.tmx",
     "expandedProjectPaths": [
     ],
     "fileStates": {
+        "B32 Boss Room.tmx": {
+            "scale": 1.7238541666666667,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 410.12750015106656,
+                "y": 205.35379781255662
+            }
+        },
+        "B32 Main Floor.tmx": {
+            "scale": 1.7001041666666665,
+            "selectedLayer": 1,
+            "viewCenter": {
+                "x": 288.21763372342383,
+                "y": 180.57717051651247
+            }
+        },
+        "B32 stairs.tmx": {
+            "scale": 5.171562499999999,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 77.15269804822046,
+                "y": 70.38491751767481
+            }
+        },
         "Temporal Light/temporal_light_tileset.tsx": {
             "scaleInDock": 3,
             "scaleInEditor": 1
@@ -14,6 +38,14 @@
         "Temporal Light/temporal_light_tileset2.tsx": {
             "scaleInDock": 3,
             "scaleInEditor": 1
+        },
+        "conference chamber.tmx": {
+            "scale": 5.171562499999999,
+            "selectedLayer": 2,
+            "viewCenter": {
+                "x": 80.0531754184543,
+                "y": 71.93183878179951
+            }
         },
         "intro.tmx": {
             "scale": 2.55015625,
@@ -27,16 +59,25 @@
             "scale": 2.55015625,
             "selectedLayer": 0,
             "viewCenter": {
-                "x": 278.02218001347956,
-                "y": 104.69946694442743
+                "x": 159.99019667912503,
+                "y": 159.99019667912506
             }
         },
         "kenny art modified/Kenny Art.tsx": {
             "scaleInDock": 3,
             "scaleInEditor": 1
+        },
+        "locker room.tmx": {
+            "scale": 1.7238541666666667,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 240.1595262553629,
+                "y": 80.05317541845429
+            }
         }
     },
     "last.imagePath": "C:/Users/steve/Documents/temporal LightDark Foundation/tiled/Temporal Light",
+    "map.height": 18,
     "map.lastUsedFormat": "tmx",
     "map.tileHeight": 16,
     "map.tileWidth": 16,
@@ -46,7 +87,12 @@
         "kenny art modified/Kenny Art.tsx",
         "intro.tmx",
         "Temporal Light/temporal_light_tileset2.tsx",
-        "intro_blackout.tmx"
+        "intro_blackout.tmx",
+        "conference chamber.tmx",
+        "B32 Main Floor.tmx",
+        "locker room.tmx",
+        "B32 Boss Room.tmx",
+        "B32 stairs.tmx"
     ],
     "project": "untitled.tiled-project",
     "recentFiles": [
@@ -54,7 +100,12 @@
         "kenny art modified/Kenny Art.tsx",
         "intro.tmx",
         "Temporal Light/temporal_light_tileset2.tsx",
-        "intro_blackout.tmx"
+        "intro_blackout.tmx",
+        "conference chamber.tmx",
+        "B32 Main Floor.tmx",
+        "locker room.tmx",
+        "B32 Boss Room.tmx",
+        "B32 stairs.tmx"
     ],
     "tileset.lastUsedFormat": "tsx",
     "tileset.tileSize": {

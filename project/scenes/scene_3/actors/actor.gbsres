@@ -17,6 +17,40 @@
   "symbol": "actor_2",
   "script": [
     {
+      "command": "EVENT_ACTOR_EMOTE",
+      "args": {
+        "actorId": "player",
+        "emoteId": "d508e529-57eb-458b-9782-66f318243c32"
+      },
+      "id": "bd096e36-f4b7-4b14-b616-55e91e683b16"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "I don't see a \nexit...I don't\nwant to but I",
+          "might need to\nuse mind magic"
+        ],
+        "__section": "text",
+        "avatarId": "9e33c0c8-20c4-4b19-8786-a520f8ff0d61",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30
+      },
+      "id": "6ad5afe0-80de-4141-9900-d1a7324715c9"
+    },
+    {
       "command": "EVENT_SWITCH_SCENE",
       "args": {
         "sceneId": "6ee9ab07-175c-4b6f-9e42-65b4456f4aff",

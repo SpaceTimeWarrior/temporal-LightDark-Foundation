@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "faf5865b-5ebe-4911-b341-1a21ec515e37",
+  "name": "B32 stairs",
+  "symbol": "bg_b32_stairs",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144,
+  "filename": "B32 stairs.png",
+  "tileColors": "",
+  "autoColor": false
+}

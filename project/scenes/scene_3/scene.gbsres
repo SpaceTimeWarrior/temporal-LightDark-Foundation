@@ -11,7 +11,8 @@
   "paletteIds": [],
   "spritePaletteIds": [
     "16c40f8a-2572-424e-8ddf-d736a7e430e5",
-    "default-sprite"
+    "9c1ca6f3-9fe1-49a6-b094-a3fec96b96d7",
+    "c1a7e80c-fa7b-45a3-8a2c-0c73dd3acb3d"
   ],
   "collisions": "0038a+0fa+001e+0f!008+0f!001e+0f!008+0f!001e+0f!008+0f!001e+0f!008+0f!001e+0f!008+0f!001e+0f!008+0f!001e+0f!008+0f!001e+0f!008+0f!001e+0f!008+0f!001e+0fa+0011c+",
   "autoFadeSpeed": 1,
@@ -42,41 +43,64 @@
       "id": "ca3c06e6-5e4c-4bef-936f-570a7e7abe36"
     },
     {
-      "command": "EVENT_SET_TIMER_SCRIPT",
+      "command": "EVENT_TEXT",
       "args": {
-        "timer": 1,
-        "duration": 0.5,
-        "frames": 30,
-        "__scriptTabs": "end"
+        "text": [
+          "where Am I...am\nI dead...no...\nlets see after",
+          "knocking my \nsister \nUnconscious.a ",
+          "smoke being came\nout and hit me",
+          "...I can't \nremember \nanything else"
+        ],
+        "__section": "text",
+        "avatarId": "9e33c0c8-20c4-4b19-8786-a520f8ff0d61",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30
       },
+      "id": "5366529a-36d5-430c-8645-7da440cd91f3"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "use the dpad to \nmove(arrow keys \nbrowser version)",
+          "press the @ button\nto interact(z \nBrowser version)"
+        ],
+        "__section": "text",
+        "avatarId": "",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30
+      },
+      "id": "c5f3248a-f0e6-4545-b9b0-57b1a2a7f8eb"
+    },
+    {
+      "command": "EVENT_GROUP",
+      "args": {},
       "children": {
-        "script": [
-          {
-            "command": "EVENT_SET_VALUE",
-            "args": {
-              "variable": "0",
-              "value": {
-                "type": "mod",
-                "valueA": {
-                  "type": "add",
-                  "valueA": {
-                    "type": "variable",
-                    "value": "0"
-                  },
-                  "valueB": {
-                    "type": "number",
-                    "value": 1
-                  }
-                },
-                "valueB": {
-                  "type": "number",
-                  "value": 3
-                }
-              },
-              "__comment": true
-            },
-            "id": "cfcf84ae-a5fc-427a-bfd9-7638bd854676"
-          },
+        "true": [
           {
             "command": "EVENT_PREP_MENU",
             "args": {
@@ -101,11 +125,62 @@
                 "value": 38
               }
             },
-            "id": "4377ce0b-a4e8-491c-a6cf-41ffe2d10835"
+            "id": "fb44c3f2-fa88-460d-8c70-15f151048f2c"
+          },
+          {
+            "command": "EVENT_SET_TIMER_SCRIPT",
+            "args": {
+              "timer": 1,
+              "duration": 0.5,
+              "frames": 30,
+              "__scriptTabs": "end"
+            },
+            "children": {
+              "script": [
+                {
+                  "command": "EVENT_SET_VALUE",
+                  "args": {
+                    "variable": "0",
+                    "value": {
+                      "type": "mod",
+                      "valueA": {
+                        "type": "add",
+                        "valueA": {
+                          "type": "variable",
+                          "value": "0"
+                        },
+                        "valueB": {
+                          "type": "number",
+                          "value": 1
+                        }
+                      },
+                      "valueB": {
+                        "type": "number",
+                        "value": 3
+                      }
+                    },
+                    "__comment": true
+                  },
+                  "id": "cfcf84ae-a5fc-427a-bfd9-7638bd854676"
+                },
+                {
+                  "command": "EVENT_CALL_CUSTOM_EVENT",
+                  "args": {
+                    "customEventId": "a0f63380-278a-478d-b9dc-8f0e27a21a8b",
+                    "$variable[V0]$": {
+                      "type": "number",
+                      "value": 38
+                    }
+                  },
+                  "id": "4377ce0b-a4e8-491c-a6cf-41ffe2d10835"
+                }
+              ]
+            },
+            "id": "b4c60f76-f078-43bc-b599-abce3f7d8cbc"
           }
         ]
       },
-      "id": "b4c60f76-f078-43bc-b599-abce3f7d8cbc"
+      "id": "ea4377c0-7d2d-409c-a380-cbbafb5be4ac"
     }
   ],
   "playerHit1Script": [],

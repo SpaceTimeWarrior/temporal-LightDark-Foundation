@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "77bd67cf-a7f9-4ecd-ac3d-eb5b70dc6f69",
+  "name": "locker room",
+  "symbol": "bg_locker_room",
+  "width": 60,
+  "height": 20,
+  "imageWidth": 480,
+  "imageHeight": 160,
+  "filename": "locker room.png",
+  "tileColors": "",
+  "autoColor": false
+}

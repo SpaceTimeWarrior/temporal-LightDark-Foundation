@@ -17,10 +17,19 @@
   "y": 1248,
   "script": [
     {
+      "command": "EVENT_COMMENT",
+      "args": {
+        "text": "chris and jem are assigned to look after the unknown species(jem) the only thing that is known is that the unknown species is a humanoid female with details of foxes,felines,and canines.she has multiple injuries on her body.it is unclear how much of this is from the crash. she was found on mars during a colonization mission in which she crashed into one of the water purification plants. in which after she was transported to the US facility on earth."
+      },
+      "id": "c0862e9c-8ea1-4cec-8304-51b54af53fed"
+    },
+    {
       "command": "EVENT_TEXT",
       "args": {
         "text": [
-          "text"
+          "???:today I called\nyou down here for\na assignment.",
+          "last month on the \nmars facility \nencountered a",
+          "unknown species.\nthat crashed into\nthe west wing."
         ],
         "__section": "text",
         "avatarId": "",
@@ -42,18 +51,661 @@
       "id": "affd6717-23a7-432c-a6b6-0f49d4127cd4"
     },
     {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "jewel: are we\ngoing to the \nmars facility?"
+        ],
+        "__section": "text",
+        "avatarId": "da2057b2-2bc8-4e95-876a-bcc456b90faa",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30
+      },
+      "id": "0c3395ae-5f4f-47e6-93bf-16b1df33dc4c"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "???:No I had it\ntransported here\nI am assigning",
+          "you to check if\nthe species is\nsentient. they",
+          "should be waking \nup around now."
+        ],
+        "__section": "text",
+        "avatarId": "",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30
+      },
+      "id": "23f05fbe-0b8b-4abf-a0e6-76ef960c3a80"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "jewel:can you \ngive details of\nthe species"
+        ],
+        "__section": "text",
+        "avatarId": "da2057b2-2bc8-4e95-876a-bcc456b90faa",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30
+      },
+      "id": "31e5babd-f791-4f77-938f-cc1c96a19c07"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "???:this species\nlooks like a \nhumanoid female",
+          "with a head of a\nfox. it has fur \nall over its body.",
+          "and has a long \ntail. there are \nscarring on the",
+          "body. most likely\nfrom the crash but\nthere are claims",
+          "that these are old"
+        ],
+        "__section": "text",
+        "avatarId": "",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30
+      },
+      "id": "8f768693-7b13-4a7c-a3a8-94dbe541d65e"
+    },
+    {
+      "command": "EVENT_MENU",
+      "args": {
+        "variable": "L0",
+        "items": 2,
+        "option1": "costume?",
+        "option2": "I am unsure about",
+        "option3": "",
+        "option4": "",
+        "option5": "",
+        "option6": "",
+        "option7": "",
+        "option8": "",
+        "cancelOnB": true,
+        "layout": "dialogue",
+        "cancelOnLastOption": true
+      },
+      "id": "b5f9f884-8db9-440a-99c0-c0df485e6b08"
+    },
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "eq",
+          "valueA": {
+            "type": "variable",
+            "value": "L0"
+          },
+          "valueB": {
+            "type": "number",
+            "value": 1
+          }
+        },
+        "__collapseElse": false
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_IF",
+            "args": {
+              "condition": {
+                "type": "eq",
+                "valueA": {
+                  "type": "variable",
+                  "value": "12"
+                },
+                "valueB": {
+                  "type": "number",
+                  "value": 0
+                }
+              },
+              "__collapseElse": false,
+              "__collapse": true
+            },
+            "children": {
+              "true": [
+                {
+                  "command": "EVENT_GROUP",
+                  "args": {
+                    "__collapse": false
+                  },
+                  "children": {
+                    "true": [
+                      {
+                        "command": "EVENT_TEXT",
+                        "args": {
+                          "text": [
+                            "chris:you mean\nto tell me that\nis someone in a",
+                            "costume. I don't\ndeal with people\nin costumes"
+                          ],
+                          "__section": "text",
+                          "avatarId": "d9c844d5-c065-48bc-8498-61736520a13f",
+                          "minHeight": 4,
+                          "maxHeight": 7,
+                          "textX": 1,
+                          "textY": 1,
+                          "textHeight": 5,
+                          "position": "bottom",
+                          "clearPrevious": true,
+                          "showFrame": "true",
+                          "speedIn": -1,
+                          "speedOut": -1,
+                          "closeWhen": "key",
+                          "closeButton": "a",
+                          "closeDelayTime": 0.5,
+                          "closeDelayFrames": 30,
+                          "__collapse": true
+                        },
+                        "id": "34bcf87b-bfb9-42dd-8f52-599fbcc1b6e5"
+                      },
+                      {
+                        "command": "EVENT_TEXT",
+                        "args": {
+                          "text": [
+                            "???:just do it.\nI'll tell you this\nif it someone in a",
+                            "costume is both of\nyou will be \npromoted and I ",
+                            "personally will\ngo to central park\nand go nude ",
+                            "wearing a fox head\nand if it isn't \nyou still will be",
+                            "promoted if you\nare still alive by\nthe end of it"
+                          ],
+                          "__section": "text",
+                          "avatarId": "",
+                          "minHeight": 4,
+                          "maxHeight": 7,
+                          "textX": 1,
+                          "textY": 1,
+                          "textHeight": 5,
+                          "position": "bottom",
+                          "clearPrevious": true,
+                          "showFrame": "true",
+                          "speedIn": -1,
+                          "speedOut": -1,
+                          "closeWhen": "key",
+                          "closeButton": "a",
+                          "closeDelayTime": 0.5,
+                          "closeDelayFrames": 30,
+                          "__collapse": false
+                        },
+                        "id": "749730fc-cfe4-484a-8ea8-7739da9a35dc"
+                      },
+                      {
+                        "command": "EVENT_TEXT",
+                        "args": {
+                          "text": [
+                            "jewel:deal and I\nspeak for chris"
+                          ],
+                          "__section": "text",
+                          "avatarId": "da2057b2-2bc8-4e95-876a-bcc456b90faa",
+                          "minHeight": 4,
+                          "maxHeight": 7,
+                          "textX": 1,
+                          "textY": 1,
+                          "textHeight": 5,
+                          "position": "bottom",
+                          "clearPrevious": true,
+                          "showFrame": "true",
+                          "speedIn": -1,
+                          "speedOut": -1,
+                          "closeWhen": "key",
+                          "closeButton": "a",
+                          "closeDelayTime": 0.5,
+                          "closeDelayFrames": 30,
+                          "__collapse": true
+                        },
+                        "id": "2b0718a4-d9a3-4a18-a211-d8859b4456c6"
+                      }
+                    ]
+                  },
+                  "id": "2ba877b6-a23e-4e59-9edb-457be30ffae8"
+                }
+              ],
+              "false": [
+                {
+                  "command": "EVENT_GROUP",
+                  "args": {
+                    "__collapse": true
+                  },
+                  "children": {
+                    "true": [
+                      {
+                        "command": "EVENT_TEXT",
+                        "args": {
+                          "text": [
+                            "krystal:you mean\nto tell me that\nis someone in a",
+                            "costume. I don't\ndeal with people\nin costumes"
+                          ],
+                          "__section": "text",
+                          "avatarId": "66cb9021-365e-46dd-8b1e-43eb6605da9f",
+                          "minHeight": 4,
+                          "maxHeight": 7,
+                          "textX": 1,
+                          "textY": 1,
+                          "textHeight": 5,
+                          "position": "bottom",
+                          "clearPrevious": true,
+                          "showFrame": "true",
+                          "speedIn": -1,
+                          "speedOut": -1,
+                          "closeWhen": "key",
+                          "closeButton": "a",
+                          "closeDelayTime": 0.5,
+                          "closeDelayFrames": 30,
+                          "__collapse": false
+                        },
+                        "id": "7c46bf89-8729-45c2-9b7b-db7244e712f8"
+                      },
+                      {
+                        "command": "EVENT_TEXT",
+                        "args": {
+                          "text": [
+                            "???:just do it.\nI'll tell you this\nif it is both of",
+                            "you will be \npromoted and I \npersonally will",
+                            "go to central park\nand go nude \nwearing a fox head",
+                            "and if it isn't \nyou still will be\npromoted if you",
+                            "are still alive by\nthe end of it"
+                          ],
+                          "__section": "text",
+                          "avatarId": "",
+                          "minHeight": 4,
+                          "maxHeight": 7,
+                          "textX": 1,
+                          "textY": 1,
+                          "textHeight": 5,
+                          "position": "bottom",
+                          "clearPrevious": true,
+                          "showFrame": "true",
+                          "speedIn": -1,
+                          "speedOut": -1,
+                          "closeWhen": "key",
+                          "closeButton": "a",
+                          "closeDelayTime": 0.5,
+                          "closeDelayFrames": 30,
+                          "__collapse": true
+                        },
+                        "id": "48314e8e-f6f7-4b17-be75-0ff7085be022"
+                      },
+                      {
+                        "command": "EVENT_TEXT",
+                        "args": {
+                          "text": [
+                            "jewel:deal and I\nspeak for krys"
+                          ],
+                          "__section": "text",
+                          "avatarId": "da2057b2-2bc8-4e95-876a-bcc456b90faa",
+                          "minHeight": 4,
+                          "maxHeight": 7,
+                          "textX": 1,
+                          "textY": 1,
+                          "textHeight": 5,
+                          "position": "bottom",
+                          "clearPrevious": true,
+                          "showFrame": "true",
+                          "speedIn": -1,
+                          "speedOut": -1,
+                          "closeWhen": "key",
+                          "closeButton": "a",
+                          "closeDelayTime": 0.5,
+                          "closeDelayFrames": 30,
+                          "__collapse": false
+                        },
+                        "id": "ad5a887e-4c76-40fe-8db4-41a0ca81ed33"
+                      }
+                    ]
+                  },
+                  "id": "7c57ec2d-0aa3-4db6-9760-51113ce37a37"
+                }
+              ]
+            },
+            "id": "f88fd1f6-a94a-4f37-beeb-0a1696d1f64b"
+          }
+        ],
+        "false": [
+          {
+            "command": "EVENT_IF",
+            "args": {
+              "condition": {
+                "type": "eq",
+                "valueA": {
+                  "type": "variable",
+                  "value": "12"
+                },
+                "valueB": {
+                  "type": "number",
+                  "value": 0
+                }
+              },
+              "__collapseElse": false,
+              "__collapse": true
+            },
+            "children": {
+              "true": [
+                {
+                  "command": "EVENT_GROUP",
+                  "args": {
+                    "__collapse": false
+                  },
+                  "children": {
+                    "true": [
+                      {
+                        "command": "EVENT_TEXT",
+                        "args": {
+                          "text": [
+                            "chris:I am \nunsure about \nthis"
+                          ],
+                          "__section": "text",
+                          "avatarId": "d9c844d5-c065-48bc-8498-61736520a13f",
+                          "minHeight": 4,
+                          "maxHeight": 7,
+                          "textX": 1,
+                          "textY": 1,
+                          "textHeight": 5,
+                          "position": "bottom",
+                          "clearPrevious": true,
+                          "showFrame": "true",
+                          "speedIn": -1,
+                          "speedOut": -1,
+                          "closeWhen": "key",
+                          "closeButton": "a",
+                          "closeDelayTime": 0.5,
+                          "closeDelayFrames": 30,
+                          "__collapse": false
+                        },
+                        "id": "e606d966-9f4e-40e7-9783-73483204295d"
+                      },
+                      {
+                        "command": "EVENT_TEXT",
+                        "args": {
+                          "text": [
+                            "???:just do it.\nI'll tell you this\nif you finish both",
+                            "of you will be \npromoted if you\nare still alive by\nthe end of it"
+                          ],
+                          "__section": "text",
+                          "avatarId": "",
+                          "minHeight": 4,
+                          "maxHeight": 7,
+                          "textX": 1,
+                          "textY": 1,
+                          "textHeight": 5,
+                          "position": "bottom",
+                          "clearPrevious": true,
+                          "showFrame": "true",
+                          "speedIn": -1,
+                          "speedOut": -1,
+                          "closeWhen": "key",
+                          "closeButton": "a",
+                          "closeDelayTime": 0.5,
+                          "closeDelayFrames": 30,
+                          "__collapse": false
+                        },
+                        "id": "d682ff73-0232-4924-b0b8-02c1a1511980"
+                      },
+                      {
+                        "command": "EVENT_TEXT",
+                        "args": {
+                          "text": [
+                            "jewel:deal and I\nspeak for chris"
+                          ],
+                          "__section": "text",
+                          "avatarId": "da2057b2-2bc8-4e95-876a-bcc456b90faa",
+                          "minHeight": 4,
+                          "maxHeight": 7,
+                          "textX": 1,
+                          "textY": 1,
+                          "textHeight": 5,
+                          "position": "bottom",
+                          "clearPrevious": true,
+                          "showFrame": "true",
+                          "speedIn": -1,
+                          "speedOut": -1,
+                          "closeWhen": "key",
+                          "closeButton": "a",
+                          "closeDelayTime": 0.5,
+                          "closeDelayFrames": 30,
+                          "__collapse": true
+                        },
+                        "id": "550cdab2-f47d-40e7-a05e-81aed7a3f8be"
+                      }
+                    ]
+                  },
+                  "id": "15fa51c6-6534-45e3-aa35-dbad846bdf03"
+                }
+              ],
+              "false": [
+                {
+                  "command": "EVENT_GROUP",
+                  "args": {
+                    "__collapse": false
+                  },
+                  "children": {
+                    "true": [
+                      {
+                        "command": "EVENT_TEXT",
+                        "args": {
+                          "text": [
+                            "krystal:I am \nunsure about \nthis"
+                          ],
+                          "__section": "text",
+                          "avatarId": "66cb9021-365e-46dd-8b1e-43eb6605da9f",
+                          "minHeight": 4,
+                          "maxHeight": 7,
+                          "textX": 1,
+                          "textY": 1,
+                          "textHeight": 5,
+                          "position": "bottom",
+                          "clearPrevious": true,
+                          "showFrame": "true",
+                          "speedIn": -1,
+                          "speedOut": -1,
+                          "closeWhen": "key",
+                          "closeButton": "a",
+                          "closeDelayTime": 0.5,
+                          "closeDelayFrames": 30,
+                          "__collapse": false
+                        },
+                        "id": "fda4b947-fabf-4d7a-8351-cc7c8002a83e"
+                      },
+                      {
+                        "command": "EVENT_TEXT",
+                        "args": {
+                          "text": [
+                            "???:just do it.\nI'll tell you this\nif you finish both",
+                            "of you will be \npromoted if you\nare still alive by\nthe end of it"
+                          ],
+                          "__section": "text",
+                          "avatarId": "",
+                          "minHeight": 4,
+                          "maxHeight": 7,
+                          "textX": 1,
+                          "textY": 1,
+                          "textHeight": 5,
+                          "position": "bottom",
+                          "clearPrevious": true,
+                          "showFrame": "true",
+                          "speedIn": -1,
+                          "speedOut": -1,
+                          "closeWhen": "key",
+                          "closeButton": "a",
+                          "closeDelayTime": 0.5,
+                          "closeDelayFrames": 30,
+                          "__collapse": false
+                        },
+                        "id": "b51a1b5d-cb09-4efc-916f-8afe4df8e780"
+                      },
+                      {
+                        "command": "EVENT_TEXT",
+                        "args": {
+                          "text": [
+                            "jewel:deal and I\nspeak for krys"
+                          ],
+                          "__section": "text",
+                          "avatarId": "da2057b2-2bc8-4e95-876a-bcc456b90faa",
+                          "minHeight": 4,
+                          "maxHeight": 7,
+                          "textX": 1,
+                          "textY": 1,
+                          "textHeight": 5,
+                          "position": "bottom",
+                          "clearPrevious": true,
+                          "showFrame": "true",
+                          "speedIn": -1,
+                          "speedOut": -1,
+                          "closeWhen": "key",
+                          "closeButton": "a",
+                          "closeDelayTime": 0.5,
+                          "closeDelayFrames": 30,
+                          "__collapse": false
+                        },
+                        "id": "b64c2442-602b-476a-b1f0-68a65f45ea4f"
+                      }
+                    ]
+                  },
+                  "id": "353c89d3-d3f9-44d9-b239-2ec090ec41ca"
+                }
+              ]
+            },
+            "id": "4f2ceb59-588a-410a-9032-2ede2a51d638"
+          }
+        ]
+      },
+      "id": "4ee46732-7418-45a2-8428-3886806010ee"
+    },
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "eq",
+          "valueA": {
+            "type": "variable",
+            "value": "12"
+          },
+          "valueB": {
+            "type": "number",
+            "value": 0
+          }
+        },
+        "__collapseElse": false
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "???:chris I am\nassigning you on\nthe first watch",
+                "jewel you watch \nhim in the control\nroom"
+              ],
+              "__section": "text",
+              "avatarId": "",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30
+            },
+            "id": "c79174d9-4cbc-4c0f-81b0-f469816b877b"
+          }
+        ],
+        "false": [
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "???:krystal I am\nassigning you on\nthe first watch",
+                "jewel you watch \nher in the control\nroom"
+              ],
+              "__section": "text",
+              "avatarId": "",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30
+            },
+            "id": "2aabb285-bfef-44bd-a426-50cd0d4d5b19"
+          }
+        ]
+      },
+      "id": "f04254ea-1a98-46ab-b057-9675ab79a2a9"
+    },
+    {
       "command": "EVENT_SWITCH_SCENE",
       "args": {
         "sceneId": "8841a38c-34df-4861-94ed-8f751fbb8700",
         "x": {
           "type": "number",
-          "value": 0
+          "value": 30
         },
         "y": {
           "type": "number",
-          "value": 0
+          "value": 27
         },
-        "direction": "",
+        "direction": "up",
         "fadeSpeed": "2"
       },
       "id": "a9e45f19-975a-484c-819a-6494a655870d"
