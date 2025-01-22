@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "71b6f1d6-2bb8-4526-9b30-f43133ce8353",
+  "name": "B31 stairs exit blackout",
+  "symbol": "bg_b31_stairs_exit_blackout",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144,
+  "filename": "B31 stairs exit blackout.png",
+  "tileColors": "",
+  "autoColor": false
+}

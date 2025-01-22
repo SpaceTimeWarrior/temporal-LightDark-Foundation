@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.10" tiledversion="1.11.0" orientation="orthogonal" renderorder="right-down" width="10" height="9" tilewidth="16" tileheight="16" infinite="0" nextlayerid="3" nextobjectid="1">
+ <tileset firstgid="1" source="Temporal Light/temporal_light_tileset.tsx"/>
+ <tileset firstgid="4097" source="Temporal Light/temporal_light_tileset2.tsx"/>
+ <layer id="1" name="Tile Layer 1" width="10" height="9">
+  <data encoding="csv">
+2949,2949,2949,2949,2949,2949,2949,2949,2949,2949,
+2949,2949,2632,2435,2435,2435,2435,2632,2949,2949,
+2949,2949,2310,4226,4226,4226,4226,2310,2949,2949,
+2949,2949,2310,4226,4226,4226,4226,2310,2949,2949,
+2949,2949,2310,4226,4226,4226,4226,2310,2949,2949,
+2949,2949,2310,4226,4226,4226,4226,2310,2949,2949,
+2949,2949,2632,2632,4226,4226,2632,2632,2949,2949,
+2949,2949,2949,2310,4226,4226,2310,2949,2949,2949,
+1941,1942,1943,1944,1945,1946,1946,1947,1948,1949
+</data>
+ </layer>
+ <layer id="2" name="Tile Layer 2" width="10" height="9">
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,3221227535,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0
+</data>
+ </layer>
+</map>

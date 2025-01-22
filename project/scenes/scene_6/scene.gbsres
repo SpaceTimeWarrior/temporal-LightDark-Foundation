@@ -17,6 +17,13 @@
   "y": 1248,
   "script": [
     {
+      "command": "EVENT_ACTOR_HIDE",
+      "args": {
+        "actorId": "$self$"
+      },
+      "id": "d2e26168-a0b6-47c3-a995-b4163da8f164"
+    },
+    {
       "command": "EVENT_COMMENT",
       "args": {
         "text": "chris and jem are assigned to look after the unknown species(jem) the only thing that is known is that the unknown species is a humanoid female with details of foxes,felines,and canines.she has multiple injuries on her body.it is unclear how much of this is from the crash. she was found on mars during a colonization mission in which she crashed into one of the water purification plants. in which after she was transported to the US facility on earth."

@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "0c4214cc-a62a-4bcb-93e3-48b6dc84e4ea",
+  "name": "B31 stairs enter",
+  "symbol": "bg_b31_stairs_enter",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144,
+  "filename": "B31 stairs enter.png",
+  "tileColors": "",
+  "autoColor": false
+}

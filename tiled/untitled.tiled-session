@@ -3,32 +3,80 @@
         "height": 4300,
         "width": 2
     },
-    "activeFile": "B32 stairs.tmx",
+    "activeFile": "B31 stairs exit blackout.tmx",
     "expandedProjectPaths": [
     ],
     "fileStates": {
+        "B31 button room 2.tmx": {
+            "scale": 5.171562499999999,
+            "selectedLayer": 1,
+            "viewCenter": {
+                "x": 57.62281708864586,
+                "y": 63.23040667109795
+            }
+        },
+        "B31 office 1.tmx": {
+            "scale": 4,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 200,
+                "y": 89.75
+            }
+        },
+        "B31 office 2.tmx": {
+            "scale": 2,
+            "selectedLayer": 1,
+            "viewCenter": {
+                "x": 102.5,
+                "y": 195.5
+            }
+        },
+        "B31 save room.tmx": {
+            "scale": 2.5857812499999997,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 282.31313070276155,
+                "y": 177.50921505831172
+            }
+        },
+        "B31 stairs enter.tmx": {
+            "scale": 5.171562499999999,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 80.0531754184543,
+                "y": 71.93183878179951
+            }
+        },
+        "B31 stairs exit blackout.tmx": {
+            "scale": 5.171562499999999,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 78.312888996314,
+                "y": 65.55078856728505
+            }
+        },
         "B32 Boss Room.tmx": {
             "scale": 1.7238541666666667,
             "selectedLayer": 0,
             "viewCenter": {
-                "x": 410.12750015106656,
-                "y": 205.35379781255662
+                "x": 240.1595262553629,
+                "y": 160.10635083690858
             }
         },
         "B32 Main Floor.tmx": {
             "scale": 1.7001041666666665,
             "selectedLayer": 1,
             "viewCenter": {
-                "x": 288.21763372342383,
-                "y": 180.57717051651247
+                "x": 239.9852950186876,
+                "y": 239.9852950186876
             }
         },
         "B32 stairs.tmx": {
             "scale": 5.171562499999999,
             "selectedLayer": 0,
             "viewCenter": {
-                "x": 77.15269804822046,
-                "y": 70.38491751767481
+                "x": 80.0531754184543,
+                "y": 71.93183878179951
             }
         },
         "Temporal Light/temporal_light_tileset.tsx": {
@@ -81,7 +129,7 @@
     "map.lastUsedFormat": "tmx",
     "map.tileHeight": 16,
     "map.tileWidth": 16,
-    "map.width": 20,
+    "map.width": 40,
     "openFiles": [
         "Temporal Light/temporal_light_tileset.tsx",
         "kenny art modified/Kenny Art.tsx",
@@ -92,7 +140,12 @@
         "B32 Main Floor.tmx",
         "locker room.tmx",
         "B32 Boss Room.tmx",
-        "B32 stairs.tmx"
+        "B32 stairs.tmx",
+        "B31 stairs enter.tmx",
+        "B31 save room.tmx",
+        "B31 office 1.tmx",
+        "B31 button room 2.tmx",
+        "B31 stairs exit blackout.tmx"
     ],
     "project": "untitled.tiled-project",
     "recentFiles": [
@@ -105,7 +158,9 @@
         "B32 Main Floor.tmx",
         "locker room.tmx",
         "B32 Boss Room.tmx",
-        "B32 stairs.tmx"
+        "B32 stairs.tmx",
+        "B31 stairs enter.tmx",
+        "B31 save room.tmx"
     ],
     "tileset.lastUsedFormat": "tsx",
     "tileset.tileSize": {

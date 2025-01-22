@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "295a8e19-cbb9-415c-b6bf-e9d1ae493348",
+  "name": "B31 button room 1",
+  "symbol": "bg_b31_button_room_1",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144,
+  "filename": "B31 button room 1.png",
+  "tileColors": "",
+  "autoColor": false
+}

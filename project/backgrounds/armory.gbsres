@@ -8,5 +8,6 @@
   "imageWidth": 320,
   "imageHeight": 288,
   "filename": "armory.png",
-  "tileColors": ""
+  "tileColors": "",
+  "autoColor": false
 }

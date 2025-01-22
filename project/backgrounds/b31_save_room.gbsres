@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "f3127f37-ca0c-445f-9e3f-26c395309540",
+  "name": "B31 save room",
+  "symbol": "bg_b31_save_room",
+  "width": 40,
+  "height": 36,
+  "imageWidth": 320,
+  "imageHeight": 288,
+  "filename": "B31 save room.png",
+  "tileColors": "",
+  "autoColor": false
+}

@@ -1,0 +1,12 @@
+{
+  "_resourceType": "background",
+  "id": "13b9171a-b5d2-4558-af34-21a6dda7c20b",
+  "name": "B31 stairs exit",
+  "symbol": "bg_b31_stairs_exit",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144,
+  "filename": "B31 stairs exit.png",
+  "tileColors": ""
+}
