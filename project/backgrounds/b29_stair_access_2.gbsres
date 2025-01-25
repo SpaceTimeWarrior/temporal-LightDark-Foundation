@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "04630478-d220-4352-93b4-db51dcb86936",
+  "name": "B29 stair access 2",
+  "symbol": "bg_b29_stair_access_2",
+  "width": 20,
+  "height": 36,
+  "imageWidth": 160,
+  "imageHeight": 288,
+  "filename": "B29 stair access 2.png",
+  "tileColors": "",
+  "autoColor": false
+}

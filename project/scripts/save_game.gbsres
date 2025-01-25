@@ -1,0 +1,583 @@
+{
+  "_resourceType": "script",
+  "id": "e5031d11-e6ef-454d-b7ad-132beaf4437c",
+  "name": "save game",
+  "description": "",
+  "variables": {},
+  "actors": {},
+  "symbol": "script_8",
+  "script": [
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "variable": "1",
+        "operator": "==",
+        "comparator": "0",
+        "__collapseElse": false,
+        "condition": {
+          "type": "eq",
+          "valueA": {
+            "type": "variable",
+            "value": "46"
+          },
+          "valueB": {
+            "type": "number",
+            "value": 0
+          }
+        }
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "Save file not \npreset. select a\nsave file. to save"
+              ],
+              "avatarId": ""
+            },
+            "id": "2d21635e-57ed-43b9-bb34-e4ce9ce77179"
+          },
+          {
+            "command": "EVENT_MENU",
+            "args": {
+              "variable": "46",
+              "items": 4,
+              "option1": "Save file 1",
+              "option2": "Save file 2",
+              "option3": "Save file 3",
+              "option4": "Stop saving game",
+              "option5": "",
+              "option6": "",
+              "option7": "",
+              "option8": "",
+              "cancelOnB": true,
+              "layout": "dialogue",
+              "cancelOnLastOption": true
+            },
+            "id": "3f424c62-3267-4785-94f7-f288e87b0cdc"
+          }
+        ],
+        "false": []
+      },
+      "id": "522ea736-c0b4-4d91-a6f6-3b659e457c38"
+    },
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "variable": "1",
+        "operator": "==",
+        "comparator": "0",
+        "__collapseElse": false,
+        "condition": {
+          "type": "eq",
+          "valueA": {
+            "type": "variable",
+            "value": "46"
+          },
+          "valueB": {
+            "type": "number",
+            "value": 0
+          }
+        }
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "No save file \nselected. "
+              ],
+              "avatarId": ""
+            },
+            "id": "301277a2-543f-4cd8-ad73-dc61afc156d1"
+          }
+        ],
+        "false": [
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "Do you want to \nsave the game"
+              ],
+              "avatarId": ""
+            },
+            "id": "74206c4a-6957-4192-a63f-1ec1382afa28"
+          },
+          {
+            "command": "EVENT_MENU",
+            "args": {
+              "variable": "9",
+              "items": 2,
+              "option1": "Yes Save",
+              "option2": "NO don't save",
+              "option3": "",
+              "option4": "",
+              "option5": "",
+              "option6": "",
+              "option7": "",
+              "option8": "",
+              "cancelOnB": true,
+              "layout": "dialogue",
+              "cancelOnLastOption": true
+            },
+            "id": "ad4e4f9b-c034-4266-acf8-71e3e6aa45e3"
+          },
+          {
+            "command": "EVENT_IF",
+            "args": {
+              "variable": "0",
+              "__collapseElse": false,
+              "condition": {
+                "type": "eq",
+                "valueA": {
+                  "type": "variable",
+                  "value": "9"
+                },
+                "valueB": {
+                  "type": "false"
+                }
+              }
+            },
+            "children": {
+              "true": [],
+              "false": [
+                {
+                  "command": "EVENT_SWITCH",
+                  "args": {
+                    "variable": "46",
+                    "choices": 2,
+                    "__collapseCase0": false,
+                    "value0": 1,
+                    "__collapseCase1": false,
+                    "value1": 2,
+                    "__collapseCase2": false,
+                    "value2": 3,
+                    "__collapseCase3": false,
+                    "value3": 4,
+                    "__collapseCase4": false,
+                    "value4": 5,
+                    "__collapseCase5": false,
+                    "value5": 6,
+                    "__collapseCase6": false,
+                    "value6": 7,
+                    "__collapseCase7": false,
+                    "value7": 8,
+                    "__collapseCase8": false,
+                    "value8": 9,
+                    "__collapseCase9": false,
+                    "value9": 10,
+                    "__collapseCase10": false,
+                    "value10": 11,
+                    "__collapseCase11": false,
+                    "value11": 12,
+                    "__collapseCase12": false,
+                    "value12": 13,
+                    "__collapseCase13": false,
+                    "value13": 14,
+                    "__collapseCase14": false,
+                    "value14": 15,
+                    "__collapseCase15": false,
+                    "value15": 16,
+                    "__collapseElse": false
+                  },
+                  "children": {
+                    "true0": [
+                      {
+                        "command": "EVENT_IF_SAVED_DATA",
+                        "args": {
+                          "saveSlot": 0,
+                          "__collapseElse": false
+                        },
+                        "children": {
+                          "true": [
+                            {
+                              "command": "EVENT_TEXT",
+                              "args": {
+                                "text": [
+                                  "there is already a\nsave file.\noverrite?"
+                                ],
+                                "avatarId": ""
+                              },
+                              "id": "0fa35bae-2dde-443f-a6d5-1cff26e2039f"
+                            },
+                            {
+                              "command": "EVENT_CHOICE",
+                              "args": {
+                                "variable": "9",
+                                "trueText": "Overite data",
+                                "falseText": "Don't save"
+                              },
+                              "id": "6dcadc1e-7675-4134-8863-eb7dfb5bd9cc"
+                            },
+                            {
+                              "command": "EVENT_IF",
+                              "args": {
+                                "variable": "0",
+                                "__collapseElse": false,
+                                "condition": {
+                                  "type": "variable",
+                                  "value": "9"
+                                },
+                                "__collapse": false
+                              },
+                              "children": {
+                                "true": [
+                                  {
+                                    "command": "EVENT_SAVE_DATA",
+                                    "args": {
+                                      "saveSlot": 0,
+                                      "__scriptTabs": "save",
+                                      "__collapse": false
+                                    },
+                                    "children": {
+                                      "true": [
+                                        {
+                                          "command": "EVENT_SOUND_PLAY_EFFECT",
+                                          "args": {
+                                            "type": "e189e400-d7d1-4e57-9c36-92c51c583fe2",
+                                            "priority": "medium",
+                                            "pitch": 4,
+                                            "frequency": 200,
+                                            "duration": 0.5,
+                                            "wait": true,
+                                            "effect": 0
+                                          },
+                                          "id": "c9040146-d3e9-42b9-b4ef-c8b5024b72a4"
+                                        },
+                                        {
+                                          "command": "EVENT_TEXT",
+                                          "args": {
+                                            "text": [
+                                              "save sucessful"
+                                            ],
+                                            "avatarId": ""
+                                          },
+                                          "id": "16d6bfaa-a03e-477d-a2ff-70dec3c6da97"
+                                        }
+                                      ]
+                                    },
+                                    "id": "a2cf1984-039d-47e3-94af-cdec46a729ed"
+                                  }
+                                ],
+                                "false": []
+                              },
+                              "id": "05022be7-134c-451b-ac29-470ec59a87b4"
+                            }
+                          ],
+                          "false": [
+                            {
+                              "command": "EVENT_SAVE_DATA",
+                              "args": {
+                                "saveSlot": 0,
+                                "__scriptTabs": "save",
+                                "__collapse": false
+                              },
+                              "children": {
+                                "true": [
+                                  {
+                                    "command": "EVENT_SOUND_PLAY_EFFECT",
+                                    "args": {
+                                      "type": "e189e400-d7d1-4e57-9c36-92c51c583fe2",
+                                      "priority": "medium",
+                                      "pitch": 4,
+                                      "frequency": 200,
+                                      "duration": 0.5,
+                                      "wait": true,
+                                      "effect": 0
+                                    },
+                                    "id": "314c95a4-ad56-4fa9-af3a-03d9c6e7d2f2"
+                                  },
+                                  {
+                                    "command": "EVENT_TEXT",
+                                    "args": {
+                                      "text": [
+                                        "Save successful"
+                                      ],
+                                      "avatarId": ""
+                                    },
+                                    "id": "2434b5dd-e7a1-4345-ae53-ef60bed3973f"
+                                  }
+                                ]
+                              },
+                              "id": "1a2c956c-0cc1-41ae-bef3-02b396ca4ca6"
+                            }
+                          ]
+                        },
+                        "id": "ebe3faa3-be6d-443d-9699-ab8fd8b9387f"
+                      }
+                    ],
+                    "true1": [
+                      {
+                        "command": "EVENT_IF_SAVED_DATA",
+                        "args": {
+                          "saveSlot": 1,
+                          "__collapseElse": false
+                        },
+                        "children": {
+                          "true": [
+                            {
+                              "command": "EVENT_TEXT",
+                              "args": {
+                                "text": [
+                                  "there is already a\nsave file.\noverrite?"
+                                ],
+                                "avatarId": ""
+                              },
+                              "id": "706bc5ee-96df-4661-bb82-7648b15134e4"
+                            },
+                            {
+                              "command": "EVENT_CHOICE",
+                              "args": {
+                                "variable": "9",
+                                "trueText": "Overite data",
+                                "falseText": "Don't save"
+                              },
+                              "id": "9d1b3080-02c7-400d-adc7-0461f4ebf30d"
+                            },
+                            {
+                              "command": "EVENT_IF",
+                              "args": {
+                                "variable": "0",
+                                "__collapseElse": false,
+                                "condition": {
+                                  "type": "variable",
+                                  "value": "0"
+                                }
+                              },
+                              "children": {
+                                "true": [
+                                  {
+                                    "command": "EVENT_SAVE_DATA",
+                                    "args": {
+                                      "saveSlot": 1,
+                                      "__scriptTabs": "save"
+                                    },
+                                    "children": {
+                                      "true": [
+                                        {
+                                          "command": "EVENT_SOUND_PLAY_EFFECT",
+                                          "args": {
+                                            "type": "e189e400-d7d1-4e57-9c36-92c51c583fe2",
+                                            "priority": "medium",
+                                            "pitch": 4,
+                                            "frequency": 200,
+                                            "duration": 0.5,
+                                            "wait": true,
+                                            "effect": 0
+                                          },
+                                          "id": "680e26a8-0165-4b53-a558-73ae6b788bcf"
+                                        },
+                                        {
+                                          "command": "EVENT_TEXT",
+                                          "args": {
+                                            "text": [
+                                              "save sucessful"
+                                            ],
+                                            "avatarId": ""
+                                          },
+                                          "id": "489c9eca-254f-4313-85b1-3116f2c5a289"
+                                        }
+                                      ]
+                                    },
+                                    "id": "38fcc316-d8d9-471a-8060-289da764f0ab"
+                                  }
+                                ],
+                                "false": []
+                              },
+                              "id": "c225ee16-db25-4800-a169-4ca84b63329f"
+                            }
+                          ],
+                          "false": [
+                            {
+                              "command": "EVENT_SAVE_DATA",
+                              "args": {
+                                "saveSlot": 1,
+                                "__scriptTabs": "save",
+                                "__collapse": false
+                              },
+                              "children": {
+                                "true": [
+                                  {
+                                    "command": "EVENT_SOUND_PLAY_EFFECT",
+                                    "args": {
+                                      "type": "e189e400-d7d1-4e57-9c36-92c51c583fe2",
+                                      "priority": "medium",
+                                      "pitch": 4,
+                                      "frequency": 200,
+                                      "duration": 0.5,
+                                      "wait": true,
+                                      "effect": 0
+                                    },
+                                    "id": "d4f32de0-5308-43eb-be77-bd76f1c58fd9"
+                                  },
+                                  {
+                                    "command": "EVENT_TEXT",
+                                    "args": {
+                                      "text": [
+                                        "Save successful"
+                                      ],
+                                      "avatarId": ""
+                                    },
+                                    "id": "072cd380-a25a-45ee-a6ed-27bf02affbab"
+                                  }
+                                ]
+                              },
+                              "id": "06cdafd5-4d03-4903-b297-867333fcd9ab"
+                            }
+                          ]
+                        },
+                        "id": "8fc4131c-ea77-46ec-af54-3c515a1020d8"
+                      }
+                    ],
+                    "true2": [],
+                    "true3": [],
+                    "true4": [],
+                    "true5": [],
+                    "true6": [],
+                    "true7": [],
+                    "true8": [],
+                    "true9": [],
+                    "true10": [],
+                    "true11": [],
+                    "true12": [],
+                    "true13": [],
+                    "true14": [],
+                    "true15": [],
+                    "false": [
+                      {
+                        "command": "EVENT_IF_SAVED_DATA",
+                        "args": {
+                          "saveSlot": 2,
+                          "__collapseElse": false
+                        },
+                        "children": {
+                          "true": [
+                            {
+                              "command": "EVENT_TEXT",
+                              "args": {
+                                "text": [
+                                  "there is already a\nsave file.\noverrite?"
+                                ],
+                                "avatarId": ""
+                              },
+                              "id": "c93efd96-013e-4386-ad45-672f505fdee4"
+                            },
+                            {
+                              "command": "EVENT_CHOICE",
+                              "args": {
+                                "variable": "9",
+                                "trueText": "Overite data",
+                                "falseText": "Don't save"
+                              },
+                              "id": "6197de2a-5712-4d94-b387-fc0618c4f8a8"
+                            },
+                            {
+                              "command": "EVENT_IF",
+                              "args": {
+                                "variable": "0",
+                                "__collapseElse": false,
+                                "condition": {
+                                  "type": "variable",
+                                  "value": "9"
+                                }
+                              },
+                              "children": {
+                                "true": [
+                                  {
+                                    "command": "EVENT_SAVE_DATA",
+                                    "args": {
+                                      "saveSlot": 2,
+                                      "__scriptTabs": "save"
+                                    },
+                                    "children": {
+                                      "true": [
+                                        {
+                                          "command": "EVENT_SOUND_PLAY_EFFECT",
+                                          "args": {
+                                            "type": "e189e400-d7d1-4e57-9c36-92c51c583fe2",
+                                            "priority": "medium",
+                                            "pitch": 4,
+                                            "frequency": 200,
+                                            "duration": 0.5,
+                                            "wait": true,
+                                            "effect": 0
+                                          },
+                                          "id": "5de0dc37-e68e-4568-a9a3-5a71e0d1d7ab"
+                                        },
+                                        {
+                                          "command": "EVENT_TEXT",
+                                          "args": {
+                                            "text": [
+                                              "save sucessful"
+                                            ],
+                                            "avatarId": ""
+                                          },
+                                          "id": "5bc61c89-9fc8-498f-9993-fca053805a26"
+                                        }
+                                      ]
+                                    },
+                                    "id": "0428d1c2-d8ac-4447-890c-c4009e1bb54d"
+                                  }
+                                ],
+                                "false": []
+                              },
+                              "id": "4190a4f2-fd4c-4b0a-9a57-b43f70548ba9"
+                            }
+                          ],
+                          "false": [
+                            {
+                              "command": "EVENT_SAVE_DATA",
+                              "args": {
+                                "saveSlot": 2,
+                                "__scriptTabs": "save",
+                                "__collapse": false
+                              },
+                              "children": {
+                                "true": [
+                                  {
+                                    "command": "EVENT_SOUND_PLAY_EFFECT",
+                                    "args": {
+                                      "type": "e189e400-d7d1-4e57-9c36-92c51c583fe2",
+                                      "priority": "medium",
+                                      "pitch": 4,
+                                      "frequency": 200,
+                                      "duration": 0.5,
+                                      "wait": true,
+                                      "effect": 0
+                                    },
+                                    "id": "7a994a7f-ba79-4aef-b5b4-a9e3f78e3afd"
+                                  },
+                                  {
+                                    "command": "EVENT_TEXT",
+                                    "args": {
+                                      "text": [
+                                        "Save successful"
+                                      ],
+                                      "avatarId": ""
+                                    },
+                                    "id": "f44de02b-bfce-49cd-90a8-859b8e290dae"
+                                  }
+                                ]
+                              },
+                              "id": "25b868a8-e40f-4ccd-8f7b-888133fc6f0c"
+                            }
+                          ]
+                        },
+                        "id": "ce3cd69e-1ccd-4806-92c6-caa882350508"
+                      }
+                    ]
+                  },
+                  "id": "6a6dc98a-5bf4-4b9f-9e01-e2fc6a45ba22"
+                }
+              ]
+            },
+            "id": "e333eb6b-4f5e-40bb-ab0f-98780b50c8a2"
+          }
+        ]
+      },
+      "id": "204f11a1-8d16-4d2c-8b98-5684c7c8a29e"
+    }
+  ]
+}

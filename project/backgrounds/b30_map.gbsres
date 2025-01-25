@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "67afc423-0975-4d2f-8d85-189cc76411df",
+  "name": "B30 Map",
+  "symbol": "bg_b30_map",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144,
+  "filename": "B30 Map.png",
+  "tileColors": "",
+  "autoColor": false
+}

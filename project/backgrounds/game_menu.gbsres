@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "959f7165-2134-4ef6-afa6-8f9e69512af6",
+  "name": "game menu",
+  "symbol": "bg_game_menu",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144,
+  "filename": "game menu.png",
+  "tileColors": "",
+  "autoColor": false
+}

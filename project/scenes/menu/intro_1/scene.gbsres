@@ -1,0 +1,90 @@
+{
+  "_resourceType": "scene",
+  "id": "ad9f5190-c5f4-4666-811e-c3cf35baf3b1",
+  "_index": 33,
+  "name": "Menu/intro 1",
+  "backgroundId": "3a7218ac-e621-4d3b-8a0a-7a0450c9344a",
+  "tilesetId": "",
+  "width": 20,
+  "height": 18,
+  "type": "TOPDOWN",
+  "paletteIds": [],
+  "spritePaletteIds": [],
+  "collisions": "00168+",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_34",
+  "x": 424,
+  "y": 32,
+  "script": [
+    {
+      "command": "EVENT_SET_INPUT_SCRIPT",
+      "args": {
+        "input": [
+          "b",
+          "left",
+          "up",
+          "down",
+          "right",
+          "a",
+          "start",
+          "select"
+        ],
+        "override": false,
+        "__scriptTabs": "press",
+        "__collapse": true
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_SWITCH_SCENE",
+            "args": {
+              "sceneId": "8d7d0477-8fe2-498d-8d3c-33b800fc026f",
+              "x": {
+                "type": "number",
+                "value": 0
+              },
+              "y": {
+                "type": "number",
+                "value": 0
+              },
+              "direction": "",
+              "fadeSpeed": "2"
+            },
+            "id": "ed23c9d8-7a7d-418e-af22-055b7ae933cf"
+          }
+        ]
+      },
+      "id": "30e2032b-78bb-40e0-872a-79ea92c0c35a"
+    },
+    {
+      "command": "EVENT_WAIT",
+      "args": {
+        "time": 3,
+        "frames": 30,
+        "__collapse": false
+      },
+      "id": "3eba1827-a223-4c72-867a-be54a9da851d"
+    },
+    {
+      "command": "EVENT_SWITCH_SCENE",
+      "args": {
+        "sceneId": "30f822a0-a446-45d1-a966-d6c431867ff0",
+        "x": {
+          "type": "number",
+          "value": 0
+        },
+        "y": {
+          "type": "number",
+          "value": 0
+        },
+        "direction": "",
+        "fadeSpeed": "2",
+        "__collapse": true
+      },
+      "id": "44c28c2b-4aca-4416-9134-876e41dd1725"
+    }
+  ],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": []
+}

@@ -1,0 +1,30 @@
+{
+  "_resourceType": "actorPrefab",
+  "id": "e597c57f-f439-4eab-ade5-ca9b2443cd02",
+  "name": "Rebar wall",
+  "frame": 0,
+  "animate": false,
+  "spriteSheetId": "694c559c-806b-4c27-9605-4646329a17e4",
+  "moveSpeed": 1,
+  "animSpeed": 15,
+  "paletteId": "",
+  "persistent": false,
+  "collisionGroup": "1",
+  "prefabScriptOverrides": {},
+  "_index": 1,
+  "script": [],
+  "startScript": [],
+  "updateScript": [],
+  "hit1Script": [],
+  "hit2Script": [
+    {
+      "command": "EVENT_ACTOR_DEACTIVATE",
+      "args": {
+        "actorId": "$self$"
+      },
+      "id": "06cd9550-a32f-488d-a26b-80bbd4497aa8",
+      "children": {}
+    }
+  ],
+  "hit3Script": []
+}

@@ -1,0 +1,201 @@
+{
+  "_resourceType": "scene",
+  "id": "b4627dcd-b771-489c-87d4-33a177e5eed9",
+  "_index": 2,
+  "name": "Intro/room1",
+  "backgroundId": "4610cb8e-c5f3-4140-8ffe-9185aef01061",
+  "tilesetId": "",
+  "width": 40,
+  "height": 40,
+  "type": "TOPDOWN",
+  "paletteIds": [],
+  "spritePaletteIds": [
+    "16c40f8a-2572-424e-8ddf-d736a7e430e5",
+    "9c1ca6f3-9fe1-49a6-b094-a3fec96b96d7",
+    "c1a7e80c-fa7b-45a3-8a2c-0c73dd3acb3d"
+  ],
+  "collisions": "0038a+0fa+001e+0f!008+0f!001e+0f!008+0f!001e+0f!008+0f!001e+0f!008+0f!001e+0f!008+0f!001e+0f!008+0f!001e+0f!008+0f!001e+0f!008+0f!001e+0f!008+0f!001e+0fa+0011c+",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_3",
+  "x": 64,
+  "y": 896,
+  "script": [
+    {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "2",
+        "value": {
+          "type": "number",
+          "value": 50
+        }
+      },
+      "id": "fb0a0f22-9edd-480f-85c7-254cc0a514e9"
+    },
+    {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "3",
+        "value": {
+          "type": "number",
+          "value": 50
+        }
+      },
+      "id": "ca3c06e6-5e4c-4bef-936f-570a7e7abe36"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "where Am I...am\nI dead...no...\nlets see after",
+          "knocking my \nsister \nUnconscious.a ",
+          "smoke being came\nout and hit me",
+          "...I can't \nremember \nanything else"
+        ],
+        "__section": "text",
+        "avatarId": "9e33c0c8-20c4-4b19-8786-a520f8ff0d61",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30
+      },
+      "id": "5366529a-36d5-430c-8645-7da440cd91f3"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "use the dpad to \nmove(arrow keys \nbrowser version)",
+          "press the @ button\nto interact(z \nBrowser version)"
+        ],
+        "__section": "text",
+        "avatarId": "",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30
+      },
+      "id": "c5f3248a-f0e6-4545-b9b0-57b1a2a7f8eb"
+    },
+    {
+      "command": "EVENT_GROUP",
+      "args": {},
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_PREP_MENU",
+            "args": {
+              "xnoverlay": 0,
+              "ynoverlay": 16,
+              "color": "black",
+              "xoverlay": 0,
+              "yoverlay": 0,
+              "overlayw": 20,
+              "overlayh": 2,
+              "xsource": 0,
+              "ysource": 38
+            },
+            "id": "2149142d-6b8d-4eb2-8d30-83c069961396"
+          },
+          {
+            "command": "EVENT_SET_VALUE",
+            "args": {
+              "variable": "4",
+              "value": {
+                "type": "number",
+                "value": 1
+              }
+            },
+            "id": "93abb19d-3352-41bc-be67-d3ea9fa1010c"
+          },
+          {
+            "command": "EVENT_CALL_CUSTOM_EVENT",
+            "args": {
+              "customEventId": "a0f63380-278a-478d-b9dc-8f0e27a21a8b",
+              "$variable[V0]$": {
+                "type": "number",
+                "value": 38
+              }
+            },
+            "id": "fb44c3f2-fa88-460d-8c70-15f151048f2c"
+          },
+          {
+            "command": "EVENT_SET_TIMER_SCRIPT",
+            "args": {
+              "timer": 1,
+              "duration": 0.5,
+              "frames": 30,
+              "__scriptTabs": "end"
+            },
+            "children": {
+              "script": [
+                {
+                  "command": "EVENT_SET_VALUE",
+                  "args": {
+                    "variable": "0",
+                    "value": {
+                      "type": "mod",
+                      "valueA": {
+                        "type": "add",
+                        "valueA": {
+                          "type": "variable",
+                          "value": "0"
+                        },
+                        "valueB": {
+                          "type": "number",
+                          "value": 1
+                        }
+                      },
+                      "valueB": {
+                        "type": "number",
+                        "value": 3
+                      }
+                    },
+                    "__comment": true
+                  },
+                  "id": "cfcf84ae-a5fc-427a-bfd9-7638bd854676"
+                },
+                {
+                  "command": "EVENT_CALL_CUSTOM_EVENT",
+                  "args": {
+                    "customEventId": "a0f63380-278a-478d-b9dc-8f0e27a21a8b",
+                    "$variable[V0]$": {
+                      "type": "number",
+                      "value": 38
+                    }
+                  },
+                  "id": "4377ce0b-a4e8-491c-a6cf-41ffe2d10835"
+                }
+              ]
+            },
+            "id": "b4c60f76-f078-43bc-b599-abce3f7d8cbc"
+          }
+        ]
+      },
+      "id": "ea4377c0-7d2d-409c-a380-cbbafb5be4ac"
+    }
+  ],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": [],
+  "playerSpriteSheetId": "b4c1e566-2a0e-4f19-8f71-0366c4332521"
+}

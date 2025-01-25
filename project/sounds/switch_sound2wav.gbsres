@@ -1,0 +1,8 @@
+{
+  "_resourceType": "sound",
+  "id": "d89ce6f0-764f-440e-8a33-04627038bed8",
+  "name": "switch_sound2.wav",
+  "symbol": "sound_switch_sound2_wav",
+  "filename": "switch_sound2.wav",
+  "type": "wav"
+}

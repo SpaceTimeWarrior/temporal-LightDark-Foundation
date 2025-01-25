@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "8764ea6b-b738-4f27-b5b4-b420f2882d30",
+  "name": "B29 cafeteria",
+  "symbol": "bg_b29_cafeteria",
+  "width": 80,
+  "height": 72,
+  "imageWidth": 640,
+  "imageHeight": 576,
+  "filename": "B29 cafeteria.png",
+  "tileColors": "",
+  "autoColor": false
+}

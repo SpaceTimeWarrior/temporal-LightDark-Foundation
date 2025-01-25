@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "63e19f27-7c1a-4340-ae3d-a245ce082ea3",
+  "name": "B31 MAP",
+  "symbol": "bg_b31_map",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144,
+  "filename": "B31 MAP.png",
+  "tileColors": "",
+  "autoColor": false
+}

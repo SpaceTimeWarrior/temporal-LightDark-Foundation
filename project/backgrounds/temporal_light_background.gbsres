@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "1501481f-1191-4408-98af-66902b7d04c6",
+  "name": "temporal_light_background",
+  "symbol": "bg_temporal_light_backgroun",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144,
+  "filename": "temporal_light_background.png",
+  "tileColors": "",
+  "autoColor": false
+}

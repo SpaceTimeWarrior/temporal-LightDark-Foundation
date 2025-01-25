@@ -6,13 +6,36 @@
   "variables": {
     "V0": {
       "id": "V0",
-      "name": "Variable A",
+      "name": "Thread",
       "passByReference": true
+    },
+    "V1": {
+      "id": "V1",
+      "name": "Variable B",
+      "passByReference": false
     }
   },
   "actors": {},
   "symbol": "script_2",
   "script": [
+    {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "2",
+        "value": {
+          "type": "sub",
+          "valueA": {
+            "type": "variable",
+            "value": "2"
+          },
+          "valueB": {
+            "type": "variable",
+            "value": "V1"
+          }
+        }
+      },
+      "id": "70ee16a7-8f07-4818-8748-4be8476af5b9"
+    },
     {
       "command": "EVENT_THREAD_START",
       "args": {
@@ -21,13 +44,6 @@
       },
       "children": {
         "true": [
-          {
-            "command": "EVENT_DEC_VALUE",
-            "args": {
-              "variable": "2"
-            },
-            "id": "9cff996f-e0a5-460e-b63e-53236cbc1a2d"
-          },
           {
             "command": "EVENT_IF",
             "args": {
@@ -42,7 +58,7 @@
                   "value": 0
                 }
               },
-              "__collapseElse": true,
+              "__collapseElse": false,
               "__collapse": false
             },
             "children": {
@@ -65,7 +81,21 @@
                   "id": "0095e870-5d94-4d7f-ad1b-fae79db16217"
                 }
               ],
-              "false": []
+              "false": [
+                {
+                  "command": "EVENT_SOUND_PLAY_EFFECT",
+                  "args": {
+                    "type": "c79381e6-2630-4490-a9ea-5bacd638f352",
+                    "priority": "medium",
+                    "pitch": 4,
+                    "frequency": 200,
+                    "duration": 0.5,
+                    "wait": true,
+                    "effect": 0
+                  },
+                  "id": "1862c123-233b-4b24-9b77-d92c502f0e0c"
+                }
+              ]
             },
             "id": "0ba8956f-d6a4-45e4-849c-255228abbf3a"
           },

@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "578d6a47-1778-4363-a875-49fe364444ad",
+  "name": "B30 Boss Room",
+  "symbol": "bg_b30_boss_room",
+  "width": 40,
+  "height": 80,
+  "imageWidth": 320,
+  "imageHeight": 640,
+  "filename": "B30 Boss Room.png",
+  "tileColors": "",
+  "autoColor": false
+}

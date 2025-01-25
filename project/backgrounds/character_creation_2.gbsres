@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "09fc55bc-2e7f-436f-a5db-ef5f224b311a",
+  "name": "character creation 2",
+  "symbol": "bg_character_creation_2",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144,
+  "filename": "character creation 2.png",
+  "tileColors": "",
+  "autoColor": false
+}

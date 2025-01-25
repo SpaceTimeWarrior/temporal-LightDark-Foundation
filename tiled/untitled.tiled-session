@@ -3,40 +3,72 @@
         "height": 4300,
         "width": 2
     },
-    "activeFile": "B31 stairs exit blackout.tmx",
+    "activeFile": "B29 stair access 2.tmx",
     "expandedProjectPaths": [
     ],
     "fileStates": {
+        "B29 cafeteria.tmx": {
+            "scale": 3,
+            "selectedLayer": 1,
+            "viewCenter": {
+                "x": 320,
+                "y": 288
+            }
+        },
+        "B29 stair access 2.tmx": {
+            "scale": 2.8335069444444443,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 77.64230132957539,
+                "y": 143.99117701121256
+            }
+        },
+        "B29 stair access.tmx": {
+            "scale": 2.5857812499999997,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 160.1063508369086,
+                "y": 143.86367756359903
+            }
+        },
+        "B30 Boss Room.tmx": {
+            "scale": 1,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 160,
+                "y": 320
+            }
+        },
         "B31 button room 2.tmx": {
             "scale": 5.171562499999999,
             "selectedLayer": 1,
             "viewCenter": {
-                "x": 57.62281708864586,
-                "y": 63.23040667109795
+                "x": 80.0531754184543,
+                "y": 71.93183878179951
             }
         },
         "B31 office 1.tmx": {
             "scale": 4,
             "selectedLayer": 0,
             "viewCenter": {
-                "x": 200,
-                "y": 89.75
+                "x": 320,
+                "y": 144
             }
         },
         "B31 office 2.tmx": {
             "scale": 2,
             "selectedLayer": 1,
             "viewCenter": {
-                "x": 102.5,
-                "y": 195.5
+                "x": 320,
+                "y": 144
             }
         },
         "B31 save room.tmx": {
             "scale": 2.5857812499999997,
             "selectedLayer": 0,
             "viewCenter": {
-                "x": 282.31313070276155,
-                "y": 177.50921505831172
+                "x": 160.1063508369086,
+                "y": 143.86367756359903
             }
         },
         "B31 stairs enter.tmx": {
@@ -53,6 +85,14 @@
             "viewCenter": {
                 "x": 78.312888996314,
                 "y": 65.55078856728505
+            }
+        },
+        "B31 stairs exit.tmx": {
+            "scale": 5.171562499999999,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 80.0531754184543,
+                "y": 71.93183878179951
             }
         },
         "B32 Boss Room.tmx": {
@@ -79,6 +119,14 @@
                 "y": 71.93183878179951
             }
         },
+        "Game over.tmx": {
+            "scale": 5.171562499999999,
+            "selectedLayer": 3,
+            "viewCenter": {
+                "x": 80.0531754184543,
+                "y": 71.93183878179951
+            }
+        },
         "Temporal Light/temporal_light_tileset.tsx": {
             "scaleInDock": 3,
             "scaleInEditor": 1
@@ -86,6 +134,14 @@
         "Temporal Light/temporal_light_tileset2.tsx": {
             "scaleInDock": 3,
             "scaleInEditor": 1
+        },
+        "barraks access.tmx": {
+            "scale": 1.2928906249999998,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 320.2127016738172,
+                "y": 143.86367756359905
+            }
         },
         "conference chamber.tmx": {
             "scale": 5.171562499999999,
@@ -115,6 +171,14 @@
             "scaleInDock": 3,
             "scaleInEditor": 1
         },
+        "load game.tmx": {
+            "scale": 5.171562499999999,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 80.0531754184543,
+                "y": 71.93183878179951
+            }
+        },
         "locker room.tmx": {
             "scale": 1.7238541666666667,
             "selectedLayer": 0,
@@ -129,7 +193,7 @@
     "map.lastUsedFormat": "tmx",
     "map.tileHeight": 16,
     "map.tileWidth": 16,
-    "map.width": 40,
+    "map.width": 10,
     "openFiles": [
         "Temporal Light/temporal_light_tileset.tsx",
         "kenny art modified/Kenny Art.tsx",
@@ -145,7 +209,15 @@
         "B31 save room.tmx",
         "B31 office 1.tmx",
         "B31 button room 2.tmx",
-        "B31 stairs exit blackout.tmx"
+        "B31 stairs exit.tmx",
+        "B31 office 2.tmx",
+        "B30 Boss Room.tmx",
+        "Game over.tmx",
+        "load game.tmx",
+        "B29 stair access.tmx",
+        "B29 cafeteria.tmx",
+        "barraks access.tmx",
+        "B29 stair access 2.tmx"
     ],
     "project": "untitled.tiled-project",
     "recentFiles": [

@@ -8,5 +8,6 @@
   "imageWidth": 640,
   "imageHeight": 288,
   "filename": "B31 office 2.png",
-  "tileColors": ""
+  "tileColors": "",
+  "autoColor": false
 }

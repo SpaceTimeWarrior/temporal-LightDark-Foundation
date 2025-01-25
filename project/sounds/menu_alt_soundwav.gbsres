@@ -1,0 +1,8 @@
+{
+  "_resourceType": "sound",
+  "id": "69d2ee49-b6e0-42c0-b005-4cc5cff010d3",
+  "name": "menu_alt_sound.wav",
+  "symbol": "sound_menu_alt_sound_wav",
+  "filename": "menu_alt_sound.wav",
+  "type": "wav"
+}

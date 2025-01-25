@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "959f4aa4-4820-484f-8db7-03c75f309fa4",
+  "name": "load game",
+  "symbol": "bg_load_game",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144,
+  "filename": "load game.png",
+  "tileColors": "",
+  "autoColor": false
+}

@@ -1,0 +1,95 @@
+{
+  "_resourceType": "trigger",
+  "id": "7e468e18-9a07-4df2-9426-aea517f9cc5c",
+  "name": "",
+  "prefabId": "",
+  "x": 27,
+  "y": 26,
+  "symbol": "trigger_0",
+  "prefabScriptOverrides": {},
+  "width": 1,
+  "height": 2,
+  "script": [
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "press @ to punch\n   the glass"
+        ],
+        "__section": "layout",
+        "avatarId": "",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": 0,
+        "speedOut": 0,
+        "closeWhen": "notModal",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30
+      },
+      "id": "1e90834f-0a99-48d2-901d-5b7b044ac8dc"
+    },
+    {
+      "command": "EVENT_SET_INPUT_SCRIPT",
+      "args": {
+        "input": [
+          "a"
+        ],
+        "override": true,
+        "__scriptTabs": "press"
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_DIALOGUE_CLOSE_NONMODAL",
+            "args": {
+              "speed": 0
+            },
+            "id": "3b01132a-82b8-43a9-96b6-87aaa8d3ad84"
+          },
+          {
+            "command": "EVENT_SWITCH_SCENE",
+            "args": {
+              "sceneId": "a62a552d-bbf9-40ac-9e2d-4964b2ac8041",
+              "x": {
+                "type": "number",
+                "value": 27
+              },
+              "y": {
+                "type": "number",
+                "value": 27
+              },
+              "direction": "",
+              "fadeSpeed": "2"
+            },
+            "id": "8fad9bc4-8abf-481c-8c68-1f02e1cc3d28"
+          }
+        ]
+      },
+      "id": "78f4fdef-7153-407e-bb1c-91f0343dc83b"
+    }
+  ],
+  "leaveScript": [
+    {
+      "command": "EVENT_CALL_CUSTOM_EVENT",
+      "args": {
+        "customEventId": "9debfc2d-8ff5-4052-90a5-66d1fa0d3f62"
+      },
+      "id": "f3e6b7c0-a8d0-42bd-a5fb-f07974751909"
+    },
+    {
+      "command": "EVENT_DIALOGUE_CLOSE_NONMODAL",
+      "args": {
+        "speed": 0
+      },
+      "id": "985690cf-b71c-438a-89c5-1ef1613a458c"
+    }
+  ],
+  "_index": 0
+}

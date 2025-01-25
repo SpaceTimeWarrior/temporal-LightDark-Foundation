@@ -189,6 +189,82 @@
       "symbol": "var_enemy_cooldown_4"
     },
     {
+      "id": "36",
+      "name": "B31 and B30 flags",
+      "symbol": "var_b31_and_b30_flags",
+      "flags": {
+        "flag1": "B31 Generator Flag 1",
+        "flag2": "B31 Generator Flag 2",
+        "flag3": "B31 Dialog Flag",
+        "flag4": "b30 boss defeated"
+      }
+    },
+    {
+      "id": "37",
+      "name": "enemy HP 5",
+      "symbol": "var_enemy_hp_5"
+    },
+    {
+      "id": "38",
+      "name": "Enemy Cooldown 5",
+      "symbol": "var_enemy_cooldown_5"
+    },
+    {
+      "id": "39",
+      "name": "Marchers killed",
+      "symbol": "var_marchers_killed"
+    },
+    {
+      "id": "40",
+      "name": "turrets killed",
+      "symbol": "var_turrets_killed"
+    },
+    {
+      "id": "41",
+      "name": "last face",
+      "symbol": "var_last_face"
+    },
+    {
+      "id": "42",
+      "name": "Last HP",
+      "symbol": "var_last_hp"
+    },
+    {
+      "id": "43",
+      "name": "Last MP",
+      "symbol": "var_last_mp"
+    },
+    {
+      "id": "44",
+      "name": "Last action",
+      "symbol": "var_last_action"
+    },
+    {
+      "id": "45",
+      "name": "last character",
+      "symbol": "var_last_character"
+    },
+    {
+      "id": "46",
+      "name": "save slot",
+      "symbol": "var_save_slot"
+    },
+    {
+      "id": "47",
+      "name": "floor number",
+      "symbol": "var_floor_number"
+    },
+    {
+      "id": "48",
+      "name": "bossx",
+      "symbol": "var_bossx"
+    },
+    {
+      "id": "49",
+      "name": "bossy",
+      "symbol": "var_bossy"
+    },
+    {
       "id": "164a583e-2486-45e0-988d-61bcc90cd82c__L0",
       "name": "Local 0",
       "symbol": "var_local_0"
@@ -234,33 +310,64 @@
       "symbol": "var_local_8"
     },
     {
-      "id": "36",
-      "name": "B31 and B30 flags",
-      "symbol": "var_b31_and_b30_flags",
-      "flags": {
-        "flag1": "B31 Generator Flag 1",
-        "flag2": "B31 Generator Flag 2"
-      }
-    },
-    {
       "id": "d565c5ea-003b-42d0-867e-82a3a6f3bbea__L0",
       "name": "Local 0",
-      "symbol": "var_local_9"
-    },
-    {
-      "id": "37",
-      "name": "enemy HP 5",
-      "symbol": "var_enemy_hp_5"
-    },
-    {
-      "id": "38",
-      "name": "Enemy Cooldown 5",
-      "symbol": "var_enemy_cooldown_5"
+      "symbol": "var_local_10"
     },
     {
       "id": "7a7856ea-61d3-487a-9f0d-7b84bd031fef__L0",
       "name": "Local 0",
-      "symbol": "var_local_10"
+      "symbol": "var_local_9"
+    },
+    {
+      "id": "56ed8e46-a463-4ffb-8662-ede0c065b39d__L0",
+      "name": "Local 0",
+      "symbol": "var_local_11"
+    },
+    {
+      "id": "1747943a-997b-443c-914c-643b78e7b384__L0",
+      "name": "Local 0",
+      "symbol": "var_local_12"
+    },
+    {
+      "id": "66800714-0428-40ec-aee9-9b017152dc9e__L0",
+      "name": "Local 0",
+      "symbol": "var_local_13"
+    },
+    {
+      "id": "ffef249d-bf82-49b6-8922-0a98a19d2058__L0",
+      "name": "Local 0",
+      "symbol": "var_local_14"
+    },
+    {
+      "id": "2bf4ff45-b338-4053-9dd8-11e8800ebfa3__L0",
+      "name": "Local 0",
+      "symbol": "var_local_15"
+    },
+    {
+      "id": "b6d129a1-9877-4bfe-aedc-e29083e87ee0__L0",
+      "name": "Local 0",
+      "symbol": "var_local_16"
+    },
+    {
+      "id": "eee994a0-b444-45a2-93c0-64981bc2e743__L0",
+      "name": "Local 0",
+      "symbol": "var_local_17"
+    },
+    {
+      "id": "55b1a0f4-b559-4513-b401-bc20c8c06c92__L0",
+      "name": "Local 0",
+      "symbol": "var_local_18"
+    },
+    {
+      "id": "1ce19ea4-af4e-4c91-b1f4-62b051201b9b__L0",
+      "name": "Local 0",
+      "symbol": "var_local_19"
+    },
+    {
+      "id": "021abe18-8433-4b80-a0cd-71b3b3299f52__L0",
+      "name": "Local 0",
+      "symbol": "var_local_20"
     }
   ]
 }

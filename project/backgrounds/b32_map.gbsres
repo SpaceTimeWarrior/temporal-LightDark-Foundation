@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "0ac06f55-aaab-443c-aa9c-0b7c2f99462c",
+  "name": "B32 Map",
+  "symbol": "bg_b32_map",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144,
+  "filename": "B32 Map.png",
+  "tileColors": "",
+  "autoColor": false
+}
