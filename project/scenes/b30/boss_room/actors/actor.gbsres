@@ -107,11 +107,38 @@
             "id": "f62fe9af-ec29-42af-9068-9bd9e99dc116"
           },
           {
-            "command": "EVENT_MUSIC_PLAY",
+            "command": "EVENT_GROUP",
             "args": {
-              "musicId": "a313f416-c5da-401c-8426-2be3e4397f76"
+              "__collapse": false,
+              "__label": "music event group"
             },
-            "id": "5b276a7e-dc03-49d7-93fd-82098a2eb3cb"
+            "children": {
+              "true": [
+                {
+                  "command": "EVENT_SET_VALUE",
+                  "args": {
+                    "variable": "66",
+                    "value": {
+                      "type": "number",
+                      "value": 2
+                    }
+                  },
+                  "id": "043faa9f-1728-420c-976b-4b04a014565d"
+                },
+                {
+                  "command": "EVENT_CALL_CUSTOM_EVENT",
+                  "args": {
+                    "customEventId": "080afb89-b806-4257-bd9d-e6eab0c2fc30",
+                    "$variable[V0]$": {
+                      "type": "variable",
+                      "value": "66"
+                    }
+                  },
+                  "id": "c66163bd-9ca6-4f75-b612-a8f9ec82db1e"
+                }
+              ]
+            },
+            "id": "ed0ac43b-fb69-4931-a2da-fe76c52520f2"
           },
           {
             "command": "EVENT_CAMERA_LOCK",

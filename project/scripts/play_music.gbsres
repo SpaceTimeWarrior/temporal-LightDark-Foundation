@@ -1,8 +1,8 @@
 {
   "_resourceType": "script",
-  "id": "b9734fb4-8d41-4b31-b0d2-4d0b87091fd0",
+  "id": "080afb89-b806-4257-bd9d-e6eab0c2fc30",
   "name": "play music",
-  "description": "",
+  "description": "variable being taken in is music id which determines which music is going to be played\n1:spacetime title\n2.spacetime battles\n3.lunabound",
   "variables": {
     "V0": {
       "id": "V0",
@@ -11,7 +11,7 @@
     }
   },
   "actors": {},
-  "symbol": "script_13",
+  "symbol": "script_14",
   "script": [
     {
       "command": "EVENT_IF",
@@ -34,7 +34,7 @@
           {
             "command": "EVENT_MUSIC_STOP",
             "args": {},
-            "id": "180c76d2-9b0b-44e2-8f66-e1569fef4d6c"
+            "id": "a894dc75-fd14-48dc-8f65-6c072ed9dad4"
           }
         ],
         "false": [
@@ -86,7 +86,7 @@
                     "l": 1,
                     "r": 1
                   },
-                  "id": "0a34a18d-2060-43a1-967c-3b98599a0199"
+                  "id": "cf042a07-6c32-47ce-9f59-c3333559eb84"
                 }
               ],
               "true1": [
@@ -96,7 +96,7 @@
                     "l": 2,
                     "r": 2
                   },
-                  "id": "cb9ddbfc-c163-4d7b-ad9e-972c03f25b6c"
+                  "id": "b055ba8d-5f11-47ad-ab47-7cf8d9ebad89"
                 }
               ],
               "true2": [
@@ -106,7 +106,7 @@
                     "l": 3,
                     "r": 3
                   },
-                  "id": "64d4912e-fa3c-4cd1-9508-1634583b1918"
+                  "id": "47074fa2-dd64-459d-8fe5-8cbd410124a4"
                 }
               ],
               "true3": [
@@ -116,7 +116,7 @@
                     "l": 4,
                     "r": 4
                   },
-                  "id": "7493bd3f-b5f1-41d6-b1f0-7a8362ea7681"
+                  "id": "fe7f6c12-217b-4240-b977-00c640161b5b"
                 }
               ],
               "true4": [
@@ -126,7 +126,7 @@
                     "l": 5,
                     "r": 5
                   },
-                  "id": "be3752a1-eaa0-4cfe-84b9-5b32249cf0ab"
+                  "id": "1c104db4-d438-4cd3-8a3d-1761014cc9d6"
                 }
               ],
               "true5": [
@@ -136,7 +136,7 @@
                     "l": 6,
                     "r": 6
                   },
-                  "id": "876aca1b-b42f-4b87-9115-b0d0606d341b"
+                  "id": "6055be44-64f7-4682-8855-0110855e204e"
                 }
               ],
               "true6": [],
@@ -156,11 +156,11 @@
                     "l": 7,
                     "r": 7
                   },
-                  "id": "cee790dd-4fef-4c29-bbb4-6951d2c5d033"
+                  "id": "b48f007f-1ffd-4953-833b-38bf24d2c9af"
                 }
               ]
             },
-            "id": "367b72ee-f4aa-4757-97f7-366d80fe6f00"
+            "id": "8223a214-3820-4b36-8364-0f1965960834"
           },
           {
             "command": "EVENT_SWITCH",
@@ -209,7 +209,7 @@
                   "args": {
                     "musicId": "1ea2c9f2-d426-47a5-b640-f6665dc87554"
                   },
-                  "id": "30d122dd-36f8-47f1-bc32-47ed6553d079"
+                  "id": "4462014d-611a-471a-84bd-5f6f8490eb66"
                 }
               ],
               "true1": [
@@ -218,7 +218,7 @@
                   "args": {
                     "musicId": "a313f416-c5da-401c-8426-2be3e4397f76"
                   },
-                  "id": "a8449d5b-eb4a-46be-9c3b-6d896bc7f903"
+                  "id": "add26a96-8fc5-41e3-9c91-bb6c42a98cde"
                 }
               ],
               "true2": [
@@ -227,7 +227,7 @@
                   "args": {
                     "musicId": "5e98accb-e7f7-4a7f-9d5a-4f74bf73ffa7"
                   },
-                  "id": "7191f2dd-d2e5-445e-add3-eef0f00fea4e"
+                  "id": "eb3859db-81fb-4e80-9514-304fe47c1c83"
                 }
               ],
               "true3": [
@@ -236,7 +236,7 @@
                   "args": {
                     "musicId": "31a64200-061c-44e8-b062-ddedb7c76a95"
                   },
-                  "id": "9cc67ca3-e343-4a47-819c-5903f6d97cf9"
+                  "id": "6e17e08e-f03d-4764-94d0-40cc3356913d"
                 }
               ],
               "true4": [
@@ -245,7 +245,7 @@
                   "args": {
                     "musicId": "6d5d4598-0c71-4432-a3cc-602bc770bd0d"
                   },
-                  "id": "01603242-20aa-48c4-99d0-8c28e6f683e4"
+                  "id": "27866dc4-bbab-451a-96a4-8113e40c1f97"
                 }
               ],
               "true5": [
@@ -254,7 +254,7 @@
                   "args": {
                     "musicId": "089b6f5a-45ce-40da-bb4b-d8146d69c941"
                   },
-                  "id": "5c587d83-d96c-43c3-a3de-32588495d182"
+                  "id": "178fd9f7-7f78-4904-b64f-bc3566027548"
                 }
               ],
               "true6": [
@@ -263,7 +263,7 @@
                   "args": {
                     "musicId": "7f5bce78-a133-4a67-8a30-8ad7cb923bb9"
                   },
-                  "id": "68376021-4805-4a57-86a7-5e2b93573c22"
+                  "id": "1a2bce2f-4561-4548-9b26-3f0787ed9d54"
                 }
               ],
               "true7": [
@@ -272,7 +272,7 @@
                   "args": {
                     "musicId": "354db435-4564-4ca1-a1d0-02c2c5119626"
                   },
-                  "id": "44a6c3a9-4fa0-44b2-838b-555d10606085"
+                  "id": "2da16169-d9d5-49a9-a5a4-8544a941d4ef"
                 }
               ],
               "true8": [
@@ -281,7 +281,7 @@
                   "args": {
                     "musicId": "eadc8ba3-ccce-4afb-a82a-116ee0c68043"
                   },
-                  "id": "9246e857-e9e8-47a2-8e99-8f0d6098adff"
+                  "id": "5b2aa4b9-a8ea-4dc6-8569-5ba4dcbce2da"
                 }
               ],
               "true9": [
@@ -290,7 +290,7 @@
                   "args": {
                     "musicId": "441424b7-df6d-42fa-8378-efa1ca89f2dc"
                   },
-                  "id": "7cfff1e2-4345-4f8a-a60d-0a56b1696179"
+                  "id": "5e31de13-ecdf-4367-9124-a752e5b8e949"
                 }
               ],
               "true10": [
@@ -299,7 +299,7 @@
                   "args": {
                     "musicId": "0c7b00e8-c8dc-4758-92bf-1f28791225fb"
                   },
-                  "id": "d1d0290a-00bd-4ca7-859f-47e7f1f2f8c3"
+                  "id": "765c0592-46ab-4d26-be43-ef2cc8b94e39"
                 }
               ],
               "true11": [
@@ -308,7 +308,7 @@
                   "args": {
                     "musicId": "95280d98-293e-45a1-b478-4b147c096dd5"
                   },
-                  "id": "02853bce-b0db-4161-9feb-e65c5aa3c139"
+                  "id": "1ec3a348-f44f-4183-bce0-b6cb145e91a7"
                 }
               ],
               "true12": [
@@ -317,7 +317,7 @@
                   "args": {
                     "musicId": "ae3f61af-8ae4-4e4b-8e34-f9744fccfa54"
                   },
-                  "id": "31292e53-a21e-4ba8-a87f-5fb26448f4ae"
+                  "id": "d9d19c55-4ec8-4fd5-aed7-b4577046012a"
                 }
               ],
               "true13": [
@@ -326,7 +326,7 @@
                   "args": {
                     "musicId": "3d4a4064-afce-4a9b-9b60-62b6a8f3636f"
                   },
-                  "id": "6314af4f-aac5-4618-84d4-ea7be069b588"
+                  "id": "4c1e099e-3fda-4484-ae5c-daafddb541ea"
                 }
               ],
               "true14": [
@@ -335,7 +335,7 @@
                   "args": {
                     "musicId": "311f4374-6b7e-4b37-9034-74ab8f0e84ae"
                   },
-                  "id": "727c2a0e-454a-48df-ab96-d40b75d6b9f5"
+                  "id": "71e95835-1765-4b48-a199-bea76d6f0a8c"
                 }
               ],
               "true15": [
@@ -344,16 +344,16 @@
                   "args": {
                     "musicId": "2b6df65c-22ae-459f-870f-492fabe0e83e"
                   },
-                  "id": "c4e3ffbf-6005-4182-969e-090ea36ec2aa"
+                  "id": "d7c4af12-d5c6-451c-ad0d-ecbbf42c738d"
                 }
               ],
               "false": []
             },
-            "id": "d1b95eef-48ae-4d9a-b960-c30f96411f8a"
+            "id": "6b25b35c-d471-4746-a208-716f407f734c"
           }
         ]
       },
-      "id": "460903e7-0262-4b29-a5d7-89ce951fab29"
+      "id": "af77fb3c-92fd-4473-af06-e157a141ee36"
     },
     {
       "command": "EVENT_SWITCH",
@@ -446,7 +446,7 @@
                   "args": {
                     "musicId": "0a160d17-8521-4ceb-80ee-32d82151e04e"
                   },
-                  "id": "b89878e9-a5ff-4291-893e-83f4bb5110ee"
+                  "id": "039b38f7-656c-4764-b141-874f17ba009e"
                 }
               ],
               "true1": [
@@ -455,7 +455,7 @@
                   "args": {
                     "musicId": "7a23a16e-4081-4b72-be85-134be46cddbb"
                   },
-                  "id": "1bb85557-5572-4b87-bf90-4a6760d57734"
+                  "id": "48b95467-e5b1-41bb-a4ad-decfa0a6fd58"
                 }
               ],
               "true2": [
@@ -464,7 +464,7 @@
                   "args": {
                     "musicId": "3c67af96-f462-49aa-8527-47abe67ff1de"
                   },
-                  "id": "da624248-ff5c-4480-a0e6-dfc688f2abcf"
+                  "id": "112d02c3-473a-4e20-8a01-a2fb33d982a8"
                 }
               ],
               "true3": [
@@ -473,7 +473,7 @@
                   "args": {
                     "musicId": "b4e930c0-4345-4f07-b1e2-c9a64ef9193c"
                   },
-                  "id": "34040649-1abd-4e37-a504-17d85924f468"
+                  "id": "64c106e5-be82-48a5-a9f0-0bb0fc1bd755"
                 }
               ],
               "true4": [
@@ -482,7 +482,7 @@
                   "args": {
                     "musicId": "71c68ca9-8238-439a-91ca-6f4dbf5d33e2"
                   },
-                  "id": "9ebfb120-9ff6-4c3f-a918-d5058860ba57"
+                  "id": "61579867-e3b4-44ec-b8ad-774f300f433a"
                 }
               ],
               "true5": [
@@ -491,7 +491,7 @@
                   "args": {
                     "musicId": "6cc16580-ad3c-4fe2-8698-f5f8f9dfceb7"
                   },
-                  "id": "8c5226f0-7e98-43da-a375-03531004a31d"
+                  "id": "9583d61d-26e0-43df-b600-425182e56b31"
                 }
               ],
               "true6": [
@@ -500,7 +500,7 @@
                   "args": {
                     "musicId": "b8527689-a061-4d6c-b686-783e6dce7dfb"
                   },
-                  "id": "c92d30d3-9a95-4909-864a-c5a3d506a26c"
+                  "id": "bdcbc8d2-318c-4bbd-94c5-a93f43fe5619"
                 }
               ],
               "true7": [
@@ -509,7 +509,7 @@
                   "args": {
                     "musicId": "80ebb0c0-73df-4638-9c3b-59045d6109f8"
                   },
-                  "id": "828e8bb2-7a4a-43be-8296-64595ec17732"
+                  "id": "393a2bcf-4f7b-4550-8d69-0296f5c844fb"
                 }
               ],
               "true8": [
@@ -518,7 +518,7 @@
                   "args": {
                     "musicId": "cc4bebc1-45e8-4bde-affb-3214d7ac94dd"
                   },
-                  "id": "f40ea815-8e21-40f1-adc0-d64418e3e2a5"
+                  "id": "54f58257-196d-456c-b4b5-fa71d59a48dc"
                 }
               ],
               "true9": [
@@ -527,7 +527,7 @@
                   "args": {
                     "musicId": "796b8129-30c6-46f7-b2ec-20c468308c5b"
                   },
-                  "id": "4baaab9c-81c4-490c-916b-493c53a7528c"
+                  "id": "f5cc392a-7831-47ee-92dc-77c315e83eed"
                 }
               ],
               "true10": [
@@ -536,7 +536,7 @@
                   "args": {
                     "musicId": "c6cc47b7-ddb5-4946-97a7-1db8e0d86e00"
                   },
-                  "id": "e424d3cc-afd8-4319-9c31-073d26db35e7"
+                  "id": "792e6d8f-35dd-44a3-b7fa-23538ea82ea0"
                 }
               ],
               "true11": [
@@ -545,7 +545,7 @@
                   "args": {
                     "musicId": "4c6a8bbd-f660-4c8a-b8e5-9e023445a155"
                   },
-                  "id": "8e2657a7-d75f-441c-83b7-ad626d2203ea"
+                  "id": "641afc31-95b6-437c-b09f-2cf3cbb11df7"
                 }
               ],
               "true12": [
@@ -554,7 +554,7 @@
                   "args": {
                     "musicId": "bb4c36e0-9591-4e53-bbe5-5918770808ef"
                   },
-                  "id": "9b501494-ed75-41b6-828a-63041dda2e28"
+                  "id": "0fd1995a-fdc0-448e-9482-ad63510ed0f4"
                 }
               ],
               "true13": [
@@ -563,7 +563,7 @@
                   "args": {
                     "musicId": "27820cc3-52e8-4789-8c25-88b08c09674d"
                   },
-                  "id": "edd96293-159b-4b0b-b894-62051bde15fc"
+                  "id": "d81c5995-5e10-4539-92df-f0b9c23b9d5c"
                 }
               ],
               "true14": [
@@ -572,7 +572,7 @@
                   "args": {
                     "musicId": "ed8e0be0-fc26-4471-8544-b3e208723000"
                   },
-                  "id": "8833cb88-1787-4695-b0ec-f4d4951edec8"
+                  "id": "2b28da9e-9c95-43a9-90f9-fce9b80dc8bf"
                 }
               ],
               "true15": [
@@ -581,19 +581,19 @@
                   "args": {
                     "musicId": "a8ce2533-8a2c-41cd-8777-82fcbb40a8b8"
                   },
-                  "id": "f1536c52-0cb4-4be9-97f1-83b5e8e0cc9d"
+                  "id": "53bb39f2-d3cf-48a5-a971-5c05b75777e3"
                 }
               ],
               "false": []
             },
-            "id": "bbbb125f-6e32-4a1b-ad4b-310fa5ab4f7a"
+            "id": "69c7bda5-58f5-492f-9c35-30d64870d116"
           },
           {
             "command": "EVENT_GBVM_SCRIPT",
             "args": {
               "script": "VM_SOUND_MASTERVOL 02"
             },
-            "id": "9e3eadb3-d730-4052-8465-6364258db7cc"
+            "id": "f06b94ca-6749-4d81-9759-bda544a32589"
           },
           {
             "command": "EVENT_SWITCH",
@@ -642,7 +642,7 @@
                   "args": {
                     "musicId": "6cbc4cde-85df-4091-b9c0-a7418818208d"
                   },
-                  "id": "b48499ae-2e51-43ed-9800-1e913bfbf278"
+                  "id": "e136c78d-60bc-42e9-b0ef-f2bc7fa2f6b6"
                 }
               ],
               "true1": [
@@ -651,7 +651,7 @@
                   "args": {
                     "musicId": "914266f9-9b12-4dae-869f-d32d40dafd26"
                   },
-                  "id": "d5ddcd4f-e9d1-40df-9aac-92d8e545498e"
+                  "id": "8a92c60a-48ea-4885-ba5e-38d02d7a2561"
                 }
               ],
               "true2": [
@@ -660,7 +660,7 @@
                   "args": {
                     "musicId": "0d7707ba-f380-4b32-8394-cedb4676ed0e"
                   },
-                  "id": "d295eb03-e3fb-44d3-8e80-1b3b6d55a66a"
+                  "id": "668d1d57-fa14-44e6-8991-dc4459632d81"
                 }
               ],
               "true3": [
@@ -669,7 +669,7 @@
                   "args": {
                     "musicId": "b630de42-0386-4dfe-a1a7-0cc6106782e4"
                   },
-                  "id": "b865b808-be48-403c-a209-011b8b2c2836"
+                  "id": "0e569cc6-c21a-4732-a7ae-135d0a128677"
                 }
               ],
               "true4": [
@@ -678,7 +678,7 @@
                   "args": {
                     "musicId": "c2e4954e-a097-45cd-a33b-b331703a08a7"
                   },
-                  "id": "b69c7457-096f-4255-ab53-017aab1a2155"
+                  "id": "e8307f7c-0d32-469c-a530-6677ba9b5f3c"
                 }
               ],
               "true5": [
@@ -687,7 +687,7 @@
                   "args": {
                     "musicId": "80e4e2ad-4ee4-447c-8d40-19af449d2991"
                   },
-                  "id": "883cfeb2-697e-46ca-8053-6848a37aa7eb"
+                  "id": "28fcd7c9-b09a-4d60-bc5a-cf4c3f2e3c09"
                 }
               ],
               "true6": [
@@ -696,7 +696,7 @@
                   "args": {
                     "musicId": "d59b90c5-0d5a-44c5-815d-880c9b7804e8"
                   },
-                  "id": "9c4b48d2-3cef-480a-89f4-c607d101c445"
+                  "id": "88feb89b-3b9c-4be6-be9d-36e5376b1380"
                 }
               ],
               "true7": [
@@ -705,7 +705,7 @@
                   "args": {
                     "musicId": "8d0f48c0-e5f0-472d-8fdc-df11c84e4aef"
                   },
-                  "id": "26ed2f66-85bb-40b3-8c50-df5d025d480a"
+                  "id": "64956acf-670c-45d2-994e-7d1416956b60"
                 }
               ],
               "true8": [
@@ -714,7 +714,7 @@
                   "args": {
                     "musicId": "0dbbed85-58c9-4945-8796-9fc9488dc1cf"
                   },
-                  "id": "72cba1c6-8a2b-42bb-88d2-30ed734e3891"
+                  "id": "397874e9-266c-4400-8a09-5afd66b26132"
                 }
               ],
               "true9": [
@@ -723,7 +723,7 @@
                   "args": {
                     "musicId": "4a9ac9d8-5b1d-4104-9cb3-cbb590e8e5ef"
                   },
-                  "id": "17a30102-d4bc-461b-b7fb-3a37055ad3fc"
+                  "id": "6364af80-955e-4e2f-a1e7-d312d235bf0e"
                 }
               ],
               "true10": [
@@ -732,7 +732,7 @@
                   "args": {
                     "musicId": "0bf95ca3-8207-4fae-81e1-e382eaecd347"
                   },
-                  "id": "bf09cfe1-55ea-4646-886c-08bcb54ea756"
+                  "id": "8c9f847c-e117-49aa-a73b-be27ea31a0fe"
                 }
               ],
               "true11": [
@@ -741,7 +741,7 @@
                   "args": {
                     "musicId": "9e0fe6d0-ffbf-4750-bb3e-d696165ca2ad"
                   },
-                  "id": "1beaf7e3-404e-48aa-bf46-86d7aafb100c"
+                  "id": "5d69eda1-2b48-48d2-9388-8bd35c71d899"
                 }
               ],
               "true12": [
@@ -750,7 +750,7 @@
                   "args": {
                     "musicId": "631f9382-124c-49fd-a762-811547a70a23"
                   },
-                  "id": "494d2453-7f2d-41f8-a3fe-363ca1718a54"
+                  "id": "1bf85844-e639-4e1b-9fe1-8aac66430744"
                 }
               ],
               "true13": [
@@ -759,7 +759,7 @@
                   "args": {
                     "musicId": "fe9599ab-86d9-4abc-b7f3-3fcd2c7ad9d2"
                   },
-                  "id": "0763be57-5dec-4a89-92c7-dd2ad0888607"
+                  "id": "5091a2b7-65c8-4b4e-93cc-57a4fad77015"
                 }
               ],
               "true14": [
@@ -768,7 +768,7 @@
                   "args": {
                     "musicId": "37e583ae-9a0d-431a-b097-85130011555b"
                   },
-                  "id": "0bfbcf4b-522f-44b9-b963-78360382a337"
+                  "id": "30bb2200-2ff3-4151-b870-91829a894ebf"
                 }
               ],
               "true15": [
@@ -777,12 +777,12 @@
                   "args": {
                     "musicId": "b7ade35e-1a28-48ee-886b-2626cfe24bea"
                   },
-                  "id": "69714b29-431c-438c-9712-66dcdd9e8910"
+                  "id": "58eae727-16da-4613-a731-140a4e3e849b"
                 }
               ],
               "false": []
             },
-            "id": "0d1b2d57-7c7d-4784-a90b-ed8a09840968"
+            "id": "ddbcc205-cad4-4279-9f0a-cc35b00defa9"
           }
         ],
         "true2": [
@@ -791,7 +791,7 @@
             "args": {
               "script": "VM_SOUND_MASTERVOL 07"
             },
-            "id": "2a6c782a-3185-49cf-afad-72ed729bd53f"
+            "id": "f8d23b14-8701-4b2e-94a9-17dd53b99475"
           },
           {
             "command": "EVENT_SWITCH",
@@ -840,7 +840,7 @@
                   "args": {
                     "musicId": "6cbc4cde-85df-4091-b9c0-a7418818208d"
                   },
-                  "id": "599966e7-e680-4e35-ac19-2c3b226c5357"
+                  "id": "9f132f87-0dc6-43fa-add4-fe162add4652"
                 }
               ],
               "true1": [
@@ -849,7 +849,7 @@
                   "args": {
                     "musicId": "914266f9-9b12-4dae-869f-d32d40dafd26"
                   },
-                  "id": "094d06a2-f67e-49ff-95f0-e39a58993d6b"
+                  "id": "4c58bd5a-8c44-4dec-ba98-1d88af350f00"
                 }
               ],
               "true2": [
@@ -858,7 +858,7 @@
                   "args": {
                     "musicId": "0d7707ba-f380-4b32-8394-cedb4676ed0e"
                   },
-                  "id": "9a096c56-b5f7-4c02-9299-9f0782f86979"
+                  "id": "ec3a679d-ddb6-4893-b6a1-88d86ab1a8f0"
                 }
               ],
               "true3": [
@@ -867,7 +867,7 @@
                   "args": {
                     "musicId": "b630de42-0386-4dfe-a1a7-0cc6106782e4"
                   },
-                  "id": "ab5c3dcb-66fa-4b29-9d76-825fd0be5d46"
+                  "id": "05fade3a-3c08-4787-8a6b-1cc485f0922a"
                 }
               ],
               "true4": [
@@ -876,7 +876,7 @@
                   "args": {
                     "musicId": "c2e4954e-a097-45cd-a33b-b331703a08a7"
                   },
-                  "id": "3248ce04-9ea8-4344-9a72-86a741fce711"
+                  "id": "8e0d1d7c-b43d-419d-bd77-4c3b5a97d68e"
                 }
               ],
               "true5": [
@@ -885,7 +885,7 @@
                   "args": {
                     "musicId": "80e4e2ad-4ee4-447c-8d40-19af449d2991"
                   },
-                  "id": "fb671758-46ee-4507-81f5-b4af5cd81d81"
+                  "id": "e9721f12-9b10-4fe8-bbcd-ec82c7600901"
                 }
               ],
               "true6": [
@@ -894,7 +894,7 @@
                   "args": {
                     "musicId": "d59b90c5-0d5a-44c5-815d-880c9b7804e8"
                   },
-                  "id": "875caaeb-d04c-4066-be06-559618bc9111"
+                  "id": "b39d477f-d98f-4927-bd31-441d0aca3ead"
                 }
               ],
               "true7": [
@@ -903,7 +903,7 @@
                   "args": {
                     "musicId": "8d0f48c0-e5f0-472d-8fdc-df11c84e4aef"
                   },
-                  "id": "d9f3bb6d-1cc8-4fa1-8aa0-8cbb3eed37af"
+                  "id": "42d49345-c442-42d5-8dde-5c115663a9e9"
                 }
               ],
               "true8": [
@@ -912,7 +912,7 @@
                   "args": {
                     "musicId": "0dbbed85-58c9-4945-8796-9fc9488dc1cf"
                   },
-                  "id": "d4e70f07-b6f5-438b-ae76-8fe466228baa"
+                  "id": "876086a7-2d07-4b31-ab98-addf59dff064"
                 }
               ],
               "true9": [
@@ -921,7 +921,7 @@
                   "args": {
                     "musicId": "4a9ac9d8-5b1d-4104-9cb3-cbb590e8e5ef"
                   },
-                  "id": "50a569fe-ad99-4139-8b14-9393962606c6"
+                  "id": "3fcc6848-9130-488c-b5d9-eeb156b6a5c5"
                 }
               ],
               "true10": [
@@ -930,7 +930,7 @@
                   "args": {
                     "musicId": "0bf95ca3-8207-4fae-81e1-e382eaecd347"
                   },
-                  "id": "443f78a8-be29-4493-bd11-eadfd8480d2d"
+                  "id": "9c21b1f6-9620-40b5-ba85-9eea0875702b"
                 }
               ],
               "true11": [
@@ -939,7 +939,7 @@
                   "args": {
                     "musicId": "9e0fe6d0-ffbf-4750-bb3e-d696165ca2ad"
                   },
-                  "id": "7b14f728-34fa-4339-9ad9-c9572065bcc0"
+                  "id": "370bc759-f1ab-4809-bd50-7749975e4056"
                 }
               ],
               "true12": [
@@ -948,7 +948,7 @@
                   "args": {
                     "musicId": "631f9382-124c-49fd-a762-811547a70a23"
                   },
-                  "id": "a402c858-3214-4772-8593-cf1133fe264f"
+                  "id": "17d690e0-d521-4972-b35a-c2de78a98b36"
                 }
               ],
               "true13": [
@@ -957,7 +957,7 @@
                   "args": {
                     "musicId": "fe9599ab-86d9-4abc-b7f3-3fcd2c7ad9d2"
                   },
-                  "id": "67d4b8e2-fdfb-400c-a5c7-4fce6fe6f8b4"
+                  "id": "ac3639cb-c188-4455-ba94-eed40b312e64"
                 }
               ],
               "true14": [
@@ -966,7 +966,7 @@
                   "args": {
                     "musicId": "37e583ae-9a0d-431a-b097-85130011555b"
                   },
-                  "id": "a61a2564-b1ce-4fc0-8e4b-12687bcee6bd"
+                  "id": "a63217fd-9fbd-41ed-9110-4dd5ca113954"
                 }
               ],
               "true15": [
@@ -975,12 +975,12 @@
                   "args": {
                     "musicId": "b7ade35e-1a28-48ee-886b-2626cfe24bea"
                   },
-                  "id": "882e42c2-eed9-4ed9-8eb8-0d325018f444"
+                  "id": "34ec1233-ef64-467d-b603-9a1133ed2966"
                 }
               ],
               "false": []
             },
-            "id": "b18cb0ab-5c7f-4ebc-8b9a-2be687ae3ab7"
+            "id": "c3b21dce-9f2e-4879-9094-b51eb10985b6"
           }
         ],
         "true3": [],
@@ -1002,7 +1002,7 @@
             "args": {
               "script": "VM_SOUND_MASTERVOL 16"
             },
-            "id": "1fb38b30-48b3-4369-932d-c02f57a16fb9"
+            "id": "96c37bfc-fd59-4baf-a99d-14f7ed13c340"
           },
           {
             "command": "EVENT_SWITCH",
@@ -1051,7 +1051,7 @@
                   "args": {
                     "musicId": "6cbc4cde-85df-4091-b9c0-a7418818208d"
                   },
-                  "id": "94dbb075-6eda-4bae-a2c7-e8046907d60d"
+                  "id": "91d64f84-d59e-4cf3-9784-bf61ecff3c3b"
                 }
               ],
               "true1": [
@@ -1060,7 +1060,7 @@
                   "args": {
                     "musicId": "914266f9-9b12-4dae-869f-d32d40dafd26"
                   },
-                  "id": "3cc1c1ea-bc3a-4eae-a6f6-1c3389fb85a0"
+                  "id": "bbe43b70-92f5-45a2-9956-0c2ecc5bb31a"
                 }
               ],
               "true2": [
@@ -1069,7 +1069,7 @@
                   "args": {
                     "musicId": "0d7707ba-f380-4b32-8394-cedb4676ed0e"
                   },
-                  "id": "5e305c46-7579-436e-91e6-585fcbd361da"
+                  "id": "6e95acab-f384-43f0-9595-381d3bb7703a"
                 }
               ],
               "true3": [
@@ -1078,7 +1078,7 @@
                   "args": {
                     "musicId": "b630de42-0386-4dfe-a1a7-0cc6106782e4"
                   },
-                  "id": "9a1e61e6-fe3d-4066-8004-62ce22a3a483"
+                  "id": "f5d6f3a8-43fe-4153-8b8b-f621cbcf0ea3"
                 }
               ],
               "true4": [
@@ -1087,7 +1087,7 @@
                   "args": {
                     "musicId": "c2e4954e-a097-45cd-a33b-b331703a08a7"
                   },
-                  "id": "e8ea7ccf-82ee-4ebb-b30d-e68b5e7504e9"
+                  "id": "623f4c12-6dcf-40db-8520-1696ec95b9ad"
                 }
               ],
               "true5": [
@@ -1096,7 +1096,7 @@
                   "args": {
                     "musicId": "80e4e2ad-4ee4-447c-8d40-19af449d2991"
                   },
-                  "id": "68948a40-7bf6-40d1-accc-1307811105e3"
+                  "id": "dad274e1-6f7a-4378-8cc6-d9c1034a18b3"
                 }
               ],
               "true6": [
@@ -1105,7 +1105,7 @@
                   "args": {
                     "musicId": "d59b90c5-0d5a-44c5-815d-880c9b7804e8"
                   },
-                  "id": "fcfab03e-1738-4104-aa98-323b371a62d4"
+                  "id": "d16d8389-9c2b-40c6-8c77-8b66134568c8"
                 }
               ],
               "true7": [
@@ -1114,7 +1114,7 @@
                   "args": {
                     "musicId": "8d0f48c0-e5f0-472d-8fdc-df11c84e4aef"
                   },
-                  "id": "634f6675-21bb-45a5-9ff4-0dd59756bb5a"
+                  "id": "94b927b1-afde-4ea5-a6d3-2281fd3e1121"
                 }
               ],
               "true8": [
@@ -1123,7 +1123,7 @@
                   "args": {
                     "musicId": "0dbbed85-58c9-4945-8796-9fc9488dc1cf"
                   },
-                  "id": "d20bb54e-7809-4fd8-9730-22328a9ee536"
+                  "id": "6fdbd57a-8bc6-48a3-ad96-1b68cd8ac474"
                 }
               ],
               "true9": [
@@ -1132,7 +1132,7 @@
                   "args": {
                     "musicId": "4a9ac9d8-5b1d-4104-9cb3-cbb590e8e5ef"
                   },
-                  "id": "56772e43-5e02-4ee0-a4e4-8a60ad1642ef"
+                  "id": "045fb718-3b05-4d88-81c4-bca0206b947a"
                 }
               ],
               "true10": [
@@ -1141,7 +1141,7 @@
                   "args": {
                     "musicId": "0bf95ca3-8207-4fae-81e1-e382eaecd347"
                   },
-                  "id": "de6ee399-508f-45d5-a520-14838c26e202"
+                  "id": "9d76a909-9dcf-461b-9734-864989d83796"
                 }
               ],
               "true11": [
@@ -1150,7 +1150,7 @@
                   "args": {
                     "musicId": "9e0fe6d0-ffbf-4750-bb3e-d696165ca2ad"
                   },
-                  "id": "eb2948a8-33d0-49eb-b11c-5ea392a9f281"
+                  "id": "122a08d2-c6b9-4869-984c-7841649e544b"
                 }
               ],
               "true12": [
@@ -1159,7 +1159,7 @@
                   "args": {
                     "musicId": "631f9382-124c-49fd-a762-811547a70a23"
                   },
-                  "id": "5511434e-46dc-4dd1-b2bd-3a213a1685d1"
+                  "id": "eabd65c6-b7b4-4362-a11e-b5d705b7d3b4"
                 }
               ],
               "true13": [
@@ -1168,7 +1168,7 @@
                   "args": {
                     "musicId": "fe9599ab-86d9-4abc-b7f3-3fcd2c7ad9d2"
                   },
-                  "id": "3f9a55bd-091b-4a2d-8345-4ce9ae1444de"
+                  "id": "6ca5bf5b-8b76-48c2-8979-346a9b6cdbc1"
                 }
               ],
               "true14": [
@@ -1177,7 +1177,7 @@
                   "args": {
                     "musicId": "37e583ae-9a0d-431a-b097-85130011555b"
                   },
-                  "id": "88bbd9cd-832e-4147-b698-cd2d496e1a04"
+                  "id": "677a3796-5cf4-416a-afbc-8d050a739515"
                 }
               ],
               "true15": [
@@ -1186,16 +1186,16 @@
                   "args": {
                     "musicId": "b7ade35e-1a28-48ee-886b-2626cfe24bea"
                   },
-                  "id": "bfab3de3-2359-44ed-b55c-2c47e5c32acd"
+                  "id": "1df6b6ab-6f15-47d9-893a-ea517c8aaaae"
                 }
               ],
               "false": []
             },
-            "id": "15856be5-7c26-4d01-9ce8-370062f0162d"
+            "id": "12b10fab-f45e-4623-8b4a-56039277ee57"
           }
         ]
       },
-      "id": "fcfffa7b-8a94-4222-a81d-ddf7c23aa603"
+      "id": "f026efdb-5f97-4817-8d09-03942a89b026"
     }
   ]
 }

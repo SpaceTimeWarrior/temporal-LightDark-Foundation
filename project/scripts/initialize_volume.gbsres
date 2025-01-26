@@ -1,0 +1,92 @@
+{
+  "_resourceType": "script",
+  "id": "8fa25f21-3636-4437-b221-4f289de9c9c2",
+  "name": "Initialize volume",
+  "description": "",
+  "variables": {},
+  "actors": {},
+  "symbol": "script_15",
+  "script": [
+    {
+      "command": "EVENT_IF_SAVED_DATA",
+      "args": {
+        "saveSlot": 0,
+        "__collapseElse": false,
+        "__collapse": false
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_PEEK_DATA",
+            "args": {
+              "variableDest": "65",
+              "variableSource": "65",
+              "saveSlot": 0
+            },
+            "id": "83f9bd24-864f-44a1-ac6f-ed78eb9095ba"
+          }
+        ],
+        "false": [
+          {
+            "command": "EVENT_IF_SAVED_DATA",
+            "args": {
+              "saveSlot": 1,
+              "__collapseElse": false
+            },
+            "children": {
+              "true": [
+                {
+                  "command": "EVENT_PEEK_DATA",
+                  "args": {
+                    "variableDest": "65",
+                    "variableSource": "65",
+                    "saveSlot": 1
+                  },
+                  "id": "3b84d193-df81-46fc-b943-ff11fe99cd72"
+                }
+              ],
+              "false": [
+                {
+                  "command": "EVENT_IF_SAVED_DATA",
+                  "args": {
+                    "saveSlot": 2,
+                    "__collapseElse": false
+                  },
+                  "children": {
+                    "true": [
+                      {
+                        "command": "EVENT_PEEK_DATA",
+                        "args": {
+                          "variableDest": "65",
+                          "variableSource": "65",
+                          "saveSlot": 2
+                        },
+                        "id": "e0621cb6-e9e5-46ea-9045-19dbb8eee69c"
+                      }
+                    ],
+                    "false": [
+                      {
+                        "command": "EVENT_SET_VALUE",
+                        "args": {
+                          "variable": "65",
+                          "value": {
+                            "type": "number",
+                            "value": 3
+                          }
+                        },
+                        "id": "bd42cdc2-9763-4734-841d-33a09b7a8af9"
+                      }
+                    ]
+                  },
+                  "id": "2898198e-8e5e-473c-b0c6-00a2825638e9"
+                }
+              ]
+            },
+            "id": "fbb6e9a3-cd00-4df8-9d60-e67a03545ee4"
+          }
+        ]
+      },
+      "id": "135d6bbe-9e0e-4548-82d3-7e924dfa9c3e"
+    }
+  ]
+}

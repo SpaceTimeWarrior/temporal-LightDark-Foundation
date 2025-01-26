@@ -373,6 +373,16 @@
       "id": "65",
       "name": "volume",
       "symbol": "var_volume"
+    },
+    {
+      "id": "66",
+      "name": "song ID",
+      "symbol": "var_song_id"
+    },
+    {
+      "id": "50",
+      "name": "title_vol_reset",
+      "symbol": "var_title_vol_reset"
     }
   ]
 }

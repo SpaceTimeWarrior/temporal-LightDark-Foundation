@@ -1,0 +1,12 @@
+{
+  "_resourceType": "background",
+  "id": "11462439-d261-4bd2-9e2d-07f250ecdccf",
+  "name": "Volume Menu",
+  "symbol": "bg_volume_menu",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144,
+  "filename": "Volume Menu.png",
+  "tileColors": ""
+}

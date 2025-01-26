@@ -17,6 +17,13 @@
   "y": 30,
   "script": [
     {
+      "command": "EVENT_ACTOR_HIDE",
+      "args": {
+        "actorId": "$self$"
+      },
+      "id": "808f4037-f4a0-4fc1-82c7-c8e96db71d8e"
+    },
+    {
       "command": "EVENT_SET_INPUT_SCRIPT",
       "args": {
         "input": [

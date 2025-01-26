@@ -56,11 +56,11 @@
         "sceneId": "6ee9ab07-175c-4b6f-9e42-65b4456f4aff",
         "x": {
           "type": "number",
-          "value": 0
+          "value": 6
         },
         "y": {
           "type": "number",
-          "value": 0
+          "value": 7
         },
         "direction": "",
         "fadeSpeed": "2"

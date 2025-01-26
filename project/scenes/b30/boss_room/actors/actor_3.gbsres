@@ -132,11 +132,38 @@
             "id": "3f0dbd04-0922-4bf9-a45a-a602591979d7"
           },
           {
-            "command": "EVENT_MUSIC_PLAY",
+            "command": "EVENT_GROUP",
             "args": {
-              "musicId": "1ea2c9f2-d426-47a5-b640-f6665dc87554"
+              "__collapse": false,
+              "__label": "music event group"
             },
-            "id": "b79e4ff2-dbc4-42ea-b1ac-0a58d00f008a"
+            "children": {
+              "true": [
+                {
+                  "command": "EVENT_SET_VALUE",
+                  "args": {
+                    "variable": "66",
+                    "value": {
+                      "type": "number",
+                      "value": 1
+                    }
+                  },
+                  "id": "a9abcbc0-6be0-4c9c-8fcb-81168ea40ffe"
+                },
+                {
+                  "command": "EVENT_CALL_CUSTOM_EVENT",
+                  "args": {
+                    "customEventId": "080afb89-b806-4257-bd9d-e6eab0c2fc30",
+                    "$variable[V0]$": {
+                      "type": "variable",
+                      "value": "66"
+                    }
+                  },
+                  "id": "1a9ee88e-1210-4f4d-a70c-252ebff09d08"
+                }
+              ]
+            },
+            "id": "36e46844-94f2-4045-a372-2905a6f845ae"
           },
           {
             "command": "EVENT_PREP_MENU",
@@ -568,11 +595,38 @@
             "id": "ca91c514-09d3-4b3e-8ec0-0409596c46c1"
           },
           {
-            "command": "EVENT_MUSIC_PLAY",
+            "command": "EVENT_GROUP",
             "args": {
-              "musicId": "1ea2c9f2-d426-47a5-b640-f6665dc87554"
+              "__collapse": false,
+              "__label": "music event group"
             },
-            "id": "ae60d1d5-53ed-402c-bcf0-83481c81591b"
+            "children": {
+              "true": [
+                {
+                  "command": "EVENT_SET_VALUE",
+                  "args": {
+                    "variable": "66",
+                    "value": {
+                      "type": "number",
+                      "value": 1
+                    }
+                  },
+                  "id": "55dad194-cde0-46f2-ad00-ae277a259eba"
+                },
+                {
+                  "command": "EVENT_CALL_CUSTOM_EVENT",
+                  "args": {
+                    "customEventId": "080afb89-b806-4257-bd9d-e6eab0c2fc30",
+                    "$variable[V0]$": {
+                      "type": "variable",
+                      "value": "66"
+                    }
+                  },
+                  "id": "b119f7b0-04e4-4e99-a4bd-3303cbcc774a"
+                }
+              ]
+            },
+            "id": "3d7480af-64b5-44ee-80be-7334eb28f46d"
           },
           {
             "command": "EVENT_PREP_MENU",
@@ -700,11 +754,38 @@
             "id": "98c79a30-d1ed-43e3-9145-fa32b61de9a6"
           },
           {
-            "command": "EVENT_MUSIC_PLAY",
+            "command": "EVENT_GROUP",
             "args": {
-              "musicId": "1ea2c9f2-d426-47a5-b640-f6665dc87554"
+              "__collapse": false,
+              "__label": "music event group"
             },
-            "id": "799d10a6-cd05-4632-b18c-e633a9553108"
+            "children": {
+              "true": [
+                {
+                  "command": "EVENT_SET_VALUE",
+                  "args": {
+                    "variable": "66",
+                    "value": {
+                      "type": "number",
+                      "value": 1
+                    }
+                  },
+                  "id": "01fab742-115e-4e0b-ac32-b82906215de5"
+                },
+                {
+                  "command": "EVENT_CALL_CUSTOM_EVENT",
+                  "args": {
+                    "customEventId": "080afb89-b806-4257-bd9d-e6eab0c2fc30",
+                    "$variable[V0]$": {
+                      "type": "variable",
+                      "value": "66"
+                    }
+                  },
+                  "id": "211e7fcd-a3ee-4436-a306-e85e5966daed"
+                }
+              ]
+            },
+            "id": "23f41954-370f-4554-96d4-a0bb1b87bfca"
           },
           {
             "command": "EVENT_PREP_MENU",
