@@ -368,6 +368,11 @@
       "id": "021abe18-8433-4b80-a0cd-71b3b3299f52__L0",
       "name": "Local 0",
       "symbol": "var_local_20"
+    },
+    {
+      "id": "65",
+      "name": "volume",
+      "symbol": "var_volume"
     }
   ]
 }
