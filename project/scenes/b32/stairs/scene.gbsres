@@ -30,7 +30,7 @@
     {
       "command": "EVENT_GROUP",
       "args": {
-        "__collapse": false
+        "__collapse": true
       },
       "children": {
         "true": [
@@ -263,7 +263,8 @@
             "value": "25"
           }
         },
-        "__collapseElse": true
+        "__collapseElse": true,
+        "__collapse": true
       },
       "children": {
         "true": [
@@ -292,6 +293,16 @@
               "closeDelayFrames": 30
             },
             "id": "42ca0a1e-ef79-4756-a389-a7b9561be3e0"
+          },
+          {
+            "command": "EVENT_SET_VALUE",
+            "args": {
+              "variable": "25",
+              "value": {
+                "type": "true"
+              }
+            },
+            "id": "35c61fd3-2db2-4c32-a29f-177034a2c143"
           },
           {
             "command": "EVENT_GROUP",

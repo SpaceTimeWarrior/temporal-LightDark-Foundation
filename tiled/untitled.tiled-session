@@ -3,10 +3,26 @@
         "height": 4300,
         "width": 2
     },
-    "activeFile": "B29 stair access 2.tmx",
+    "activeFile": "B29 Fridge.tmx",
     "expandedProjectPaths": [
     ],
     "fileStates": {
+        "B29 Fridge.tmx": {
+            "scale": 2.5857812499999997,
+            "selectedLayer": 1,
+            "viewCenter": {
+                "x": 195.6855399117772,
+                "y": 155.46558704453446
+            }
+        },
+        "B29 barraks.tmx": {
+            "scale": 1,
+            "selectedLayer": 1,
+            "viewCenter": {
+                "x": 298,
+                "y": 345
+            }
+        },
         "B29 cafeteria.tmx": {
             "scale": 3,
             "selectedLayer": 1,
@@ -135,6 +151,14 @@
             "scaleInDock": 3,
             "scaleInEditor": 1
         },
+        "Volume Menu.tmx": {
+            "scale": 5.171562499999999,
+            "selectedLayer": 2,
+            "viewCenter": {
+                "x": 63.23040667109795,
+                "y": 90.49489395129618
+            }
+        },
         "barraks access.tmx": {
             "scale": 1.2928906249999998,
             "selectedLayer": 0,
@@ -193,7 +217,7 @@
     "map.lastUsedFormat": "tmx",
     "map.tileHeight": 16,
     "map.tileWidth": 16,
-    "map.width": 10,
+    "map.width": 20,
     "openFiles": [
         "Temporal Light/temporal_light_tileset.tsx",
         "kenny art modified/Kenny Art.tsx",
@@ -217,7 +241,10 @@
         "B29 stair access.tmx",
         "B29 cafeteria.tmx",
         "barraks access.tmx",
-        "B29 stair access 2.tmx"
+        "B29 stair access 2.tmx",
+        "Volume Menu.tmx",
+        "B29 barraks.tmx",
+        "B29 Fridge.tmx"
     ],
     "project": "untitled.tiled-project",
     "recentFiles": [

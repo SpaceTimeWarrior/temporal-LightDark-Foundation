@@ -1,0 +1,12 @@
+{
+  "_resourceType": "background",
+  "id": "5179baea-1489-484d-8dce-a0a1963a999b",
+  "name": "B29 barraks",
+  "symbol": "bg_b29_barraks",
+  "width": 80,
+  "height": 64,
+  "imageWidth": 640,
+  "imageHeight": 512,
+  "filename": "B29 barraks.png",
+  "tileColors": ""
+}

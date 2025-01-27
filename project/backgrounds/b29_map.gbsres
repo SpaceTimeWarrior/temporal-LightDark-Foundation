@@ -1,0 +1,12 @@
+{
+  "_resourceType": "background",
+  "id": "6a6edff7-2b03-4c13-9913-1369d801deb0",
+  "name": "B29 MAP",
+  "symbol": "bg_b29_map",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144,
+  "filename": "B29 MAP.png",
+  "tileColors": ""
+}

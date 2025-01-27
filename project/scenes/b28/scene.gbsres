@@ -1,0 +1,34 @@
+{
+  "_resourceType": "scene",
+  "id": "02d8f3d5-760b-4745-affa-260291b8bdfd",
+  "_index": 47,
+  "name": "B28",
+  "backgroundId": "0c4214cc-a62a-4bcb-93e3-48b6dc84e4ea",
+  "tilesetId": "",
+  "width": 20,
+  "height": 18,
+  "type": "TOPDOWN",
+  "paletteIds": [],
+  "spritePaletteIds": [],
+  "collisions": "007+0f!004+0f!00e+0f!004+0f7+008+0f!00a+0f!008+0f!00a+0f!008+0f!00a+0f!002+0f7+00a+0f!002+0f!004+0f8+004+0f!002+0f!004+0f!006+0f!004+0f!002+0f!004+0f!006+0f!004+0f!002+0f!004+0f!006+0f!004+0f!002+0f!004+0f!006+0f!004+0f!002+0f!004+0f8+004+0f!002+0f!0010+0f!002+0f!0010+0f!002+0f!0010+0f!002+0f!0010+0f!002+0f12+0015+",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_48",
+  "x": 1544,
+  "y": 6792,
+  "script": [
+    {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "47",
+        "value": {
+          "type": "number",
+          "value": -28
+        }
+      },
+      "id": "295a6945-19c8-4ff2-a348-dba194500dff"
+    }
+  ],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": []
+}

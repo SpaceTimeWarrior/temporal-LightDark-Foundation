@@ -19,7 +19,7 @@
     {
       "command": "EVENT_GROUP",
       "args": {
-        "__collapse": false
+        "__collapse": true
       },
       "children": {
         "true": [

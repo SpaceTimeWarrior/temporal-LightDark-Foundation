@@ -243,131 +243,293 @@
       "id": "c301d03f-ee30-421f-8dcb-48410cd877e0"
     },
     {
-      "command": "EVENT_TEXT",
+      "command": "EVENT_IF_FLAGS_COMPARE",
       "args": {
-        "text": [
-          "???:Hello I am \nBias flareglobe\nIf you want to \nescape here alive",
-          "you best pass my \ntests I will give \nyou. "
-        ],
-        "__section": "text",
-        "avatarId": "",
-        "minHeight": 4,
-        "maxHeight": 7,
-        "textX": 1,
-        "textY": 1,
-        "textHeight": 5,
-        "position": "bottom",
-        "clearPrevious": true,
-        "showFrame": "true",
-        "speedIn": -1,
-        "speedOut": -1,
-        "closeWhen": "key",
-        "closeButton": "a",
-        "closeDelayTime": 0.5,
-        "closeDelayFrames": 30
+        "variable": "36",
+        "flag": 4,
+        "__collapseElse": false,
+        "__collapse": true
       },
-      "id": "d25b1de1-c887-4339-ae62-d6b2d1c50954"
-    },
-    {
-      "command": "EVENT_TEXT",
-      "args": {
-        "text": [
-          "jewel: don't do\nthisyou might\nkill her"
-        ],
-        "__section": "text",
-        "avatarId": "9e33c0c8-20c4-4b19-8786-a520f8ff0d61",
-        "minHeight": 4,
-        "maxHeight": 7,
-        "textX": 1,
-        "textY": 1,
-        "textHeight": 5,
-        "position": "bottom",
-        "clearPrevious": true,
-        "showFrame": "true",
-        "speedIn": -1,
-        "speedOut": -1,
-        "closeWhen": "key",
-        "closeButton": "a",
-        "closeDelayTime": 0.5,
-        "closeDelayFrames": 30
+      "children": {
+        "true": [],
+        "false": [
+          {
+            "command": "EVENT_GROUP",
+            "args": {
+              "__collapse": true
+            },
+            "children": {
+              "true": [
+                {
+                  "command": "EVENT_TEXT",
+                  "args": {
+                    "text": [
+                      "???:Hello I am \nBias flareglobe\nIf you want to \nescape here alive",
+                      "you best pass my \ntests I will give \nyou. "
+                    ],
+                    "__section": "text",
+                    "avatarId": "",
+                    "minHeight": 4,
+                    "maxHeight": 7,
+                    "textX": 1,
+                    "textY": 1,
+                    "textHeight": 5,
+                    "position": "bottom",
+                    "clearPrevious": true,
+                    "showFrame": "true",
+                    "speedIn": -1,
+                    "speedOut": -1,
+                    "closeWhen": "key",
+                    "closeButton": "a",
+                    "closeDelayTime": 0.5,
+                    "closeDelayFrames": 30
+                  },
+                  "id": "d25b1de1-c887-4339-ae62-d6b2d1c50954"
+                },
+                {
+                  "command": "EVENT_TEXT",
+                  "args": {
+                    "text": [
+                      "jewel: don't do\nthisyou might\nkill her"
+                    ],
+                    "__section": "text",
+                    "avatarId": "9e33c0c8-20c4-4b19-8786-a520f8ff0d61",
+                    "minHeight": 4,
+                    "maxHeight": 7,
+                    "textX": 1,
+                    "textY": 1,
+                    "textHeight": 5,
+                    "position": "bottom",
+                    "clearPrevious": true,
+                    "showFrame": "true",
+                    "speedIn": -1,
+                    "speedOut": -1,
+                    "closeWhen": "key",
+                    "closeButton": "a",
+                    "closeDelayTime": 0.5,
+                    "closeDelayFrames": 30
+                  },
+                  "id": "fdde106d-f8c5-47b3-972a-79d41a96fefa"
+                },
+                {
+                  "command": "EVENT_TEXT",
+                  "args": {
+                    "text": [
+                      "Bias:You are too \nsoft. That is why\nyou never where\npromoted"
+                    ],
+                    "__section": "text",
+                    "avatarId": "",
+                    "minHeight": 4,
+                    "maxHeight": 7,
+                    "textX": 1,
+                    "textY": 1,
+                    "textHeight": 5,
+                    "position": "bottom",
+                    "clearPrevious": true,
+                    "showFrame": "true",
+                    "speedIn": -1,
+                    "speedOut": -1,
+                    "closeWhen": "key",
+                    "closeButton": "a",
+                    "closeDelayTime": 0.5,
+                    "closeDelayFrames": 30
+                  },
+                  "id": "6c3406bb-8012-4e78-ac90-e67d3c85d64c"
+                },
+                {
+                  "command": "EVENT_TEXT",
+                  "args": {
+                    "text": [
+                      "Jem:says the \nperson who tried\nto marry my",
+                      "great great \ngrandmother"
+                    ],
+                    "__section": "text",
+                    "avatarId": "9e33c0c8-20c4-4b19-8786-a520f8ff0d61",
+                    "minHeight": 4,
+                    "maxHeight": 7,
+                    "textX": 1,
+                    "textY": 1,
+                    "textHeight": 5,
+                    "position": "bottom",
+                    "clearPrevious": true,
+                    "showFrame": "true",
+                    "speedIn": -1,
+                    "speedOut": -1,
+                    "closeWhen": "key",
+                    "closeButton": "a",
+                    "closeDelayTime": 0.5,
+                    "closeDelayFrames": 30
+                  },
+                  "id": "9e641326-5c3b-4a1a-bd6b-7fc32dabb454"
+                },
+                {
+                  "command": "EVENT_TEXT",
+                  "args": {
+                    "text": [
+                      "jewel and bias:\nWHAT!!!!"
+                    ],
+                    "__section": "text",
+                    "avatarId": "",
+                    "minHeight": 4,
+                    "maxHeight": 7,
+                    "textX": 1,
+                    "textY": 1,
+                    "textHeight": 5,
+                    "position": "bottom",
+                    "clearPrevious": true,
+                    "showFrame": "true",
+                    "speedIn": -1,
+                    "speedOut": -1,
+                    "closeWhen": "key",
+                    "closeButton": "a",
+                    "closeDelayTime": 0.5,
+                    "closeDelayFrames": 30
+                  },
+                  "id": "875d8efb-9ef8-4a6f-8cb5-b47bb8953cae"
+                },
+                {
+                  "command": "EVENT_TEXT",
+                  "args": {
+                    "text": [
+                      "jem:in the \nuniverse I came\nfrom that is \nwhat happened"
+                    ],
+                    "__section": "text",
+                    "avatarId": "9e33c0c8-20c4-4b19-8786-a520f8ff0d61",
+                    "minHeight": 4,
+                    "maxHeight": 7,
+                    "textX": 1,
+                    "textY": 1,
+                    "textHeight": 5,
+                    "position": "bottom",
+                    "clearPrevious": true,
+                    "showFrame": "true",
+                    "speedIn": -1,
+                    "speedOut": -1,
+                    "closeWhen": "key",
+                    "closeButton": "a",
+                    "closeDelayTime": 0.5,
+                    "closeDelayFrames": 30
+                  },
+                  "id": "371c31b0-9069-4938-943a-5217bf10c3b1"
+                },
+                {
+                  "command": "EVENT_TEXT",
+                  "args": {
+                    "text": [
+                      "Bias:... your \nobjective is to\ndestroy 10 enemies",
+                      "on this floor. or\njewel will be \nkilled."
+                    ],
+                    "__section": "text",
+                    "avatarId": "",
+                    "minHeight": 4,
+                    "maxHeight": 7,
+                    "textX": 1,
+                    "textY": 1,
+                    "textHeight": 5,
+                    "position": "bottom",
+                    "clearPrevious": true,
+                    "showFrame": "true",
+                    "speedIn": -1,
+                    "speedOut": -1,
+                    "closeWhen": "key",
+                    "closeButton": "a",
+                    "closeDelayTime": 0.5,
+                    "closeDelayFrames": 30
+                  },
+                  "id": "200b01eb-48c4-4b15-99fc-a683d3d86b70"
+                },
+                {
+                  "command": "EVENT_TEXT",
+                  "args": {
+                    "text": [
+                      "jewel:wait what\nwhy?"
+                    ],
+                    "__section": "text",
+                    "avatarId": "da2057b2-2bc8-4e95-876a-bcc456b90faa",
+                    "minHeight": 4,
+                    "maxHeight": 7,
+                    "textX": 1,
+                    "textY": 1,
+                    "textHeight": 5,
+                    "position": "bottom",
+                    "clearPrevious": true,
+                    "showFrame": "true",
+                    "speedIn": -1,
+                    "speedOut": -1,
+                    "closeWhen": "key",
+                    "closeButton": "a",
+                    "closeDelayTime": 0.5,
+                    "closeDelayFrames": 30
+                  },
+                  "id": "a9dce164-24d4-4eed-b5be-66d8f788dcb5"
+                },
+                {
+                  "command": "EVENT_TEXT",
+                  "args": {
+                    "text": [
+                      "Bias:that is what\nyou get for \ndisobeying orders"
+                    ],
+                    "__section": "text",
+                    "avatarId": "",
+                    "minHeight": 4,
+                    "maxHeight": 7,
+                    "textX": 1,
+                    "textY": 1,
+                    "textHeight": 5,
+                    "position": "bottom",
+                    "clearPrevious": true,
+                    "showFrame": "true",
+                    "speedIn": -1,
+                    "speedOut": -1,
+                    "closeWhen": "key",
+                    "closeButton": "a",
+                    "closeDelayTime": 0.5,
+                    "closeDelayFrames": 30
+                  },
+                  "id": "406222f2-e8c7-4324-a9b9-53baec7ea611"
+                },
+                {
+                  "command": "EVENT_SET_VALUE",
+                  "args": {
+                    "variable": "51",
+                    "value": {
+                      "type": "number",
+                      "value": 10
+                    }
+                  },
+                  "id": "c43bb50d-aaa2-4d32-a1f7-b00e6814a3cd"
+                }
+              ]
+            },
+            "id": "71679c2c-2523-460d-9b8a-f43575e8eb61"
+          },
+          {
+            "command": "EVENT_ADD_FLAGS",
+            "args": {
+              "variable": "36",
+              "flag1": false,
+              "flag2": false,
+              "flag3": false,
+              "flag4": false,
+              "flag5": true,
+              "flag6": false,
+              "flag7": false,
+              "flag8": false,
+              "flag9": false,
+              "flag10": false,
+              "flag11": false,
+              "flag12": false,
+              "flag13": false,
+              "flag14": false,
+              "flag15": false,
+              "flag16": false,
+              "__collapse": true
+            },
+            "id": "dbecd2b5-e86d-4503-b09b-11eac7c4cb6c"
+          }
+        ]
       },
-      "id": "fdde106d-f8c5-47b3-972a-79d41a96fefa"
-    },
-    {
-      "command": "EVENT_TEXT",
-      "args": {
-        "text": [
-          "Bias:You are too \nsoft. That is why\nyou never where\npromoted"
-        ],
-        "__section": "text",
-        "avatarId": "",
-        "minHeight": 4,
-        "maxHeight": 7,
-        "textX": 1,
-        "textY": 1,
-        "textHeight": 5,
-        "position": "bottom",
-        "clearPrevious": true,
-        "showFrame": "true",
-        "speedIn": -1,
-        "speedOut": -1,
-        "closeWhen": "key",
-        "closeButton": "a",
-        "closeDelayTime": 0.5,
-        "closeDelayFrames": 30
-      },
-      "id": "6c3406bb-8012-4e78-ac90-e67d3c85d64c"
-    },
-    {
-      "command": "EVENT_TEXT",
-      "args": {
-        "text": [
-          "Jem:says the \nperson who tried\nto marry my",
-          "great great \ngrandmother"
-        ],
-        "__section": "text",
-        "avatarId": "9e33c0c8-20c4-4b19-8786-a520f8ff0d61",
-        "minHeight": 4,
-        "maxHeight": 7,
-        "textX": 1,
-        "textY": 1,
-        "textHeight": 5,
-        "position": "bottom",
-        "clearPrevious": true,
-        "showFrame": "true",
-        "speedIn": -1,
-        "speedOut": -1,
-        "closeWhen": "key",
-        "closeButton": "a",
-        "closeDelayTime": 0.5,
-        "closeDelayFrames": 30
-      },
-      "id": "9e641326-5c3b-4a1a-bd6b-7fc32dabb454"
-    },
-    {
-      "command": "EVENT_TEXT",
-      "args": {
-        "text": [
-          "jewel and bias:\nWHAT!!!!"
-        ],
-        "__section": "text",
-        "avatarId": "",
-        "minHeight": 4,
-        "maxHeight": 7,
-        "textX": 1,
-        "textY": 1,
-        "textHeight": 5,
-        "position": "bottom",
-        "clearPrevious": true,
-        "showFrame": "true",
-        "speedIn": -1,
-        "speedOut": -1,
-        "closeWhen": "key",
-        "closeButton": "a",
-        "closeDelayTime": 0.5,
-        "closeDelayFrames": 30
-      },
-      "id": "875d8efb-9ef8-4a6f-8cb5-b47bb8953cae"
+      "id": "463d4cb7-4d90-4529-a34d-995048c870fd"
     },
     {
       "command": "EVENT_GROUP",

@@ -1,0 +1,127 @@
+{
+  "_resourceType": "trigger",
+  "id": "d4ad9d9f-d671-4d15-bfb7-69c8bda6a59c",
+  "name": "",
+  "prefabId": "",
+  "x": 8,
+  "y": 0,
+  "symbol": "trigger_47",
+  "prefabScriptOverrides": {},
+  "width": 4,
+  "height": 1,
+  "script": [
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "from this floor on\nif there is a\nunfinished",
+          "requirement bad\nevents may occur"
+        ],
+        "__section": "text",
+        "avatarId": "",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30
+      },
+      "id": "4e0405bb-ccb9-4135-82fe-86122ed54d29"
+    },
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "gt",
+          "valueA": {
+            "type": "variable",
+            "value": "51"
+          },
+          "valueB": {
+            "type": "number",
+            "value": 0
+          }
+        },
+        "__collapseElse": true
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "current required\nkills left: $51$"
+              ],
+              "__section": "text",
+              "avatarId": "",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30
+            },
+            "id": "6036f835-bdf5-47bf-ac1d-55db524d80c8"
+          },
+          {
+            "command": "EVENT_MENU",
+            "args": {
+              "variable": "L0",
+              "items": 2,
+              "option1": "continue",
+              "option2": "return to floor",
+              "option3": "",
+              "option4": "",
+              "option5": "",
+              "option6": "",
+              "option7": "",
+              "option8": "",
+              "cancelOnB": true,
+              "layout": "dialogue",
+              "cancelOnLastOption": true,
+              "__collapse": true
+            },
+            "id": "681f57f0-5529-4067-8712-4cbcfeaa326c"
+          }
+        ],
+        "false": []
+      },
+      "id": "bc6a3b88-28c8-430d-a4b1-22b36774c9e1"
+    },
+    {
+      "command": "EVENT_SWITCH_SCENE",
+      "args": {
+        "sceneId": "acfeb0c0-1916-4caa-a231-95f8250d5c1d",
+        "x": {
+          "type": "number",
+          "value": 9
+        },
+        "y": {
+          "type": "number",
+          "value": 12
+        },
+        "direction": "",
+        "fadeSpeed": "2"
+      },
+      "id": "ec04fd93-0cd1-4df6-9217-b10b14b1b847"
+    }
+  ],
+  "leaveScript": [],
+  "_index": 1
+}

@@ -4,7 +4,7 @@
     {
       "id": "0",
       "name": "face status",
-      "symbol": "var_face_status"
+      "symbol": "var_face_status_0"
     },
     {
       "id": "1",
@@ -95,7 +95,8 @@
         "flag2": "earth magic",
         "flag3": "sword",
         "flag4": "2nd fist",
-        "flag6": "2nd gun"
+        "flag6": "2nd gun",
+        "flag5": "icicle blast"
       }
     },
     {
@@ -196,7 +197,8 @@
         "flag1": "B31 Generator Flag 1",
         "flag2": "B31 Generator Flag 2",
         "flag3": "B31 Dialog Flag",
-        "flag4": "b30 boss defeated"
+        "flag4": "b30 boss defeated",
+        "flag5": "B29 enter dialog"
       }
     },
     {
@@ -263,6 +265,26 @@
       "id": "49",
       "name": "bossy",
       "symbol": "var_bossy"
+    },
+    {
+      "id": "50",
+      "name": "title_vol_reset",
+      "symbol": "var_title_vol_reset"
+    },
+    {
+      "id": "51",
+      "name": "B29 mission requirement",
+      "symbol": "var_b29_mission_requirement"
+    },
+    {
+      "id": "65",
+      "name": "volume",
+      "symbol": "var_volume"
+    },
+    {
+      "id": "66",
+      "name": "song ID",
+      "symbol": "var_song_id"
     },
     {
       "id": "164a583e-2486-45e0-988d-61bcc90cd82c__L0",
@@ -368,21 +390,6 @@
       "id": "021abe18-8433-4b80-a0cd-71b3b3299f52__L0",
       "name": "Local 0",
       "symbol": "var_local_20"
-    },
-    {
-      "id": "65",
-      "name": "volume",
-      "symbol": "var_volume"
-    },
-    {
-      "id": "66",
-      "name": "song ID",
-      "symbol": "var_song_id"
-    },
-    {
-      "id": "50",
-      "name": "title_vol_reset",
-      "symbol": "var_title_vol_reset"
     }
   ]
 }

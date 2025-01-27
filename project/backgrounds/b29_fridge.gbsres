@@ -1,0 +1,12 @@
+{
+  "_resourceType": "background",
+  "id": "ca7b2568-e5a2-4c73-ac28-00c7dbf5c2c0",
+  "name": "B29 Fridge",
+  "symbol": "bg_b29_fridge",
+  "width": 40,
+  "height": 18,
+  "imageWidth": 320,
+  "imageHeight": 144,
+  "filename": "B29 Fridge.png",
+  "tileColors": ""
+}

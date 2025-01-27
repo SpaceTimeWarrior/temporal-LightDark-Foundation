@@ -1,0 +1,22 @@
+{
+  "_resourceType": "scene",
+  "id": "06c072b8-21f5-4224-868b-8edfc19d1a99",
+  "_index": 46,
+  "name": "B29/fridge",
+  "backgroundId": "ca7b2568-e5a2-4c73-ac28-00c7dbf5c2c0",
+  "tilesetId": "",
+  "width": 40,
+  "height": 18,
+  "type": "TOPDOWN",
+  "paletteIds": [],
+  "spritePaletteIds": [],
+  "collisions": "0056+0f20+008+0f20+006+0f4+001c+0f4+004+0f4+001c+0f4+004+0f2+0026+0f2+0026+0f2+0026+0f2+0026+0f4+001c+0f4+004+0f4+001c+0f4+006+0f20+008+0f20+00a2+",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_47",
+  "x": 1512,
+  "y": 4840,
+  "script": [],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": []
+}
