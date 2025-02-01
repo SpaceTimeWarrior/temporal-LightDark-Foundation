@@ -31,6 +31,40 @@
       "id": "c0862e9c-8ea1-4cec-8304-51b54af53fed"
     },
     {
+      "command": "EVENT_GROUP",
+      "args": {
+        "__collapse": false,
+        "__label": "music event group"
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_SET_VALUE",
+            "args": {
+              "variable": "66",
+              "value": {
+                "type": "number",
+                "value": 4
+              }
+            },
+            "id": "dd1a4dff-dd54-40da-bbba-2afe7b9eb4a3"
+          },
+          {
+            "command": "EVENT_CALL_CUSTOM_EVENT",
+            "args": {
+              "customEventId": "080afb89-b806-4257-bd9d-e6eab0c2fc30",
+              "$variable[V0]$": {
+                "type": "variable",
+                "value": "66"
+              }
+            },
+            "id": "9e7a6e1c-0a62-4290-96f9-461bdc717fa0"
+          }
+        ]
+      },
+      "id": "9c90b835-1bc3-40ef-84c9-31238f8236f9"
+    },
+    {
       "command": "EVENT_TEXT",
       "args": {
         "text": [

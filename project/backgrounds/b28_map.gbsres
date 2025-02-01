@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "12480e5a-05ad-47ac-820a-9dd0754c733c",
+  "name": "B28 Map",
+  "symbol": "bg_b28_map",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144,
+  "filename": "B28 Map.png",
+  "tileColors": "",
+  "autoColor": false
+}

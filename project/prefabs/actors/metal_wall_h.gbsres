@@ -1,0 +1,30 @@
+{
+  "_resourceType": "actorPrefab",
+  "id": "696618f1-e4f6-4709-9653-74bd48ff2754",
+  "name": "Metal Wall_H",
+  "frame": 0,
+  "animate": false,
+  "spriteSheetId": "078c8079-98df-422c-918e-7714448b7877",
+  "moveSpeed": 1,
+  "animSpeed": 15,
+  "paletteId": "",
+  "persistent": false,
+  "collisionGroup": "1",
+  "prefabScriptOverrides": {},
+  "_index": 0,
+  "script": [],
+  "startScript": [],
+  "updateScript": [],
+  "hit1Script": [
+    {
+      "command": "EVENT_ACTOR_DEACTIVATE",
+      "args": {
+        "actorId": "$self$"
+      },
+      "id": "a49d6bd6-532b-413c-934a-89528d40d341",
+      "children": {}
+    }
+  ],
+  "hit2Script": [],
+  "hit3Script": []
+}

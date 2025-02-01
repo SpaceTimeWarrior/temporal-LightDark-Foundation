@@ -1,0 +1,92 @@
+TL Dark foundation
+B27 original plan
+(unless specified this assumes that chris was chosen at the start)
+viewer descression advised: Gore ,blood, body dismemberment, drug references, adult references
+
+floor size:short
+Boss: None
+
+Enemy types:cyborg xombie,cyborg summoner,mutant grass furret
+
+important dialogs:
+location Stairs:
+Bias: congradulations for completing the prior floor. on this floor there is a recent report of a robot seriously injuring a child I ask that you find them and if necessary heal them. I talked with the parent of the child that was talked about and they gave permission to do sergery if necessary.
+
+jem:why was a child put here?
+
+Bias:this is the daycare floor for workers of lower floors.
+
+chris:But you evacuated all floors below 25 1 month ago with exception of me and jewel?
+
+Bias: fine I had a robot take him to test how jem interacts with children. I never planned on them injuring the kid
+
+jem: yeah right(sarcastic) you did this on purpose didn't you. let me guess you didn't tell the parent as to why the child was there... was that child the only one you took.
+
+Bias: I took them all and stated you killed them.
+
+jem is fuming with anger
+
+jem: YOU A^%#$%^%
+
+location playground alpha
+there is a child slumped on the back wall alive but had a arm semingly ripped off and is bleeding severely from the crotch.
+
+a robot that is seen running off with a arm
+jewel locks all the doors to the room
+jewel: I think that is the robot in question
+
+a battle ensewes with the robot throwing it to another in the area once killed
+
+after the battle:
+jem then turns her attention to the child.
+
+jem: child what is your name
+
+???: mike
+
+jem: well mike lets fix you up.
+
+jem then uses magic to put the arm back on mike's body.
+
+jem: where else did that robot hurt you.
+
+mike then covered his crotch up.
+
+jemLoh... that might be a problem.
+
+jem then pulls her ring off from her tail and talks into it
+
+jem: chris can you get me a few things from the ring.
+
+chris: what do you need.
+
+jem: I need you to go to the northern room. and get me a few potions the white one. a black one with a image of a moon and some of the pink berries. please try not to get anything on you or consume it.
+
+...
+
+chris: wow that is a large thing are you cooking meth.
+
+jem: no, I occasionally assist my mom with her alchemy experiments. more likely rocket fuel would be more accurate.
+
+chris:... what do these do. (as he is sending them out of the ring)
+
+jem: the white potion fixes the damaged body part by temporarily changing it. the black potion is crushed moonflower and water. it speeds up transformation magics. the last one locks them from having permanant side effects from the moonflower. but may change their ears to that of a fox. they may even get a tail but it rarely lasts longer than a week but with how diluted it is never more than a month. and any transformations the berry produces are painless
+
+jem: mike I am not going to sugarcoat it but this will hurt. as she puts the white potion in his mouth. then the black potion.
+jem then notices the bag on mike's back.
+jem: does that have a change of clothes
+
+mike: yes.
+
+jem: in a little bit can you get changed I will turn my back.
+
+screen fades to black.
+
+jem: now I will give a berry this will give you some energy. and will help your body recover lost blood.
+
+jem: I am going to store you inside my ring to help bring you to your parents
+
+mike: ok
+
+location: exit stairs
+jewel: just to let everyone know I posted everything that happened on the facility mainframe. Bias your crimes will be punished

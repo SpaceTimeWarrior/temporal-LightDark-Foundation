@@ -14,7 +14,8 @@
       "command": "EVENT_TEXT",
       "args": {
         "text": [
-          "current end of the\ndemo"
+          "current end of the\ndemo...wait there\nstill is code",
+          "anything past this\npoint is not \nfinished"
         ],
         "__section": "text",
         "avatarId": "",
@@ -34,6 +35,23 @@
         "closeDelayFrames": 30
       },
       "id": "01883794-6899-4747-9fb9-385f70969b2a"
+    },
+    {
+      "command": "EVENT_SWITCH_SCENE",
+      "args": {
+        "sceneId": "02d8f3d5-760b-4745-affa-260291b8bdfd",
+        "x": {
+          "type": "number",
+          "value": 3
+        },
+        "y": {
+          "type": "number",
+          "value": 8
+        },
+        "direction": "",
+        "fadeSpeed": "2"
+      },
+      "id": "ec2fdad1-c18e-41f5-8b04-2baa4b6ac488"
     }
   ],
   "leaveScript": [],

@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "4aea5bd6-d213-4b5c-a099-57b50f6b2bec",
+  "name": "B27 Greenhouse Beta",
+  "symbol": "bg_b27_greenhouse_beta",
+  "width": 80,
+  "height": 64,
+  "imageWidth": 640,
+  "imageHeight": 512,
+  "filename": "B27 Greenhouse Beta.png",
+  "tileColors": "",
+  "autoColor": false
+}

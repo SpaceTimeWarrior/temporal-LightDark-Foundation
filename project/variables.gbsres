@@ -172,12 +172,12 @@
     {
       "id": "32",
       "name": "Enemy Cooldown 1",
-      "symbol": "var_enemy_cooldown_1"
+      "symbol": "var_enemy_cooldown_2"
     },
     {
       "id": "33",
       "name": "Enemy Cooldown 2",
-      "symbol": "var_enemy_cooldown_2"
+      "symbol": "var_enemy_cooldown_0"
     },
     {
       "id": "34",
@@ -191,14 +191,18 @@
     },
     {
       "id": "36",
-      "name": "B31 and B30 flags",
-      "symbol": "var_b31_and_b30_flags",
+      "name": "B31 to B25 flags",
+      "symbol": "var_b31_to_b25_flags",
       "flags": {
         "flag1": "B31 Generator Flag 1",
         "flag2": "B31 Generator Flag 2",
         "flag3": "B31 Dialog Flag",
         "flag4": "b30 boss defeated",
-        "flag5": "B29 enter dialog"
+        "flag5": "B29 enter dialog",
+        "flag6": "B28 console finished",
+        "flag7": "B28 Bomb threat",
+        "flag8": "B 27 plant",
+        "flag9": "B27 intro dialog"
       }
     },
     {
@@ -275,6 +279,16 @@
       "id": "51",
       "name": "B29 mission requirement",
       "symbol": "var_b29_mission_requirement"
+    },
+    {
+      "id": "52",
+      "name": "B27 mission Requirement",
+      "symbol": "var_b27_mission_requirement"
+    },
+    {
+      "id": "53",
+      "name": "planted animal mutants killed",
+      "symbol": "var_planted_animal_mutants_"
     },
     {
       "id": "65",
@@ -390,6 +404,51 @@
       "id": "021abe18-8433-4b80-a0cd-71b3b3299f52__L0",
       "name": "Local 0",
       "symbol": "var_local_20"
+    },
+    {
+      "id": "1223491f-27af-4c09-a7af-620a70fb1f19__L0",
+      "name": "Local 0",
+      "symbol": "var_local_21"
+    },
+    {
+      "id": "4eb0d490-5a77-4e4b-9021-6f80c46a352c__L0",
+      "name": "Local 0",
+      "symbol": "var_local_22"
+    },
+    {
+      "id": "f66f5fae-647a-461f-a744-91ea4a7a8e41__L0",
+      "name": "Local 0",
+      "symbol": "var_local_23"
+    },
+    {
+      "id": "3075f518-5503-4633-8ddc-023ff8a148de__L0",
+      "name": "Local 0",
+      "symbol": "var_local_24"
+    },
+    {
+      "id": "9826d653-6497-445e-9c3f-7c5b618100be__L0",
+      "name": "Local 0",
+      "symbol": "var_local_25"
+    },
+    {
+      "id": "fe0e8755-1390-4cf9-b0a0-23a598857dad__L0",
+      "name": "Local 0",
+      "symbol": "var_local_26"
+    },
+    {
+      "id": "6f452960-4978-4c31-b396-25a6c8a413c6__L0",
+      "name": "Local 0",
+      "symbol": "var_local_27"
+    },
+    {
+      "id": "149df88a-e76d-4cc9-a5be-3be56db60a8f__L0",
+      "name": "Local 0",
+      "symbol": "var_local_28"
+    },
+    {
+      "id": "72e7d2d3-ad9f-4171-932a-656f6896cedb__L0",
+      "name": "Local 0",
+      "symbol": "var_local_29"
     }
   ]
 }

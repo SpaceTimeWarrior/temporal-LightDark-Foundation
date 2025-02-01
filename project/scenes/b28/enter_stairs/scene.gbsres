@@ -1,0 +1,514 @@
+{
+  "_resourceType": "scene",
+  "id": "02d8f3d5-760b-4745-affa-260291b8bdfd",
+  "_index": 47,
+  "name": "B28/Enter stairs",
+  "backgroundId": "0c4214cc-a62a-4bcb-93e3-48b6dc84e4ea",
+  "tilesetId": "",
+  "width": 20,
+  "height": 18,
+  "type": "TOPDOWN",
+  "paletteIds": [],
+  "spritePaletteIds": [],
+  "collisions": "007+0f!004+0f!00e+0f!004+0f7+008+0f!00a+0f!008+0f!00a+0f!008+0f!00a+0f!002+0f7+00a+0f!002+0f!004+0f8+004+0f!002+0f!004+0f!006+0f!004+0f!002+0f!004+0f!006+0f!004+0f!002+0f!004+0f!006+0f!004+0f!002+0f!004+0f!006+0f!004+0f!002+0f!004+0f8+004+0f!002+0f!0010+0f!002+0f!0010+0f!002+0f!0010+0f!002+0f!0010+0f!002+0f12+0015+",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_48",
+  "x": 1544,
+  "y": 6792,
+  "script": [
+    {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "47",
+        "value": {
+          "type": "number",
+          "value": -28
+        }
+      },
+      "id": "295a6945-19c8-4ff2-a348-dba194500dff"
+    },
+    {
+      "command": "EVENT_IF_FLAGS_COMPARE",
+      "args": {
+        "variable": "36",
+        "flag": 6,
+        "__collapseElse": false,
+        "__collapse": true
+      },
+      "children": {
+        "true": [],
+        "false": [
+          {
+            "command": "EVENT_IF",
+            "args": {
+              "condition": {
+                "type": "gt",
+                "valueA": {
+                  "type": "variable",
+                  "value": "51"
+                },
+                "valueB": {
+                  "type": "number",
+                  "value": 0
+                }
+              },
+              "__collapseElse": false,
+              "__collapse": true
+            },
+            "children": {
+              "true": [
+                {
+                  "command": "EVENT_TEXT",
+                  "args": {
+                    "text": [
+                      "Bias: you failed\nin your past \nrequirement\nto be generous I ",
+                      "won't do a mission\nwith death is a \nfactor until B25\nhowever while you",
+                      "where unconscious\nI placed a bomb\ninside you in case\nyou tried to",
+                      "escape out to the \nworld to terrorize\nthe public"
+                    ],
+                    "__section": "text",
+                    "avatarId": "",
+                    "minHeight": 4,
+                    "maxHeight": 7,
+                    "textX": 1,
+                    "textY": 1,
+                    "textHeight": 5,
+                    "position": "bottom",
+                    "clearPrevious": true,
+                    "showFrame": "true",
+                    "speedIn": -1,
+                    "speedOut": -1,
+                    "closeWhen": "key",
+                    "closeButton": "a",
+                    "closeDelayTime": 0.5,
+                    "closeDelayFrames": 30
+                  },
+                  "id": "da8b2b62-5890-4120-ad9e-43660a24b9aa"
+                },
+                {
+                  "command": "EVENT_TEXT",
+                  "args": {
+                    "text": [
+                      "jem:where is it"
+                    ],
+                    "__section": "text",
+                    "avatarId": "9e33c0c8-20c4-4b19-8786-a520f8ff0d61",
+                    "minHeight": 4,
+                    "maxHeight": 7,
+                    "textX": 1,
+                    "textY": 1,
+                    "textHeight": 5,
+                    "position": "bottom",
+                    "clearPrevious": true,
+                    "showFrame": "true",
+                    "speedIn": -1,
+                    "speedOut": -1,
+                    "closeWhen": "key",
+                    "closeButton": "a",
+                    "closeDelayTime": 0.5,
+                    "closeDelayFrames": 30
+                  },
+                  "id": "4aa3ce8a-5705-490b-a773-fed31a164195"
+                },
+                {
+                  "command": "EVENT_TEXT",
+                  "args": {
+                    "text": [
+                      "Bias:why would I \ntell you.you could\njust dig it out."
+                    ],
+                    "__section": "text",
+                    "avatarId": "",
+                    "minHeight": 4,
+                    "maxHeight": 7,
+                    "textX": 1,
+                    "textY": 1,
+                    "textHeight": 5,
+                    "position": "bottom",
+                    "clearPrevious": true,
+                    "showFrame": "true",
+                    "speedIn": -1,
+                    "speedOut": -1,
+                    "closeWhen": "key",
+                    "closeButton": "a",
+                    "closeDelayTime": 0.5,
+                    "closeDelayFrames": 30
+                  },
+                  "id": "f61e91e5-c899-4244-a741-f69ca4fe686a"
+                }
+              ],
+              "false": [
+                {
+                  "command": "EVENT_TEXT",
+                  "args": {
+                    "text": [
+                      "Bias:\ncongratulations\nyou are better",
+                      "than I thought you\nwould be. \nhowever while you",
+                      "where unconscious\nI placed a bomb\ninside you in case\nyou tried to",
+                      "escape out to the \nworld to terrorize\nthe public"
+                    ],
+                    "__section": "text",
+                    "avatarId": "",
+                    "minHeight": 4,
+                    "maxHeight": 7,
+                    "textX": 1,
+                    "textY": 1,
+                    "textHeight": 5,
+                    "position": "bottom",
+                    "clearPrevious": true,
+                    "showFrame": "true",
+                    "speedIn": -1,
+                    "speedOut": -1,
+                    "closeWhen": "key",
+                    "closeButton": "a",
+                    "closeDelayTime": 0.5,
+                    "closeDelayFrames": 30
+                  },
+                  "id": "982fb3cd-8974-4628-b732-4dc40a119bd9"
+                }
+              ]
+            },
+            "id": "bed101ac-102c-4fc5-b6d5-661b23e731a0"
+          },
+          {
+            "command": "EVENT_GROUP",
+            "args": {
+              "__collapse": false,
+              "__label": "music event group"
+            },
+            "children": {
+              "true": [
+                {
+                  "command": "EVENT_SET_VALUE",
+                  "args": {
+                    "variable": "66",
+                    "value": {
+                      "type": "number",
+                      "value": 4
+                    }
+                  },
+                  "id": "af967b48-8332-45d8-b433-8644071dd1f7"
+                },
+                {
+                  "command": "EVENT_CALL_CUSTOM_EVENT",
+                  "args": {
+                    "customEventId": "080afb89-b806-4257-bd9d-e6eab0c2fc30",
+                    "$variable[V0]$": {
+                      "type": "variable",
+                      "value": "66"
+                    }
+                  },
+                  "id": "1c2b3f0e-59f3-4daf-b757-43aea3493d0a"
+                }
+              ]
+            },
+            "id": "0912b11d-2452-42ba-aa60-d3f774af9af0"
+          },
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "Bias:the exit to\nthis floor the \ncontrol panel is",
+                "fried. I do \nrecommend you take\ndown more enemies",
+                "to use as \nmaterials"
+              ],
+              "__section": "text",
+              "avatarId": "",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30
+            },
+            "id": "8b384c25-08e7-453d-bbfc-8dca9607567c"
+          },
+          {
+            "command": "EVENT_ADD_FLAGS",
+            "args": {
+              "variable": "36",
+              "flag1": false,
+              "flag2": false,
+              "flag3": false,
+              "flag4": false,
+              "flag5": false,
+              "flag6": false,
+              "flag7": true,
+              "flag8": false,
+              "flag9": false,
+              "flag10": false,
+              "flag11": false,
+              "flag12": false,
+              "flag13": false,
+              "flag14": false,
+              "flag15": false,
+              "flag16": false,
+              "__collapse": false
+            },
+            "id": "3cc223f1-1c8b-45fa-81e6-ddcc32b258dd"
+          },
+          {
+            "command": "EVENT_GROUP",
+            "args": {
+              "__collapse": false,
+              "__label": "music event group"
+            },
+            "children": {
+              "true": [
+                {
+                  "command": "EVENT_SET_VALUE",
+                  "args": {
+                    "variable": "66",
+                    "value": {
+                      "type": "number",
+                      "value": 1
+                    }
+                  },
+                  "id": "21a8aad9-48c6-49f4-a016-4f6ffaab9f5f"
+                },
+                {
+                  "command": "EVENT_CALL_CUSTOM_EVENT",
+                  "args": {
+                    "customEventId": "080afb89-b806-4257-bd9d-e6eab0c2fc30",
+                    "$variable[V0]$": {
+                      "type": "variable",
+                      "value": "66"
+                    }
+                  },
+                  "id": "e2b702de-1f72-43e5-a4a1-6701ef13c3a2"
+                }
+              ]
+            },
+            "id": "ea3065aa-43e1-4282-9597-b4f26630ac48"
+          }
+        ]
+      },
+      "id": "c8c05897-8c8d-4af6-ba7b-18be5fc62065"
+    },
+    {
+      "command": "EVENT_GROUP",
+      "args": {
+        "__collapse": false
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_CALL_CUSTOM_EVENT",
+            "args": {
+              "customEventId": "81dd55d0-1e9b-4c0f-8560-b30d4e2564d5"
+            },
+            "id": "c3d9b353-a900-4e22-9bf0-ef40336d734d"
+          },
+          {
+            "command": "EVENT_PREP_MENU",
+            "args": {
+              "xnoverlay": 0,
+              "ynoverlay": 16,
+              "color": "black",
+              "xoverlay": 0,
+              "yoverlay": 0,
+              "overlayw": 20,
+              "overlayh": 2,
+              "xsource": 0,
+              "ysource": 16
+            },
+            "id": "13f3e7e0-f841-42c2-96f7-2bc4c94e5f55"
+          },
+          {
+            "command": "EVENT_CALL_CUSTOM_EVENT",
+            "args": {
+              "customEventId": "9debfc2d-8ff5-4052-90a5-66d1fa0d3f62"
+            },
+            "id": "adf0ab99-1ef6-496e-86da-47d8dfe91406"
+          },
+          {
+            "command": "EVENT_CALL_CUSTOM_EVENT",
+            "args": {
+              "customEventId": "a0f63380-278a-478d-b9dc-8f0e27a21a8b",
+              "$variable[V0]$": {
+                "type": "number",
+                "value": 16
+              }
+            },
+            "id": "1b87dcc6-a89a-4714-bea4-52a6d469cf1b"
+          },
+          {
+            "command": "EVENT_SET_TIMER_SCRIPT",
+            "args": {
+              "timer": 1,
+              "duration": 0.333,
+              "frames": 30,
+              "__scriptTabs": "end"
+            },
+            "children": {
+              "script": [
+                {
+                  "command": "EVENT_DEC_VALUE",
+                  "args": {
+                    "variable": "18"
+                  },
+                  "id": "223acc68-23b6-4ecc-b579-1a556a6178c6"
+                },
+                {
+                  "command": "EVENT_IF",
+                  "args": {
+                    "condition": {
+                      "type": "lte",
+                      "valueA": {
+                        "type": "variable",
+                        "value": "18"
+                      },
+                      "valueB": {
+                        "type": "number",
+                        "value": 0
+                      }
+                    },
+                    "__collapseElse": true
+                  },
+                  "children": {
+                    "true": [
+                      {
+                        "command": "EVENT_SET_VALUE",
+                        "args": {
+                          "variable": "18",
+                          "value": {
+                            "type": "number",
+                            "value": 0
+                          }
+                        },
+                        "id": "8c197e3e-d576-4c2a-9d69-e608f15ed295"
+                      }
+                    ],
+                    "false": []
+                  },
+                  "id": "de65d2b5-f3b8-4b92-ae5a-b407363a7df6"
+                },
+                {
+                  "command": "EVENT_SET_VALUE",
+                  "args": {
+                    "variable": "0",
+                    "value": {
+                      "type": "mod",
+                      "valueA": {
+                        "type": "add",
+                        "valueA": {
+                          "type": "variable",
+                          "value": "0"
+                        },
+                        "valueB": {
+                          "type": "number",
+                          "value": 1
+                        }
+                      },
+                      "valueB": {
+                        "type": "number",
+                        "value": 3
+                      }
+                    },
+                    "__comment": true
+                  },
+                  "id": "48da16e2-e7b3-4869-bc84-48218adcd870"
+                },
+                {
+                  "command": "EVENT_IF",
+                  "args": {
+                    "condition": {
+                      "type": "eq",
+                      "valueA": {
+                        "type": "variable",
+                        "value": "16"
+                      },
+                      "valueB": {
+                        "type": "number",
+                        "value": 0
+                      }
+                    },
+                    "__collapseElse": false
+                  },
+                  "children": {
+                    "true": [
+                      {
+                        "command": "EVENT_CALL_CUSTOM_EVENT",
+                        "args": {
+                          "customEventId": "a0f63380-278a-478d-b9dc-8f0e27a21a8b",
+                          "$variable[V0]$": {
+                            "type": "number",
+                            "value": 16
+                          }
+                        },
+                        "id": "bbc41d5e-750d-46e8-8bbf-4d0a3549a769"
+                      }
+                    ],
+                    "false": [
+                      {
+                        "command": "EVENT_IF",
+                        "args": {
+                          "condition": {
+                            "type": "variable",
+                            "value": "11"
+                          },
+                          "__collapseElse": false,
+                          "__collapse": false
+                        },
+                        "children": {
+                          "true": [
+                            {
+                              "command": "EVENT_CALL_CUSTOM_EVENT",
+                              "args": {
+                                "customEventId": "f78ee2dd-f4c8-45b2-b91c-91fc1415cafa",
+                                "$variable[V0]$": {
+                                  "type": "number",
+                                  "value": 16
+                                },
+                                "$variable[V1]$": {
+                                  "type": "number",
+                                  "value": 0
+                                }
+                              },
+                              "id": "45c8cbe9-75b4-4f45-8a96-1b18b8a992ee"
+                            }
+                          ],
+                          "false": [
+                            {
+                              "command": "EVENT_CALL_CUSTOM_EVENT",
+                              "args": {
+                                "customEventId": "1bd03d6c-c5c5-430e-a550-66ec70993d64",
+                                "$variable[V0]$": {
+                                  "type": "number",
+                                  "value": 16
+                                },
+                                "$variable[V1]$": {
+                                  "type": "number",
+                                  "value": 0
+                                }
+                              },
+                              "id": "dcfb9f32-6536-4ca0-972f-59b99a549783"
+                            }
+                          ]
+                        },
+                        "id": "7cf69b5d-5ede-4259-a211-c9b89f993dc5"
+                      }
+                    ]
+                  },
+                  "id": "3762054f-3e94-4cb9-9c08-6584c0dcc568"
+                }
+              ]
+            },
+            "id": "7a28f099-9f71-4d96-b60e-01d085099140"
+          }
+        ]
+      },
+      "id": "1768ed9c-d334-43f5-8540-2fb20fcb93db"
+    }
+  ],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": []
+}

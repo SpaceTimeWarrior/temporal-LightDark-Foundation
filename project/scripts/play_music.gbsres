@@ -2,7 +2,7 @@
   "_resourceType": "script",
   "id": "080afb89-b806-4257-bd9d-e6eab0c2fc30",
   "name": "play music",
-  "description": "variable being taken in is music id which determines which music is going to be played\n1:spacetime title\n2.spacetime battles\n3.lunabound",
+  "description": "variable being taken in is music id which determines which music is going to be played\n1:spacetime title(main theme)\n2.spacetime battles(main battle theme)\n3.lunabound(jem's theme)\n4.Biased Mission(Bias' theme)\n5.jeweled sanctuary(player theme)\n6.jeweled battle(player theme battle)",
   "variables": {
     "V0": {
       "id": "V0",
@@ -225,7 +225,7 @@
                 {
                   "command": "EVENT_MUSIC_PLAY",
                   "args": {
-                    "musicId": "5e98accb-e7f7-4a7f-9d5a-4f74bf73ffa7"
+                    "musicId": "4e724d9d-1c0b-4667-97a9-95e401f3a256"
                   },
                   "id": "eb3859db-81fb-4e80-9514-304fe47c1c83"
                 }
@@ -234,7 +234,7 @@
                 {
                   "command": "EVENT_MUSIC_PLAY",
                   "args": {
-                    "musicId": "31a64200-061c-44e8-b062-ddedb7c76a95"
+                    "musicId": "6c54a454-7e23-428d-b43e-a944f18b175c"
                   },
                   "id": "6e17e08e-f03d-4764-94d0-40cc3356913d"
                 }
@@ -243,7 +243,7 @@
                 {
                   "command": "EVENT_MUSIC_PLAY",
                   "args": {
-                    "musicId": "6d5d4598-0c71-4432-a3cc-602bc770bd0d"
+                    "musicId": "fd4775a9-aaa1-4024-9a8f-18e2c3f731a6"
                   },
                   "id": "27866dc4-bbab-451a-96a4-8113e40c1f97"
                 }
@@ -252,7 +252,7 @@
                 {
                   "command": "EVENT_MUSIC_PLAY",
                   "args": {
-                    "musicId": "089b6f5a-45ce-40da-bb4b-d8146d69c941"
+                    "musicId": "c1928f91-8a96-4e4d-bcee-f35ff4d516e8"
                   },
                   "id": "178fd9f7-7f78-4904-b64f-bc3566027548"
                 }

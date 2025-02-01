@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "514f2010-66db-4526-8d6c-a6c5978ce702",
+  "name": "B28 save",
+  "symbol": "bg_b28_save",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144,
+  "filename": "B28 save.png",
+  "tileColors": "",
+  "autoColor": false
+}

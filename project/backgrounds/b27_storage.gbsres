@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "fc759ff0-458a-4837-b13c-b9c54b9e5176",
+  "name": "B27 Storage",
+  "symbol": "bg_b27_storage",
+  "width": 40,
+  "height": 18,
+  "imageWidth": 320,
+  "imageHeight": 144,
+  "filename": "B27 Storage.png",
+  "tileColors": "",
+  "autoColor": false
+}

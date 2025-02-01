@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "8b772436-1b9e-4271-b42e-8d73ff9a7b5a",
+  "name": "B27 post plant",
+  "symbol": "bg_b27_post_plant",
+  "width": 40,
+  "height": 18,
+  "imageWidth": 320,
+  "imageHeight": 144,
+  "filename": "B27 post plant.png",
+  "tileColors": "",
+  "autoColor": false
+}

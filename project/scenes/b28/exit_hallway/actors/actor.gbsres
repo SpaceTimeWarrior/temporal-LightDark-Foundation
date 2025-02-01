@@ -1,0 +1,76 @@
+{
+  "_resourceType": "actor",
+  "id": "21429c74-d14c-4c2a-b8a4-29ecf1c6d365",
+  "name": "",
+  "frame": 0,
+  "animate": false,
+  "spriteSheetId": "bd0c1a06-1925-4ab4-830e-c218035ca98b",
+  "prefabId": "",
+  "direction": "down",
+  "moveSpeed": 1,
+  "animSpeed": 15,
+  "paletteId": "",
+  "isPinned": false,
+  "persistent": false,
+  "collisionGroup": "",
+  "prefabScriptOverrides": {},
+  "symbol": "actor_110",
+  "script": [
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "this gate won't \nbudge maybe \nlooking at the\npanel on the wall"
+        ],
+        "__section": "text",
+        "avatarId": "",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30
+      },
+      "id": "b72b25f3-8968-4a09-8410-0212cdc6e0c0"
+    }
+  ],
+  "startScript": [
+    {
+      "command": "EVENT_IF_FLAGS_COMPARE",
+      "args": {
+        "variable": "36",
+        "flag": 5,
+        "__collapseElse": true,
+        "__collapse": true
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_ACTOR_DEACTIVATE",
+            "args": {
+              "actorId": "$self$"
+            },
+            "id": "c4e43534-67f3-46f0-8755-112f04d37945"
+          }
+        ],
+        "false": []
+      },
+      "id": "5071175b-9fed-41b5-b995-09ca95bdc4b1"
+    }
+  ],
+  "updateScript": [],
+  "hit1Script": [],
+  "hit2Script": [],
+  "hit3Script": [],
+  "x": 2,
+  "y": 122,
+  "_index": 0
+}

@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "46c9de10-bc69-4299-bf55-c0f9bd0b1780",
+  "name": "B27 pre plant",
+  "symbol": "bg_b27_pre_plant",
+  "width": 40,
+  "height": 18,
+  "imageWidth": 320,
+  "imageHeight": 144,
+  "filename": "B27 pre plant.png",
+  "tileColors": "",
+  "autoColor": false
+}

@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "75010258-c111-4d52-997a-e5e278693bf4",
+  "name": "B28 acces Hallway",
+  "symbol": "bg_b28_acces_hallway",
+  "width": 80,
+  "height": 18,
+  "imageWidth": 640,
+  "imageHeight": 144,
+  "filename": "B28 acces Hallway.png",
+  "tileColors": "",
+  "autoColor": false
+}

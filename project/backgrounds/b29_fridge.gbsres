@@ -8,5 +8,6 @@
   "imageWidth": 320,
   "imageHeight": 144,
   "filename": "B29 Fridge.png",
-  "tileColors": ""
+  "tileColors": "",
+  "autoColor": false
 }

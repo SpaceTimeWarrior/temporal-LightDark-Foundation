@@ -24,6 +24,41 @@
   "y": 896,
   "script": [
     {
+      "command": "EVENT_GROUP",
+      "args": {
+        "__collapse": false,
+        "__label": "music event group"
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_SET_VALUE",
+            "args": {
+              "variable": "66",
+              "value": {
+                "type": "number",
+                "value": 1
+              }
+            },
+            "id": "bdfe5648-b47c-4abd-9a3e-8921d2beb086"
+          },
+          {
+            "command": "EVENT_CALL_CUSTOM_EVENT",
+            "args": {
+              "customEventId": "080afb89-b806-4257-bd9d-e6eab0c2fc30",
+              "$variable[V0]$": {
+                "type": "variable",
+                "value": "66"
+              },
+              "__collapse": true
+            },
+            "id": "f8afefec-eecd-46e9-be05-568337f8e97a"
+          }
+        ]
+      },
+      "id": "7f2d90f1-bc77-4976-8264-f104ee273120"
+    },
+    {
       "command": "EVENT_CAMERA_MOVE_TO",
       "args": {
         "x": {

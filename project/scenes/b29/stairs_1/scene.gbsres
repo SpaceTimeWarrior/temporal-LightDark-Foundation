@@ -248,7 +248,7 @@
         "variable": "36",
         "flag": 4,
         "__collapseElse": false,
-        "__collapse": true
+        "__collapse": false
       },
       "children": {
         "true": [],
@@ -256,10 +256,44 @@
           {
             "command": "EVENT_GROUP",
             "args": {
-              "__collapse": true
+              "__collapse": false
             },
             "children": {
               "true": [
+                {
+                  "command": "EVENT_GROUP",
+                  "args": {
+                    "__collapse": false,
+                    "__label": "music event group"
+                  },
+                  "children": {
+                    "true": [
+                      {
+                        "command": "EVENT_SET_VALUE",
+                        "args": {
+                          "variable": "66",
+                          "value": {
+                            "type": "number",
+                            "value": 4
+                          }
+                        },
+                        "id": "15a79bf9-ec44-4fa6-a4ee-dfc551e819b7"
+                      },
+                      {
+                        "command": "EVENT_CALL_CUSTOM_EVENT",
+                        "args": {
+                          "customEventId": "080afb89-b806-4257-bd9d-e6eab0c2fc30",
+                          "$variable[V0]$": {
+                            "type": "variable",
+                            "value": "66"
+                          }
+                        },
+                        "id": "a05a966e-63e8-481c-a20f-46af4c900849"
+                      }
+                    ]
+                  },
+                  "id": "e44ad9e8-7b9f-49f5-9b12-b13f567035b3"
+                },
                 {
                   "command": "EVENT_TEXT",
                   "args": {
@@ -498,6 +532,40 @@
                     }
                   },
                   "id": "c43bb50d-aaa2-4d32-a1f7-b00e6814a3cd"
+                },
+                {
+                  "command": "EVENT_GROUP",
+                  "args": {
+                    "__collapse": false,
+                    "__label": "music event group"
+                  },
+                  "children": {
+                    "true": [
+                      {
+                        "command": "EVENT_SET_VALUE",
+                        "args": {
+                          "variable": "66",
+                          "value": {
+                            "type": "number",
+                            "value": 1
+                          }
+                        },
+                        "id": "4de63d16-7efa-45f3-bb25-d220c6ad1609"
+                      },
+                      {
+                        "command": "EVENT_CALL_CUSTOM_EVENT",
+                        "args": {
+                          "customEventId": "080afb89-b806-4257-bd9d-e6eab0c2fc30",
+                          "$variable[V0]$": {
+                            "type": "variable",
+                            "value": "66"
+                          }
+                        },
+                        "id": "b707f80e-3fdb-46e1-8405-6f0361575656"
+                      }
+                    ]
+                  },
+                  "id": "8fa38ff4-21aa-467f-bd91-7878399c40fe"
                 }
               ]
             },

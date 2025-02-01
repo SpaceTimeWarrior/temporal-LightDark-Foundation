@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "466d5853-fd49-4b8a-adf5-336a678c2540",
+  "name": "B28 large printer",
+  "symbol": "bg_b28_large_printer",
+  "width": 60,
+  "height": 64,
+  "imageWidth": 480,
+  "imageHeight": 512,
+  "filename": "B28 large printer.png",
+  "tileColors": "",
+  "autoColor": false
+}

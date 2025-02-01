@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "042548ce-23f6-417b-9a73-04d9249d8a33",
+  "name": "B28 stairs",
+  "symbol": "bg_b32_stairs_copy",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144,
+  "filename": "B28 stairs.png",
+  "tileColors": "",
+  "autoColor": false
+}

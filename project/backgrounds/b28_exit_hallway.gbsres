@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "49aa60c3-8f40-4c41-9b7f-abe863189537",
+  "name": "B28 exit Hallway",
+  "symbol": "bg_b28_exit_hallway",
+  "width": 20,
+  "height": 128,
+  "imageWidth": 160,
+  "imageHeight": 1024,
+  "filename": "B28 exit Hallway.png",
+  "tileColors": "",
+  "autoColor": false
+}
