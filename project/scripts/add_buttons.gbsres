@@ -227,7 +227,7 @@
                                 "variable": "4",
                                 "value": {
                                   "type": "number",
-                                  "value": 1
+                                  "value": 5
                                 }
                               },
                               "id": "9531a527-4b83-435a-8bf2-04b1e9ee04b3"
@@ -261,7 +261,19 @@
                     "true13": [],
                     "true14": [],
                     "true15": [],
-                    "false": []
+                    "false": [
+                      {
+                        "command": "EVENT_SET_VALUE",
+                        "args": {
+                          "variable": "4",
+                          "value": {
+                            "type": "number",
+                            "value": 1
+                          }
+                        },
+                        "id": "5915ba78-7908-465b-9884-9be33573c1e4"
+                      }
+                    ]
                   },
                   "id": "6af9c755-f84b-4413-808d-064e03e98918"
                 },
@@ -859,6 +871,17 @@
                               "id": "cfe36d28-b3c1-4f0d-8032-9080af962237"
                             },
                             {
+                              "command": "EVENT_SET_VALUE",
+                              "args": {
+                                "variable": "23",
+                                "value": {
+                                  "type": "number",
+                                  "value": 3
+                                }
+                              },
+                              "id": "506dd8a9-a305-4914-be43-11788dc42009"
+                            },
+                            {
                               "command": "EVENT_LAUNCH_PROJECTILE",
                               "args": {
                                 "__section": "projectile",
@@ -887,17 +910,6 @@
                                 "__collapse": false
                               },
                               "id": "817633e4-2983-4bbf-80c3-f19fd9a0c3a0"
-                            },
-                            {
-                              "command": "EVENT_SET_VALUE",
-                              "args": {
-                                "variable": "23",
-                                "value": {
-                                  "type": "number",
-                                  "value": 3
-                                }
-                              },
-                              "id": "506dd8a9-a305-4914-be43-11788dc42009"
                             }
                           ],
                           "false": []

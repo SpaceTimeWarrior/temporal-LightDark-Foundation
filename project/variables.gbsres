@@ -202,7 +202,9 @@
         "flag6": "B28 console finished",
         "flag7": "B28 Bomb threat",
         "flag8": "B 27 plant",
-        "flag9": "B27 intro dialog"
+        "flag9": "B27 intro dialog",
+        "flag10": "B27 end dialog/killing",
+        "flag11": "B26 Boss complete"
       }
     },
     {
@@ -289,6 +291,19 @@
       "id": "53",
       "name": "planted animal mutants killed",
       "symbol": "var_planted_animal_mutants_"
+    },
+    {
+      "id": "54",
+      "name": "greenhouse save",
+      "symbol": "var_greenhouse_save"
+    },
+    {
+      "id": "55",
+      "name": "killed characters",
+      "symbol": "var_killed_characters",
+      "flags": {
+        "flag1": "emma"
+      }
     },
     {
       "id": "65",

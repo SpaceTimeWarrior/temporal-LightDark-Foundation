@@ -33,7 +33,7 @@
             "value": 3
           }
         },
-        "__collapseElse": true
+        "__collapseElse": false
       },
       "children": {
         "true": [
@@ -73,20 +73,20 @@
                   "id": "9e754d96-45fb-42b2-8f97-1263a1e83304"
                 }
               ],
-              "false": [
-                {
-                  "command": "EVENT_ACTOR_DEACTIVATE",
-                  "args": {
-                    "actorId": "$self$"
-                  },
-                  "id": "a0190bcc-34d0-4208-9236-1b326232ec14"
-                }
-              ]
+              "false": []
             },
             "id": "83383f3d-39fd-483f-86ef-a960ea510f08"
           }
         ],
-        "false": []
+        "false": [
+          {
+            "command": "EVENT_ACTOR_DEACTIVATE",
+            "args": {
+              "actorId": "$self$"
+            },
+            "id": "a0190bcc-34d0-4208-9236-1b326232ec14"
+          }
+        ]
       },
       "id": "844741e0-b628-4731-86d4-955d1d433d25"
     }

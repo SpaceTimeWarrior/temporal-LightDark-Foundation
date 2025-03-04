@@ -1,27 +1,32 @@
 {
   "_resourceType": "scene",
-  "id": "2546158b-3584-45e6-9c20-4d22ec383267",
-  "_index": 59,
-  "type": "TOPDOWN",
-  "name": "B27/plant storage",
-  "symbol": "scene_60",
-  "x": 1384,
-  "y": 7632,
-  "width": 40,
-  "height": 18,
-  "backgroundId": "fc759ff0-458a-4837-b13c-b9c54b9e5176",
+  "id": "15dd77eb-81ad-475e-97f2-670b99e2dec5",
+  "_index": 66,
+  "name": "B26/stairs2",
+  "backgroundId": "0c4214cc-a62a-4bcb-93e3-48b6dc84e4ea",
   "tilesetId": "",
+  "width": 20,
+  "height": 18,
+  "type": "TOPDOWN",
   "paletteIds": [],
-  "spritePaletteIds": [
-    "",
-    "",
-    "",
-    "default-bg-6",
-    "c1a7e80c-fa7b-45a3-8a2c-0c73dd3acb3d",
-    "default-bg-4"
-  ],
+  "spritePaletteIds": [],
+  "collisions": "007+0f!004+0f!00e+0f!004+0f7+008+0f!00a+0f!008+0f!00a+0f!008+0f!00a+0f!002+0f7+00a+0f!002+0f!004+0f8+004+0f!002+0f!004+0f!006+0f!004+0f!002+0f!004+0f!006+0f!004+0f!002+0f!004+0f!006+0f!004+0f!002+0f!004+0f!006+0f!004+0f!002+0f!004+0f8+004+0f!002+0f!0010+0f!002+0f!0010+0f!002+0f!0010+0f!002+0f!0010+0f!002+0f12+0015+",
   "autoFadeSpeed": 1,
+  "symbol": "scene_67",
+  "x": 816,
+  "y": 9672,
   "script": [
+    {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "47",
+        "value": {
+          "type": "number",
+          "value": -26
+        }
+      },
+      "id": "73d74687-5455-4c84-a0a9-4537202f3e3f"
+    },
     {
       "command": "EVENT_GROUP",
       "args": {
@@ -34,7 +39,7 @@
             "args": {
               "customEventId": "81dd55d0-1e9b-4c0f-8560-b30d4e2564d5"
             },
-            "id": "176f4b38-cb02-4470-b46c-a5161de8988e"
+            "id": "edfac325-701e-411a-9470-a8c04c2c0593"
           },
           {
             "command": "EVENT_PREP_MENU",
@@ -49,14 +54,14 @@
               "xsource": 0,
               "ysource": 16
             },
-            "id": "2ec8a0e2-9918-4d43-995a-4c904e3cf7c0"
+            "id": "a383c926-03fd-4ae6-b65a-9a72d7818e11"
           },
           {
             "command": "EVENT_CALL_CUSTOM_EVENT",
             "args": {
               "customEventId": "9debfc2d-8ff5-4052-90a5-66d1fa0d3f62"
             },
-            "id": "ed072655-1c1b-45fd-b23b-8707ed2d43a7"
+            "id": "e8e4a2d5-ee50-45cb-90b7-1b74cf5f0c72"
           },
           {
             "command": "EVENT_CALL_CUSTOM_EVENT",
@@ -67,7 +72,7 @@
                 "value": 16
               }
             },
-            "id": "990387a6-ab18-4709-86fe-5365ef036f26"
+            "id": "b2fcdb39-6129-4aaf-a477-6280abcd95ac"
           },
           {
             "command": "EVENT_SET_TIMER_SCRIPT",
@@ -84,7 +89,7 @@
                   "args": {
                     "variable": "18"
                   },
-                  "id": "e8d67fd4-c447-4890-8085-3360b863c3ba"
+                  "id": "9a9f7a8b-cc8f-47a4-ab53-c722be2eb271"
                 },
                 {
                   "command": "EVENT_IF",
@@ -113,12 +118,12 @@
                             "value": 0
                           }
                         },
-                        "id": "47364e67-b593-478c-9019-f14779284a48"
+                        "id": "253e63cb-a5aa-4cd1-94ab-f6320b0b6448"
                       }
                     ],
                     "false": []
                   },
-                  "id": "74efd41b-3d3b-485c-85bf-b029c6ed1a0f"
+                  "id": "f9437d79-a5d3-4096-a74e-c019643487e0"
                 },
                 {
                   "command": "EVENT_SET_VALUE",
@@ -144,7 +149,7 @@
                     },
                     "__comment": true
                   },
-                  "id": "19033c5b-5f76-4eaf-9320-da04ec1290ae"
+                  "id": "1d42531e-1057-4687-83c6-0d6079bf2fda"
                 },
                 {
                   "command": "EVENT_IF",
@@ -173,7 +178,7 @@
                             "value": 16
                           }
                         },
-                        "id": "889c05d0-b6b9-4560-8caf-971b3a83ed93"
+                        "id": "9e861f3f-326c-4200-9d26-eae9571bf242"
                       }
                     ],
                     "false": [
@@ -202,7 +207,7 @@
                                   "value": 0
                                 }
                               },
-                              "id": "f2b2eaf7-5351-48e5-ad32-f24f484582bf"
+                              "id": "1e875588-6e0e-453e-9303-4cf12ffc68f4"
                             }
                           ],
                           "false": [
@@ -219,45 +224,26 @@
                                   "value": 0
                                 }
                               },
-                              "id": "6b78f1eb-3c40-4379-bdec-dc925c162f19"
+                              "id": "6c8df7bc-4561-4d58-842f-ad24a5e637bf"
                             }
                           ]
                         },
-                        "id": "0fddac81-89c0-4678-8f09-e6086ffd161d"
+                        "id": "619891eb-e6a9-4fbc-8055-609d4de8c9c2"
                       }
                     ]
                   },
-                  "id": "d025b2a3-1fcd-45ab-91af-fc0981222331"
+                  "id": "154caaa7-3831-4146-9dd1-2b6afa5d14c7"
                 }
               ]
             },
-            "id": "1135e27d-99a0-4872-bc7e-a2d0013578c0"
+            "id": "e649fba3-c22c-4b6c-b474-c544e045e0f0"
           }
         ]
       },
-      "id": "39503c25-0e26-499c-b2c5-b1d04c26cac3"
+      "id": "0691e576-902f-4344-96f2-56cde0e6b806"
     }
   ],
   "playerHit1Script": [],
   "playerHit2Script": [],
-  "playerHit3Script": [
-    {
-      "command": "EVENT_CALL_CUSTOM_EVENT",
-      "args": {
-        "customEventId": "034fdaff-6bba-498c-8e45-64782bfdfab1",
-        "$variable[V1]$": {
-          "type": "number",
-          "value": 10
-        },
-        "__collapse": false,
-        "$variable[V0]$": {
-          "type": "variable",
-          "value": "L5"
-        },
-        "__comment": false
-      },
-      "id": "ed1eaa7d-16b4-4126-a199-81993940cdd8"
-    }
-  ],
-  "collisions": "007b+0f22+006+0f!002+0f2+002+0f2+002+0f2+002+0f2+002+0f2+002+0f2+002+0f2+002+0f3+006+0f!0020+0f!006+0f2+001f+0f!006+0f2+001f+0f!006+0f2+001f+0f!006+0f2+001f+0f!006+0f!0020+0f!006+0f!002+0f2+002+0f2+002+0f2+002+0f2+002+0f2+002+0f!009+0f!006+0f1b+004+0f3+0020+0f!004+0f!0022+0f!004+0f!0022+0f!004+0f!0055+"
+  "playerHit3Script": []
 }

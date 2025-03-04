@@ -1,0 +1,218 @@
+{
+  "_resourceType": "trigger",
+  "id": "51daab5a-93fa-4922-80c8-17e4ee431d6d",
+  "name": "",
+  "prefabId": "",
+  "x": 4,
+  "y": 41,
+  "symbol": "trigger_81",
+  "prefabScriptOverrides": {},
+  "width": 32,
+  "height": 1,
+  "script": [
+    {
+      "command": "EVENT_IF_FLAGS_COMPARE",
+      "args": {
+        "variable": "36",
+        "flag": 10,
+        "__collapseElse": false
+      },
+      "children": {
+        "true": [],
+        "false": [
+          {
+            "command": "EVENT_IF",
+            "args": {
+              "condition": {
+                "type": "eq",
+                "valueA": {
+                  "type": "variable",
+                  "value": "11"
+                },
+                "valueB": {
+                  "type": "number",
+                  "value": 0
+                }
+              },
+              "__collapseElse": false,
+              "__collapse": true
+            },
+            "children": {
+              "true": [
+                {
+                  "command": "EVENT_TEXT",
+                  "args": {
+                    "text": [
+                      "???:STOP RIGHT \nTHERE!"
+                    ],
+                    "__section": "text",
+                    "avatarId": "da2057b2-2bc8-4e95-876a-bcc456b90faa",
+                    "minHeight": 4,
+                    "maxHeight": 7,
+                    "textX": 1,
+                    "textY": 1,
+                    "textHeight": 5,
+                    "position": "bottom",
+                    "clearPrevious": true,
+                    "showFrame": "true",
+                    "speedIn": -1,
+                    "speedOut": -1,
+                    "closeWhen": "key",
+                    "closeButton": "a",
+                    "closeDelayTime": 0.5,
+                    "closeDelayFrames": 30
+                  },
+                  "id": "a9646f95-ac4f-4720-8ea4-58df26fe8933"
+                },
+                {
+                  "command": "EVENT_CAMERA_MOVE_TO",
+                  "args": {
+                    "x": {
+                      "type": "number",
+                      "value": 11
+                    },
+                    "y": {
+                      "type": "number",
+                      "value": 40
+                    },
+                    "speed": 4
+                  },
+                  "id": "11bbf6de-9104-46d2-8976-433005202063"
+                },
+                {
+                  "command": "EVENT_TEXT",
+                  "args": {
+                    "text": [
+                      "??:You came from\nwhere my son was\nlast seen. You \nkilled him ",
+                      "didn't you? I \nwas told by bias\nyou have been \nkilling",
+                      "people and \ndestroying their\nremains."
+                    ],
+                    "__section": "text",
+                    "avatarId": "da2057b2-2bc8-4e95-876a-bcc456b90faa",
+                    "minHeight": 4,
+                    "maxHeight": 7,
+                    "textX": 1,
+                    "textY": 1,
+                    "textHeight": 5,
+                    "position": "bottom",
+                    "clearPrevious": true,
+                    "showFrame": "true",
+                    "speedIn": -1,
+                    "speedOut": -1,
+                    "closeWhen": "key",
+                    "closeButton": "a",
+                    "closeDelayTime": 0.5,
+                    "closeDelayFrames": 30
+                  },
+                  "id": "e871a2f4-fbf7-4cb0-8f87-d3937f0dc87b"
+                },
+                {
+                  "command": "EVENT_TEXT",
+                  "args": {
+                    "text": [
+                      "???:But I didn..\n."
+                    ],
+                    "__section": "text",
+                    "avatarId": "9e33c0c8-20c4-4b19-8786-a520f8ff0d61",
+                    "minHeight": 4,
+                    "maxHeight": 7,
+                    "textX": 1,
+                    "textY": 1,
+                    "textHeight": 5,
+                    "position": "bottom",
+                    "clearPrevious": true,
+                    "showFrame": "true",
+                    "speedIn": -1,
+                    "speedOut": -1,
+                    "closeWhen": "key",
+                    "closeButton": "a",
+                    "closeDelayTime": 0.5,
+                    "closeDelayFrames": 30
+                  },
+                  "id": "73aa8052-a0cf-48d9-b942-83e1fca7f6bd"
+                },
+                {
+                  "command": "EVENT_TEXT",
+                  "args": {
+                    "text": [
+                      "??:Enough \nprattle you \nchild killer."
+                    ],
+                    "__section": "text",
+                    "avatarId": "da2057b2-2bc8-4e95-876a-bcc456b90faa",
+                    "minHeight": 4,
+                    "maxHeight": 7,
+                    "textX": 1,
+                    "textY": 1,
+                    "textHeight": 5,
+                    "position": "bottom",
+                    "clearPrevious": true,
+                    "showFrame": "true",
+                    "speedIn": -1,
+                    "speedOut": -1,
+                    "closeWhen": "key",
+                    "closeButton": "a",
+                    "closeDelayTime": 0.5,
+                    "closeDelayFrames": 30
+                  },
+                  "id": "0521c6c9-f7aa-4220-b507-ef185b671947"
+                },
+                {
+                  "command": "EVENT_TEXT",
+                  "args": {
+                    "text": [
+                      "jem's thought's:\nshe Probably\nwon't listen to\nreason."
+                    ],
+                    "__section": "text",
+                    "avatarId": "9e33c0c8-20c4-4b19-8786-a520f8ff0d61",
+                    "minHeight": 4,
+                    "maxHeight": 7,
+                    "textX": 1,
+                    "textY": 1,
+                    "textHeight": 5,
+                    "position": "bottom",
+                    "clearPrevious": true,
+                    "showFrame": "true",
+                    "speedIn": -1,
+                    "speedOut": -1,
+                    "closeWhen": "key",
+                    "closeButton": "a",
+                    "closeDelayTime": 0.5,
+                    "closeDelayFrames": 30
+                  },
+                  "id": "80eaa33b-11aa-4988-b033-b44e9657731e"
+                },
+                {
+                  "command": "EVENT_CAMERA_LOCK",
+                  "args": {
+                    "speed": 4,
+                    "axis": [
+                      "x",
+                      "y"
+                    ]
+                  },
+                  "id": "21c9d894-8d27-42fe-a146-66ceb30d8eb9"
+                },
+                {
+                  "command": "EVENT_SET_VALUE",
+                  "args": {
+                    "variable": "11",
+                    "value": {
+                      "type": "number",
+                      "value": 1
+                    }
+                  },
+                  "id": "3e0cd3cb-838a-4c02-aadf-f45727034e33"
+                }
+              ],
+              "false": []
+            },
+            "id": "55ec45e2-bca3-49a1-a860-57add2f877d4"
+          }
+        ]
+      },
+      "id": "e02179fe-a2f7-4439-a8ae-ca6153fed3dc"
+    }
+  ],
+  "leaveScript": [],
+  "_index": 1
+}

@@ -36,27 +36,10 @@
         ],
         "override": true,
         "__scriptTabs": "press",
-        "__collapse": true
+        "__collapse": false
       },
       "children": {
         "true": [
-          {
-            "command": "EVENT_REMOVE_INPUT_SCRIPT",
-            "args": {
-              "input": [
-                "b",
-                "left",
-                "up",
-                "down",
-                "right",
-                "a",
-                "start",
-                "select"
-              ],
-              "__collapse": true
-            },
-            "id": "5f9b691a-73cb-4bcc-bb80-677212a116c1"
-          },
           {
             "command": "EVENT_IF",
             "args": {
@@ -161,6 +144,23 @@
             "children": {
               "true0": [
                 {
+                  "command": "EVENT_REMOVE_INPUT_SCRIPT",
+                  "args": {
+                    "input": [
+                      "b",
+                      "left",
+                      "up",
+                      "down",
+                      "right",
+                      "a",
+                      "start",
+                      "select"
+                    ],
+                    "__collapse": true
+                  },
+                  "id": "5626dfab-2392-4579-b5fe-8f6c0b49ebaa"
+                },
+                {
                   "command": "EVENT_SWITCH_SCENE",
                   "args": {
                     "sceneId": "566695c2-316f-4eae-8384-04f448ce2a6d",
@@ -179,6 +179,23 @@
                 }
               ],
               "true1": [
+                {
+                  "command": "EVENT_REMOVE_INPUT_SCRIPT",
+                  "args": {
+                    "input": [
+                      "b",
+                      "left",
+                      "up",
+                      "down",
+                      "right",
+                      "a",
+                      "start",
+                      "select"
+                    ],
+                    "__collapse": true
+                  },
+                  "id": "5f568a8e-d70e-4b08-af6a-c6bf475c62e3"
+                },
                 {
                   "command": "EVENT_SWITCH_SCENE",
                   "args": {
@@ -286,7 +303,7 @@
               "__collapseCase15": false,
               "value15": 16,
               "__collapseElse": false,
-              "__collapse": false
+              "__collapse": true
             },
             "children": {
               "true0": [
@@ -495,6 +512,45 @@
         ]
       },
       "id": "38965449-5627-4a4f-bb2d-013d617b6df4"
+    },
+    {
+      "command": "EVENT_SET_INPUT_SCRIPT",
+      "args": {
+        "input": [
+          "b",
+          "start"
+        ],
+        "override": true,
+        "__scriptTabs": "press"
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_REMOVE_INPUT_SCRIPT",
+            "args": {
+              "input": [
+                "b",
+                "left",
+                "up",
+                "down",
+                "right",
+                "a",
+                "start",
+                "select"
+              ]
+            },
+            "id": "51ccfa82-78a5-45fd-bd16-62906df5c5c0"
+          },
+          {
+            "command": "EVENT_SCENE_POP_STATE",
+            "args": {
+              "fadeSpeed": "2"
+            },
+            "id": "3d389285-79c8-49bf-a27a-bc04008e6aa8"
+          }
+        ]
+      },
+      "id": "277df425-1fdb-4df5-b603-9b4f828016a1"
     }
   ],
   "playerHit1Script": [],

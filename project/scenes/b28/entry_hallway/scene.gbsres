@@ -501,6 +501,22 @@
   ],
   "playerHit1Script": [],
   "playerHit2Script": [],
-  "playerHit3Script": [],
+  "playerHit3Script": [
+    {
+      "command": "EVENT_CALL_CUSTOM_EVENT",
+      "args": {
+        "customEventId": "034fdaff-6bba-498c-8e45-64782bfdfab1",
+        "$variable[V1]$": {
+          "type": "number",
+          "value": 6
+        },
+        "$variable[V0]$": {
+          "type": "variable",
+          "value": "L5"
+        }
+      },
+      "id": "83dad3f6-3c7b-4aaf-90b5-fa15d8c97c23"
+    }
+  ],
   "collisions": "006+0f2+004+0f!0046+0f5+004+0f41+006+0f!0048+0f!004+0f3+0048+0f3+002+0f!004c+0f!002+0f!004c+0f2+00!0f!004f+0f!004f+0f!004f+0f!004f+0f!004c+0f2+00!0f!004c+0f!002+0f3+0048+0f3+004+0f!0048+0f!006+0f!004+0f40+004+0f!006+0f!004+0f!003e+0f!004+0f!00a3+"
 }

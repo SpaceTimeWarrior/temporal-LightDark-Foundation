@@ -41,7 +41,8 @@
               "overlayw": 20,
               "overlayh": 2,
               "xsource": 0,
-              "ysource": 70
+              "ysource": 70,
+              "__collapse": true
             },
             "id": "251a17a3-9111-404a-82eb-6ef96680d7e8"
           },
@@ -503,5 +504,21 @@
   ],
   "playerHit1Script": [],
   "playerHit2Script": [],
-  "playerHit3Script": []
+  "playerHit3Script": [
+    {
+      "command": "EVENT_CALL_CUSTOM_EVENT",
+      "args": {
+        "customEventId": "034fdaff-6bba-498c-8e45-64782bfdfab1",
+        "$variable[V1]$": {
+          "type": "number",
+          "value": 6
+        },
+        "$variable[V0]$": {
+          "type": "variable",
+          "value": "L5"
+        }
+      },
+      "id": "7ef9b8b6-33db-4227-a539-ff7bfeb45cec"
+    }
+  ]
 }

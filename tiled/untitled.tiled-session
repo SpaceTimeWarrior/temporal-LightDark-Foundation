@@ -6,13 +6,14 @@
     "activeFile": "B27 save.tmx",
     "expandedProjectPaths": [
     ],
+    "file.lastUsedOpenFilter": "All Files (*)",
     "fileStates": {
         "B27 Storage.tmx": {
             "scale": 3.32203125,
             "selectedLayer": 2,
             "viewCenter": {
-                "x": 163.75523258548515,
-                "y": 119.50519730962796
+                "x": 160.14298480786417,
+                "y": 71.94393490428484
             }
         },
         "B27 save.tmx": {

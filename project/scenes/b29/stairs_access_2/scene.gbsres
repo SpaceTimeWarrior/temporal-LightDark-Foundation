@@ -503,5 +503,21 @@
   ],
   "playerHit1Script": [],
   "playerHit2Script": [],
-  "playerHit3Script": []
+  "playerHit3Script": [
+    {
+      "command": "EVENT_CALL_CUSTOM_EVENT",
+      "args": {
+        "customEventId": "034fdaff-6bba-498c-8e45-64782bfdfab1",
+        "$variable[V1]$": {
+          "type": "number",
+          "value": 6
+        },
+        "$variable[V0]$": {
+          "type": "variable",
+          "value": "L5"
+        }
+      },
+      "id": "9874eeac-3068-4adf-84bd-282775dc4462"
+    }
+  ]
 }

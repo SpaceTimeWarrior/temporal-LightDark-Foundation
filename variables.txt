@@ -1,0 +1,13 @@
+pre chris fight
+got ring = 2
+chris run away = 1
+post chris fight
+change unlocked = 1
+ability unlocks = 1
+pre turtle
+B31 to B25 flags = 7
+post turtle
+B31 to B25 flags = 15
+B29 complete
+B29 requirement = 9-0
+B31 to B25 Flags = 95

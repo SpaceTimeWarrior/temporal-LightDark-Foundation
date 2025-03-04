@@ -1,27 +1,33 @@
 {
   "_resourceType": "scene",
-  "id": "2546158b-3584-45e6-9c20-4d22ec383267",
-  "_index": 59,
-  "type": "TOPDOWN",
-  "name": "B27/plant storage",
-  "symbol": "scene_60",
-  "x": 1384,
-  "y": 7632,
-  "width": 40,
-  "height": 18,
-  "backgroundId": "fc759ff0-458a-4837-b13c-b9c54b9e5176",
+  "id": "6e20aa61-7d7e-4abc-bae0-1dc4c050914e",
+  "_index": 64,
+  "name": "B26/stairs",
+  "backgroundId": "13b9171a-b5d2-4558-af34-21a6dda7c20b",
   "tilesetId": "",
+  "width": 20,
+  "height": 18,
+  "type": "TOPDOWN",
   "paletteIds": [],
-  "spritePaletteIds": [
-    "",
-    "",
-    "",
-    "default-bg-6",
-    "c1a7e80c-fa7b-45a3-8a2c-0c73dd3acb3d",
-    "default-bg-4"
-  ],
+  "spritePaletteIds": [],
+  "collisions": "0015+0f12+002+0f!0010+0f!002+0f!0010+0f!002+0f!0010+0f!002+0f!0010+0f!002+0f!004+0f8+004+0f!002+0f!004+0f!006+0f!004+0f!002+0f!004+0f!002+0f3+00!0f!004+0f!002+0f!004+0f8+004+0f!002+0f!004+0f2+00a+0f!002+0f!004+0f2+00a+0f!002+0f7+00a+0f!008+0f!00a+0f!008+0f!004+0f7+008+0f!004+0f!002f+",
   "autoFadeSpeed": 1,
+  "symbol": "scene_65",
+  "x": 824,
+  "y": 8824,
   "script": [
+    {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "47",
+        "value": {
+          "type": "number",
+          "value": -26
+        },
+        "__collapse": false
+      },
+      "id": "96ed89f0-24d5-4d60-a5b6-f9a820031b53"
+    },
     {
       "command": "EVENT_GROUP",
       "args": {
@@ -34,7 +40,7 @@
             "args": {
               "customEventId": "81dd55d0-1e9b-4c0f-8560-b30d4e2564d5"
             },
-            "id": "176f4b38-cb02-4470-b46c-a5161de8988e"
+            "id": "3227aaf2-b797-486e-9f93-21d6d9158e33"
           },
           {
             "command": "EVENT_PREP_MENU",
@@ -49,14 +55,14 @@
               "xsource": 0,
               "ysource": 16
             },
-            "id": "2ec8a0e2-9918-4d43-995a-4c904e3cf7c0"
+            "id": "5ce16139-1d5b-49ec-918a-4d435d4d89a1"
           },
           {
             "command": "EVENT_CALL_CUSTOM_EVENT",
             "args": {
               "customEventId": "9debfc2d-8ff5-4052-90a5-66d1fa0d3f62"
             },
-            "id": "ed072655-1c1b-45fd-b23b-8707ed2d43a7"
+            "id": "682499d3-aed0-449e-843f-85555a2b0ca8"
           },
           {
             "command": "EVENT_CALL_CUSTOM_EVENT",
@@ -67,7 +73,7 @@
                 "value": 16
               }
             },
-            "id": "990387a6-ab18-4709-86fe-5365ef036f26"
+            "id": "7bbdb52d-06ee-4a78-b0b5-84f7d2b3ad3d"
           },
           {
             "command": "EVENT_SET_TIMER_SCRIPT",
@@ -84,7 +90,7 @@
                   "args": {
                     "variable": "18"
                   },
-                  "id": "e8d67fd4-c447-4890-8085-3360b863c3ba"
+                  "id": "f020443c-18e3-4267-9c61-f2002649d92d"
                 },
                 {
                   "command": "EVENT_IF",
@@ -113,12 +119,12 @@
                             "value": 0
                           }
                         },
-                        "id": "47364e67-b593-478c-9019-f14779284a48"
+                        "id": "a3cc6f98-58d4-4c50-bfb1-455d7943ee64"
                       }
                     ],
                     "false": []
                   },
-                  "id": "74efd41b-3d3b-485c-85bf-b029c6ed1a0f"
+                  "id": "1cd243f1-13a3-46d1-9615-c22e27ffe56d"
                 },
                 {
                   "command": "EVENT_SET_VALUE",
@@ -144,7 +150,7 @@
                     },
                     "__comment": true
                   },
-                  "id": "19033c5b-5f76-4eaf-9320-da04ec1290ae"
+                  "id": "7d8a49b1-a24b-4a0a-ad2d-d969c93fe7dc"
                 },
                 {
                   "command": "EVENT_IF",
@@ -173,7 +179,7 @@
                             "value": 16
                           }
                         },
-                        "id": "889c05d0-b6b9-4560-8caf-971b3a83ed93"
+                        "id": "3f21e5d6-2133-4ec5-800d-4a36e4590405"
                       }
                     ],
                     "false": [
@@ -202,7 +208,7 @@
                                   "value": 0
                                 }
                               },
-                              "id": "f2b2eaf7-5351-48e5-ad32-f24f484582bf"
+                              "id": "1feedb48-b08c-4c85-a3a9-7e9278a51e01"
                             }
                           ],
                           "false": [
@@ -219,45 +225,26 @@
                                   "value": 0
                                 }
                               },
-                              "id": "6b78f1eb-3c40-4379-bdec-dc925c162f19"
+                              "id": "45519604-c7a0-4829-84ca-b16dea92547e"
                             }
                           ]
                         },
-                        "id": "0fddac81-89c0-4678-8f09-e6086ffd161d"
+                        "id": "5bc5723c-bf18-42f7-b8b7-015b2433bd14"
                       }
                     ]
                   },
-                  "id": "d025b2a3-1fcd-45ab-91af-fc0981222331"
+                  "id": "f8c1b92e-81c3-474b-a76b-acf9b1cf7552"
                 }
               ]
             },
-            "id": "1135e27d-99a0-4872-bc7e-a2d0013578c0"
+            "id": "39d4bbe4-dfd7-4c3c-aa6e-09e809999eee"
           }
         ]
       },
-      "id": "39503c25-0e26-499c-b2c5-b1d04c26cac3"
+      "id": "2a25a843-9c34-4484-ba46-300536d67730"
     }
   ],
   "playerHit1Script": [],
   "playerHit2Script": [],
-  "playerHit3Script": [
-    {
-      "command": "EVENT_CALL_CUSTOM_EVENT",
-      "args": {
-        "customEventId": "034fdaff-6bba-498c-8e45-64782bfdfab1",
-        "$variable[V1]$": {
-          "type": "number",
-          "value": 10
-        },
-        "__collapse": false,
-        "$variable[V0]$": {
-          "type": "variable",
-          "value": "L5"
-        },
-        "__comment": false
-      },
-      "id": "ed1eaa7d-16b4-4126-a199-81993940cdd8"
-    }
-  ],
-  "collisions": "007b+0f22+006+0f!002+0f2+002+0f2+002+0f2+002+0f2+002+0f2+002+0f2+002+0f2+002+0f3+006+0f!0020+0f!006+0f2+001f+0f!006+0f2+001f+0f!006+0f2+001f+0f!006+0f2+001f+0f!006+0f!0020+0f!006+0f!002+0f2+002+0f2+002+0f2+002+0f2+002+0f2+002+0f!009+0f!006+0f1b+004+0f3+0020+0f!004+0f!0022+0f!004+0f!0022+0f!004+0f!0055+"
+  "playerHit3Script": []
 }
