@@ -328,19 +328,21 @@
                     ],
                     "false": [
                       {
-                        "command": "EVENT_CAMERA_MOVE_TO",
+                        "command": "EVENT_SWITCH_SCENE",
                         "args": {
+                          "sceneId": "936ea676-e182-4f1d-b349-06a468a1cb56",
                           "x": {
                             "type": "number",
-                            "value": 20
+                            "value": 9
                           },
                           "y": {
                             "type": "number",
-                            "value": 0
+                            "value": 3
                           },
-                          "speed": 4
+                          "direction": "",
+                          "fadeSpeed": "2"
                         },
-                        "id": "cca7e756-949b-43e3-85d0-d0a2ade4d32c"
+                        "id": "5179a582-9292-48b8-8cff-316a8f30df11"
                       }
                     ]
                   },

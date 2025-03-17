@@ -1340,7 +1340,7 @@
         "value14": 15,
         "__collapseCase15": false,
         "value15": 16,
-        "__collapseElse": false
+        "__collapseElse": true
       },
       "children": {
         "true0": [
@@ -1538,6 +1538,751 @@
         "false": []
       },
       "id": "97cc0724-a9b1-40fa-92d0-b2deefac941d"
+    },
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "lte",
+          "valueA": {
+            "type": "variable",
+            "value": "6"
+          },
+          "valueB": {
+            "type": "number",
+            "value": 0
+          }
+        },
+        "__collapseElse": true
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_ADD_FLAGS",
+            "args": {
+              "variable": "36",
+              "flag1": false,
+              "flag2": false,
+              "flag3": false,
+              "flag4": false,
+              "flag5": false,
+              "flag6": false,
+              "flag7": false,
+              "flag8": false,
+              "flag9": false,
+              "flag10": false,
+              "flag11": true,
+              "flag12": false,
+              "flag13": false,
+              "flag14": false,
+              "flag15": false,
+              "flag16": false
+            },
+            "id": "2d3e2231-f008-4c2d-9546-2d3b907543be"
+          },
+          {
+            "command": "EVENT_SET_VALUE",
+            "args": {
+              "variable": "11",
+              "value": {
+                "type": "number",
+                "value": 0
+              }
+            },
+            "id": "dcbf5185-5989-49a0-8f7b-9aa3c99103df"
+          },
+          {
+            "command": "EVENT_IF",
+            "args": {
+              "condition": {
+                "type": "eq",
+                "valueA": {
+                  "type": "variable",
+                  "value": "54"
+                },
+                "valueB": {
+                  "type": "number",
+                  "value": 52
+                }
+              },
+              "__collapseElse": false
+            },
+            "children": {
+              "true": [
+                {
+                  "command": "EVENT_FADE_OUT",
+                  "args": {
+                    "speed": "2"
+                  },
+                  "id": "b5d0fe18-8ec8-46a9-abe9-e67e2bdcb1df"
+                },
+                {
+                  "command": "EVENT_ACTOR_SET_POSITION",
+                  "args": {
+                    "actorId": "$self$",
+                    "x": {
+                      "type": "number",
+                      "value": 19
+                    },
+                    "y": {
+                      "type": "number",
+                      "value": 52
+                    }
+                  },
+                  "id": "2f13057b-7bf5-43d1-85f3-05d29059cb65"
+                },
+                {
+                  "command": "EVENT_SET_VALUE",
+                  "args": {
+                    "variable": "1",
+                    "value": {
+                      "type": "number",
+                      "value": 0
+                    }
+                  },
+                  "id": "f462d4d4-394a-46e1-a11a-fe4fd6c97c8e"
+                },
+                {
+                  "command": "EVENT_ACTOR_SET_DIRECTION",
+                  "args": {
+                    "actorId": "$self$",
+                    "direction": {
+                      "type": "direction",
+                      "value": "up"
+                    }
+                  },
+                  "id": "30c1c834-7611-46b5-9f0e-6402eecfe839"
+                },
+                {
+                  "command": "EVENT_ACTOR_SET_DIRECTION",
+                  "args": {
+                    "actorId": "player",
+                    "direction": {
+                      "type": "direction",
+                      "value": "down"
+                    }
+                  },
+                  "id": "bb2d8436-b0a3-48f0-8cea-2d8b49d18ab6"
+                },
+                {
+                  "command": "EVENT_CALL_CUSTOM_EVENT",
+                  "args": {
+                    "customEventId": "81dd55d0-1e9b-4c0f-8560-b30d4e2564d5"
+                  },
+                  "id": "9217d73d-9d7b-41de-a92c-ab69114396c2"
+                },
+                {
+                  "command": "EVENT_ACTOR_SET_POSITION",
+                  "args": {
+                    "actorId": "player",
+                    "x": {
+                      "type": "number",
+                      "value": 19
+                    },
+                    "y": {
+                      "type": "number",
+                      "value": 48
+                    }
+                  },
+                  "id": "0fe8c848-5591-4781-8c44-5cb2e1f61d1a"
+                },
+                {
+                  "command": "EVENT_WAIT",
+                  "args": {
+                    "time": 0.25,
+                    "frames": 30
+                  },
+                  "id": "1e92ec47-b7db-4c19-83a6-44ce97e7497e"
+                },
+                {
+                  "command": "EVENT_FADE_IN",
+                  "args": {
+                    "speed": "2"
+                  },
+                  "id": "302fadbf-a1a6-4807-8f5e-e16947697219"
+                },
+                {
+                  "command": "EVENT_TEXT",
+                  "args": {
+                    "text": [
+                      "jem: I didn't\nkill any \nchildren"
+                    ],
+                    "__section": "text",
+                    "avatarId": "9e33c0c8-20c4-4b19-8786-a520f8ff0d61",
+                    "minHeight": 4,
+                    "maxHeight": 7,
+                    "textX": 1,
+                    "textY": 1,
+                    "textHeight": 5,
+                    "position": "bottom",
+                    "clearPrevious": true,
+                    "showFrame": "true",
+                    "speedIn": -1,
+                    "speedOut": -1,
+                    "closeWhen": "key",
+                    "closeButton": "a",
+                    "closeDelayTime": 0.5,
+                    "closeDelayFrames": 30
+                  },
+                  "id": "e47abbea-3c75-4e81-ab7b-5f25b6e9d812"
+                },
+                {
+                  "command": "EVENT_TEXT",
+                  "args": {
+                    "text": [
+                      "jem reached inside\nher ring"
+                    ],
+                    "__section": "text",
+                    "avatarId": "",
+                    "minHeight": 4,
+                    "maxHeight": 7,
+                    "textX": 1,
+                    "textY": 1,
+                    "textHeight": 5,
+                    "position": "bottom",
+                    "clearPrevious": true,
+                    "showFrame": "true",
+                    "speedIn": -1,
+                    "speedOut": -1,
+                    "closeWhen": "key",
+                    "closeButton": "a",
+                    "closeDelayTime": 0.5,
+                    "closeDelayFrames": 30
+                  },
+                  "id": "10124105-33fa-4666-8650-1b9091309cde"
+                },
+                {
+                  "command": "EVENT_ACTOR_SET_DIRECTION",
+                  "args": {
+                    "actorId": "player",
+                    "direction": {
+                      "type": "direction",
+                      "value": "left"
+                    }
+                  },
+                  "id": "eeb6fad9-3504-4e26-966c-60a57a4a9c6d"
+                },
+                {
+                  "command": "EVENT_ACTOR_ACTIVATE",
+                  "args": {
+                    "actorId": "29372164-c6df-45ef-9fb1-d3073759effe"
+                  },
+                  "id": "b320b70a-7887-42ca-b0ed-e76dbc6f3cf7"
+                },
+                {
+                  "command": "EVENT_ACTOR_SET_DIRECTION",
+                  "args": {
+                    "actorId": "player",
+                    "direction": {
+                      "type": "direction",
+                      "value": "down"
+                    }
+                  },
+                  "id": "9e716b1d-d2a5-404f-93e3-92c11e63dddf"
+                },
+                {
+                  "command": "EVENT_ACTOR_EFFECTS",
+                  "args": {
+                    "effect": "flicker",
+                    "actorId": "$self$",
+                    "distance": 20,
+                    "speed": 2,
+                    "time": 0.5,
+                    "frames": 30
+                  },
+                  "id": "e92b274b-3344-4ca7-9bde-ce78e6e4c5e0"
+                },
+                {
+                  "command": "EVENT_TEXT",
+                  "args": {
+                    "text": [
+                      "jem: I found him\nin the prior \nfloor is he your\nson."
+                    ],
+                    "__section": "text",
+                    "avatarId": "9e33c0c8-20c4-4b19-8786-a520f8ff0d61",
+                    "minHeight": 4,
+                    "maxHeight": 7,
+                    "textX": 1,
+                    "textY": 1,
+                    "textHeight": 5,
+                    "position": "bottom",
+                    "clearPrevious": true,
+                    "showFrame": "true",
+                    "speedIn": -1,
+                    "speedOut": -1,
+                    "closeWhen": "key",
+                    "closeButton": "a",
+                    "closeDelayTime": 0.5,
+                    "closeDelayFrames": 30
+                  },
+                  "id": "17b1f93c-9d3f-473b-aa63-729af8b6737e"
+                },
+                {
+                  "command": "EVENT_TEXT",
+                  "args": {
+                    "text": [
+                      "??:yes...I \nshould of let\nyou answer\nbefore attacking",
+                      "just curious\nwhat would of \nhappened had I\nkilled you"
+                    ],
+                    "__section": "text",
+                    "avatarId": "da2057b2-2bc8-4e95-876a-bcc456b90faa",
+                    "minHeight": 4,
+                    "maxHeight": 7,
+                    "textX": 1,
+                    "textY": 1,
+                    "textHeight": 5,
+                    "position": "bottom",
+                    "clearPrevious": true,
+                    "showFrame": "true",
+                    "speedIn": -1,
+                    "speedOut": -1,
+                    "closeWhen": "key",
+                    "closeButton": "a",
+                    "closeDelayTime": 0.5,
+                    "closeDelayFrames": 30
+                  },
+                  "id": "70e09312-4769-46f5-a2bd-8122a52815ab"
+                },
+                {
+                  "command": "EVENT_TEXT",
+                  "args": {
+                    "text": [
+                      "jem: If it would\nof damaged the \nring it would\ndestroy",
+                      "everything\ninside it and \nkill anyone\ninside.",
+                      "your son is fine\nthe spell I put\non him should \nwear off soon."
+                    ],
+                    "__section": "text",
+                    "avatarId": "9e33c0c8-20c4-4b19-8786-a520f8ff0d61",
+                    "minHeight": 4,
+                    "maxHeight": 7,
+                    "textX": 1,
+                    "textY": 1,
+                    "textHeight": 5,
+                    "position": "bottom",
+                    "clearPrevious": true,
+                    "showFrame": "true",
+                    "speedIn": -1,
+                    "speedOut": -1,
+                    "closeWhen": "key",
+                    "closeButton": "a",
+                    "closeDelayTime": 0.5,
+                    "closeDelayFrames": 30
+                  },
+                  "id": "6907d1bd-2954-4b2d-971d-d7948d773fcd"
+                },
+                {
+                  "command": "EVENT_TEXT",
+                  "args": {
+                    "text": [
+                      "emma:I guess I\nshould introduce\nmyself I am\nemma firelight.",
+                      "emma:why didn't\nyou kill him.\nyou could of \neasily done it."
+                    ],
+                    "__section": "text",
+                    "avatarId": "da2057b2-2bc8-4e95-876a-bcc456b90faa",
+                    "minHeight": 4,
+                    "maxHeight": 7,
+                    "textX": 1,
+                    "textY": 1,
+                    "textHeight": 5,
+                    "position": "bottom",
+                    "clearPrevious": true,
+                    "showFrame": "true",
+                    "speedIn": -1,
+                    "speedOut": -1,
+                    "closeWhen": "key",
+                    "closeButton": "a",
+                    "closeDelayTime": 0.5,
+                    "closeDelayFrames": 30
+                  },
+                  "id": "f51dc889-e8e7-44ac-a7fc-aa03d0df413b"
+                },
+                {
+                  "command": "EVENT_TEXT",
+                  "args": {
+                    "text": [
+                      "jem: maybe it\nwas motherly \ninstincts.most\npeople don't ",
+                      "instantly try to\nkill others.I\ndislike those\nwho judge me",
+                      "without ever \nknowing who I am\ninstead of what\nI am."
+                    ],
+                    "__section": "text",
+                    "avatarId": "9e33c0c8-20c4-4b19-8786-a520f8ff0d61",
+                    "minHeight": 4,
+                    "maxHeight": 7,
+                    "textX": 1,
+                    "textY": 1,
+                    "textHeight": 5,
+                    "position": "bottom",
+                    "clearPrevious": true,
+                    "showFrame": "true",
+                    "speedIn": -1,
+                    "speedOut": -1,
+                    "closeWhen": "key",
+                    "closeButton": "a",
+                    "closeDelayTime": 0.5,
+                    "closeDelayFrames": 30
+                  },
+                  "id": "64c3ea31-e54b-4a9b-a436-600db02deb2b"
+                },
+                {
+                  "command": "EVENT_TEXT",
+                  "args": {
+                    "text": [
+                      "emma:mike why\nwhere you in\nthat floor?"
+                    ],
+                    "__section": "text",
+                    "avatarId": "da2057b2-2bc8-4e95-876a-bcc456b90faa",
+                    "minHeight": 4,
+                    "maxHeight": 7,
+                    "textX": 1,
+                    "textY": 1,
+                    "textHeight": 5,
+                    "position": "bottom",
+                    "clearPrevious": true,
+                    "showFrame": "true",
+                    "speedIn": -1,
+                    "speedOut": -1,
+                    "closeWhen": "key",
+                    "closeButton": "a",
+                    "closeDelayTime": 0.5,
+                    "closeDelayFrames": 30
+                  },
+                  "id": "bb9a5ade-0a5e-4c6c-80c5-00b1a59d3bc8"
+                },
+                {
+                  "command": "EVENT_TEXT",
+                  "args": {
+                    "text": [
+                      "mike:I was told\nto by a black\nguy with robot\nparts to find",
+                      "something for\nyou."
+                    ],
+                    "__section": "text",
+                    "avatarId": "51df0d01-9cb1-4a6e-890a-d2bc9a288c4d",
+                    "minHeight": 4,
+                    "maxHeight": 7,
+                    "textX": 1,
+                    "textY": 1,
+                    "textHeight": 5,
+                    "position": "bottom",
+                    "clearPrevious": true,
+                    "showFrame": "true",
+                    "speedIn": -1,
+                    "speedOut": -1,
+                    "closeWhen": "key",
+                    "closeButton": "a",
+                    "closeDelayTime": 0.5,
+                    "closeDelayFrames": 30
+                  },
+                  "id": "2b1e8496-8a6a-4aa0-a09e-c09e338ff170"
+                },
+                {
+                  "command": "EVENT_ACTOR_EMOTE",
+                  "args": {
+                    "actorId": "player",
+                    "emoteId": "56423c9c-dca0-4f5b-ad92-28e9660d50f1"
+                  },
+                  "id": "aae167db-a32a-4503-aa45-a5c777b8177d"
+                },
+                {
+                  "command": "EVENT_ACTOR_EMOTE",
+                  "args": {
+                    "actorId": "$self$",
+                    "emoteId": "9df5f63f-ea47-447e-9b14-cb2dbafb697d"
+                  },
+                  "id": "d8b3f183-f6b9-4c03-879f-b2c321f1c12e"
+                },
+                {
+                  "command": "EVENT_TEXT",
+                  "args": {
+                    "text": [
+                      "emma:Bias you\nare going to \nPAY FOR THIS.\nbut first",
+                      "come mike we got\nto go home."
+                    ],
+                    "__section": "text",
+                    "avatarId": "da2057b2-2bc8-4e95-876a-bcc456b90faa",
+                    "minHeight": 4,
+                    "maxHeight": 7,
+                    "textX": 1,
+                    "textY": 1,
+                    "textHeight": 5,
+                    "position": "bottom",
+                    "clearPrevious": true,
+                    "showFrame": "true",
+                    "speedIn": -1,
+                    "speedOut": -1,
+                    "closeWhen": "key",
+                    "closeButton": "a",
+                    "closeDelayTime": 0.5,
+                    "closeDelayFrames": 30
+                  },
+                  "id": "0ab06dc8-80b9-492d-91d1-0cb30b3572c4"
+                },
+                {
+                  "command": "EVENT_ACTOR_DEACTIVATE",
+                  "args": {
+                    "actorId": "983af430-3065-42df-860a-b9d0379c9c04"
+                  },
+                  "id": "fa2f3bf9-5ec6-4f6b-989a-a719e77ecee9"
+                },
+                {
+                  "command": "EVENT_ACTOR_DEACTIVATE",
+                  "args": {
+                    "actorId": "d1cc12b2-bd87-4a5c-9eec-ffa91b0f29e3"
+                  },
+                  "id": "064ac418-8336-4f43-b99b-fd22aa1d1d55"
+                },
+                {
+                  "command": "EVENT_ACTOR_MOVE_TO",
+                  "args": {
+                    "actorId": "29372164-c6df-45ef-9fb1-d3073759effe",
+                    "x": {
+                      "type": "number",
+                      "value": 18
+                    },
+                    "y": {
+                      "type": "number",
+                      "value": 76
+                    },
+                    "moveType": "horizontal",
+                    "useCollisions": false
+                  },
+                  "id": "9daa0cec-baf4-4951-b746-0693b6ad452b"
+                },
+                {
+                  "command": "EVENT_ACTOR_MOVE_TO",
+                  "args": {
+                    "actorId": "$self$",
+                    "x": {
+                      "type": "number",
+                      "value": 19
+                    },
+                    "y": {
+                      "type": "number",
+                      "value": 76
+                    },
+                    "moveType": "horizontal",
+                    "useCollisions": false
+                  },
+                  "id": "17aeb3dd-86ef-41d2-9232-05c298e3245d"
+                },
+                {
+                  "command": "EVENT_ACTOR_DEACTIVATE",
+                  "args": {
+                    "actorId": "29372164-c6df-45ef-9fb1-d3073759effe"
+                  },
+                  "id": "b2c9b80b-a954-4ec7-8398-f2137d53cfd8"
+                },
+                {
+                  "command": "EVENT_TEXT",
+                  "args": {
+                    "text": [
+                      "jem:I got to get\nto the surface.\nI remembered\nwhat I am",
+                      "supposed to do\nhere. I need to \nget to the moon"
+                    ],
+                    "__section": "text",
+                    "avatarId": "9e33c0c8-20c4-4b19-8786-a520f8ff0d61",
+                    "minHeight": 4,
+                    "maxHeight": 7,
+                    "textX": 1,
+                    "textY": 1,
+                    "textHeight": 5,
+                    "position": "bottom",
+                    "clearPrevious": true,
+                    "showFrame": "true",
+                    "speedIn": -1,
+                    "speedOut": -1,
+                    "closeWhen": "key",
+                    "closeButton": "a",
+                    "closeDelayTime": 0.5,
+                    "closeDelayFrames": 30
+                  },
+                  "id": "15f717b4-9332-4b28-9894-27b5db8f3789"
+                },
+                {
+                  "command": "EVENT_ACTOR_DEACTIVATE",
+                  "args": {
+                    "actorId": "$self$",
+                    "__collapse": false
+                  },
+                  "id": "f6f90ff0-d894-45ff-9c85-9b6df48d768b"
+                }
+              ],
+              "false": [
+                {
+                  "command": "EVENT_MENU",
+                  "args": {
+                    "variable": "L0",
+                    "items": 2,
+                    "option1": "kill",
+                    "option2": "spare",
+                    "option3": "",
+                    "option4": "",
+                    "option5": "",
+                    "option6": "",
+                    "option7": "",
+                    "option8": "",
+                    "cancelOnB": true,
+                    "layout": "dialogue",
+                    "cancelOnLastOption": true
+                  },
+                  "id": "55d82f08-4d35-4edc-b5c5-7ac990863351"
+                },
+                {
+                  "command": "EVENT_IF",
+                  "args": {
+                    "condition": {
+                      "type": "eq",
+                      "valueA": {
+                        "type": "variable",
+                        "value": "L0"
+                      },
+                      "valueB": {
+                        "type": "number",
+                        "value": 0
+                      }
+                    },
+                    "__collapseElse": true
+                  },
+                  "children": {
+                    "true": [
+                      {
+                        "command": "EVENT_TEXT",
+                        "args": {
+                          "text": [
+                            "jem:I won't kill\nyou. I hope your\nson wasn't \nkilled. but I",
+                            "did not see them\nI wouldn't of \nkilled them even\nif they attacked\nme"
+                          ],
+                          "__section": "text",
+                          "avatarId": "9e33c0c8-20c4-4b19-8786-a520f8ff0d61",
+                          "minHeight": 4,
+                          "maxHeight": 7,
+                          "textX": 1,
+                          "textY": 1,
+                          "textHeight": 5,
+                          "position": "bottom",
+                          "clearPrevious": true,
+                          "showFrame": "true",
+                          "speedIn": -1,
+                          "speedOut": -1,
+                          "closeWhen": "key",
+                          "closeButton": "a",
+                          "closeDelayTime": 0.5,
+                          "closeDelayFrames": 30
+                        },
+                        "id": "872a2332-75f1-43f0-b6ea-21141f72d08c"
+                      },
+                      {
+                        "command": "EVENT_TEXT",
+                        "args": {
+                          "text": [
+                            "??:why. you are\nsupposed to kill\nme."
+                          ],
+                          "__section": "text",
+                          "avatarId": "da2057b2-2bc8-4e95-876a-bcc456b90faa",
+                          "minHeight": 4,
+                          "maxHeight": 7,
+                          "textX": 1,
+                          "textY": 1,
+                          "textHeight": 5,
+                          "position": "bottom",
+                          "clearPrevious": true,
+                          "showFrame": "true",
+                          "speedIn": -1,
+                          "speedOut": -1,
+                          "closeWhen": "key",
+                          "closeButton": "a",
+                          "closeDelayTime": 0.5,
+                          "closeDelayFrames": 30
+                        },
+                        "id": "4b76ce3d-c420-457b-a9b3-d7cd533a28fb"
+                      },
+                      {
+                        "command": "EVENT_TEXT",
+                        "args": {
+                          "text": [
+                            "jem:what reason\ndo I have to\nkill you other\nthan a\nmisunderstanding"
+                          ],
+                          "__section": "text",
+                          "avatarId": "9e33c0c8-20c4-4b19-8786-a520f8ff0d61",
+                          "minHeight": 4,
+                          "maxHeight": 7,
+                          "textX": 1,
+                          "textY": 1,
+                          "textHeight": 5,
+                          "position": "bottom",
+                          "clearPrevious": true,
+                          "showFrame": "true",
+                          "speedIn": -1,
+                          "speedOut": -1,
+                          "closeWhen": "key",
+                          "closeButton": "a",
+                          "closeDelayTime": 0.5,
+                          "closeDelayFrames": 30
+                        },
+                        "id": "f2f9eb5e-339d-4775-bb5a-79eeaa4db75a"
+                      }
+                    ],
+                    "false": [
+                      {
+                        "command": "EVENT_ACTOR_EFFECTS",
+                        "args": {
+                          "effect": "flicker",
+                          "actorId": "$self$",
+                          "distance": 20,
+                          "speed": 2,
+                          "time": 0.5,
+                          "frames": 30
+                        },
+                        "id": "e49c3a76-a73b-495d-905f-492ec5a01edb"
+                      },
+                      {
+                        "command": "EVENT_ACTOR_DEACTIVATE",
+                        "args": {
+                          "actorId": "983af430-3065-42df-860a-b9d0379c9c04"
+                        },
+                        "id": "65ad2e46-1d44-4be9-bf79-30a220d6e0b5"
+                      },
+                      {
+                        "command": "EVENT_ACTOR_DEACTIVATE",
+                        "args": {
+                          "actorId": "d1cc12b2-bd87-4a5c-9eec-ffa91b0f29e3"
+                        },
+                        "id": "ae7f80a6-a477-4670-b90e-e94c8aa36a72"
+                      },
+                      {
+                        "command": "EVENT_ADD_FLAGS",
+                        "args": {
+                          "variable": "55",
+                          "flag1": true,
+                          "flag2": false,
+                          "flag3": false,
+                          "flag4": false,
+                          "flag5": false,
+                          "flag6": false,
+                          "flag7": false,
+                          "flag8": false,
+                          "flag9": false,
+                          "flag10": false,
+                          "flag11": false,
+                          "flag12": false,
+                          "flag13": false,
+                          "flag14": false,
+                          "flag15": false,
+                          "flag16": false
+                        },
+                        "id": "e983c20c-7191-4209-8b98-3cc65d6d2855"
+                      }
+                    ]
+                  },
+                  "id": "9a94d3b9-20fc-4763-899f-b9886066776d"
+                }
+              ]
+            },
+            "id": "0bd1af7b-f158-4884-904a-074f104f89de"
+          }
+        ],
+        "false": []
+      },
+      "id": "dc882ab3-39e9-41af-b058-be562d529319"
     }
   ],
   "hit3Script": [],

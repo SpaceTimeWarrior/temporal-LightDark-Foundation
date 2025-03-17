@@ -307,6 +307,23 @@
               "flag16": false
             },
             "id": "76b33df8-430e-4a22-a516-dd1ef8d2a280"
+          },
+          {
+            "command": "EVENT_SWITCH_SCENE",
+            "args": {
+              "sceneId": "bf3892ff-55ac-4f3b-b9fa-73e69b19412c",
+              "x": {
+                "type": "number",
+                "value": 0
+              },
+              "y": {
+                "type": "number",
+                "value": 0
+              },
+              "direction": "",
+              "fadeSpeed": "2"
+            },
+            "id": "259f9c22-8923-4277-b4c1-54035e95d413"
           }
         ]
       },
