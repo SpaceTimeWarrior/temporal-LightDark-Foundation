@@ -324,7 +324,7 @@
                   "command": "EVENT_TEXT",
                   "args": {
                     "text": [
-                      "jewel: don't do\nthisyou might\nkill her"
+                      "jewel: don't do\nthis you might\nkill her"
                     ],
                     "__section": "text",
                     "avatarId": "9e33c0c8-20c4-4b19-8786-a520f8ff0d61",

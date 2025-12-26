@@ -1,0 +1,12 @@
+{
+  "_resourceType": "background",
+  "id": "b90ea4ef-abb5-4f09-9ede-fde8947e6bb0",
+  "name": "b25 level enterance",
+  "symbol": "bg_b25_level_enterance",
+  "width": 40,
+  "height": 36,
+  "imageWidth": 320,
+  "imageHeight": 288,
+  "filename": "b25 level enterance.png",
+  "tileColors": ""
+}

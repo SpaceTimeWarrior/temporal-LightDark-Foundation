@@ -30,7 +30,7 @@
     {
       "command": "EVENT_GROUP",
       "args": {
-        "__collapse": true
+        "__collapse": false
       },
       "children": {
         "true": [

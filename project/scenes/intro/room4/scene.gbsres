@@ -283,7 +283,7 @@
                           "closeButton": "a",
                           "closeDelayTime": 0.5,
                           "closeDelayFrames": 30,
-                          "__collapse": true
+                          "__collapse": false
                         },
                         "id": "34bcf87b-bfb9-42dd-8f52-599fbcc1b6e5"
                       },
@@ -313,7 +313,7 @@
                           "closeButton": "a",
                           "closeDelayTime": 0.5,
                           "closeDelayFrames": 30,
-                          "__collapse": false
+                          "__collapse": true
                         },
                         "id": "749730fc-cfe4-484a-8ea8-7739da9a35dc"
                       },
@@ -339,7 +339,7 @@
                           "closeButton": "a",
                           "closeDelayTime": 0.5,
                           "closeDelayFrames": 30,
-                          "__collapse": true
+                          "__collapse": false
                         },
                         "id": "2b0718a4-d9a3-4a18-a211-d8859b4456c6"
                       }
@@ -550,7 +550,7 @@
                           "closeButton": "a",
                           "closeDelayTime": 0.5,
                           "closeDelayFrames": 30,
-                          "__collapse": true
+                          "__collapse": false
                         },
                         "id": "550cdab2-f47d-40e7-a05e-81aed7a3f8be"
                       }
